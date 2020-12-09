@@ -11,21 +11,21 @@ This repository provides sample reports you can use to explore InterSystems Repo
     
 2) To download the files from this repository, click the green "Code" button, then "Download ZIP".
 3) Unzip the folder InterSystems-Reports-Samples-Main.
-4) Copy the subfolder BISamplesReports, and place in your Logi Designer file structure under \Demo\Reports. 
+4) Copy the subfolder BISamplesReports, and place it in your Logi Designer file structure under \Demo\Reports. 
       Example: C:\LogiReport\Designer\Demo\Reports\BISamplesReports
-5) Edit the file BISamplescat.xml and adjust <JDBConnection> values to match your IRIS instance. The default values provided are:  
-      <User>SuperUser</User>
-      <Password>SYS</Password>
-      <URL>jdbc:IRIS://localhost:51773/SAMPLES</URL>
+5) Edit the file BISamplescat.xml and adjust JDBCConnection values to match your IRIS instance. The default values are:  
+<br /> User - SuperUser 
+<br /> Password - SYS
+<br /> URL - jdbc:IRIS://localhost:51773/SAMPLES
   
       Specify a user with access to your Sample BI tables. 
-      The URL is in the form: IRIS://<server>:<Superserver port>/<Namespace>. If you change the URL value, you may also want to edit the <Name> value for consistency. 
+<br />The URL is in the form: IRIS://&lt;server&gt;:&lt;Superserver port&gt;/&lt;Namespace&gt;
+<br />If you change the URL, you may want to update the "Name" value for consistency. 
   
-6) Try opening a report. Log on to Logi Designer, and choose "Open". In the Catalog box at the top of the pop-up, browse to your BISamplesReports folder. Then select the desired report. 
+6) Try opening a report. Log on to Logi Designer, and choose "Open". In the Catalog box at the top of the pop-up, browse to theC BISamplesReports folder. Then select the desired report. 
 
 
 ### More information
 
-There are some quick introductory courses on InterSystems reports on the Learning Services website:
-https://learning.intersystems.com/totara/coursecatalog/courses.ph
-Search for "InterSystems Reports"
+Want to learn some InterSystems Reports basics first? Check our Learning Services website:  https://learning.intersystems.com/totara/dashboard/index.php
+Search for "InterSystems Reports".
