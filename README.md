@@ -22,7 +22,7 @@ This repository provides sample reports you can use to explore InterSystems Repo
 <br />The URL is in the form: IRIS://&lt;server&gt;:&lt;Superserver port&gt;/&lt;Namespace&gt;
 <br />If you change the URL, you may want to update the "Name" value for consistency. 
   
-6) Try opening a report. Log on to Logi Designer, and choose "Open". In the Catalog box at the top of the pop-up, browse to theC BISamplesReports folder. Then select the desired report. 
+6) Try opening a report. Log on to Logi Designer, and choose "Open". In the Catalog box at the top of the pop-up, browse to the BISamplesReports folder. Then select the desired report. 
 
 
 ### More information
