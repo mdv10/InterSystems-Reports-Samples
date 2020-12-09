@@ -1,7 +1,7 @@
 # InterSystems-Reports-Samples
 
 ### Overview
-This repository provides sample reports you can use to explore InterSystems Reports functionality. 
+This repository provides sample reports that you can use to explore InterSystems Reports functionality. 
 
 ### Setup Instructions
 1) Before you begin, make sure:
