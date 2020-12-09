@@ -1,0 +1,2631 @@
+<ReportSet Name="HoleFoodsTransactions" Serial="65672" version="1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="">
+  <major>17</major>
+  <BuildNumber>17000</BuildNumber>
+  <DisplayName>reportset1</DisplayName>
+  <tplName>reportset1</tplName>
+  <key>1996504508</key>
+  <curReportId>report 1</curReportId>
+  <restrict>1830806134</restrict>
+  <Reports Name="Reports">
+    <Report Name="Report">
+      <restrict>735852066</restrict>
+      <key>1082922940</key>
+      <status>0</status>
+      <DisplayName>HoleFoodsTransations</DisplayName>
+      <ClickPriority>link~@CR7~drill_down~@CR7~go_to_detail</ClickPriority>
+      <type>0</type>
+      <nationalLanguageSupport>true</nationalLanguageSupport>
+      <ReportBody Name="ReportBody">
+        <dataInherit>false</dataInherit>
+        <TopLine>Solid</TopLine>
+        <BottomLine>Solid</BottomLine>
+        <LeftLine>Solid</LeftLine>
+        <StyleName></StyleName>
+        <RightLine>Solid</RightLine>
+        <Width>-0.00781</Width>
+        <DisplayName>Report Body</DisplayName>
+        <Cache>true</Cache>
+        <Height>-0.00781</Height>
+        <TOCAnchor>true</TOCAnchor>
+        <PageStart Name="PageStart">
+          <pageReference>PagePanel</pageReference>
+          <DisplayName>Page Start</DisplayName>
+        </PageStart>
+        <BandedObject Name="BandedObject">
+          <dataSet>QueryDataSet</dataSet>
+          <SelectN>-1</SelectN>
+          <border-bottom-width>0.00781</border-bottom-width>
+          <ShowSubHeaderFooter>false</ShowSubHeaderFooter>
+          <border-bottom-color>ffdddddd</border-bottom-color>
+          <border-left-width>0.00781</border-left-width>
+          <border-top-width>0.00781</border-top-width>
+          <BorderWidth>0.00781</BorderWidth>
+          <border-left-color>ffdddddd</border-left-color>
+          <border-top-color>ffdddddd</border-top-color>
+          <TOCAnchor>true</TOCAnchor>
+          <StyleFile>Basic.css</StyleFile>
+          <CDNWidth>${&amp;#65;UTOF}</CDNWidth>
+          <BorderColor>ffdddddd</BorderColor>
+          <CDNHeight>${&amp;#65;UTOF}</CDNHeight>
+          <position>static</position>
+          <dataInherit>false</dataInherit>
+          <DisplayName>Banded Object</DisplayName>
+          <border-right-width>0.00781</border-right-width>
+          <CompressIfNoRecord>false</CompressIfNoRecord>
+          <Cache>true</Cache>
+          <StyleList>Basic.css</StyleList>
+          <StyleInherit>false</StyleInherit>
+          <border-right-color>ffdddddd</border-right-color>
+          <Width>7.50781</Width>
+          <BandedHeader Name="BandedHeader">
+            <border-top-color>ffdddddd</border-top-color>
+            <border-right-color>ffdddddd</border-right-color>
+            <border-top-width>0.00781</border-top-width>
+            <border-right-width>0.00781</border-right-width>
+            <RoundJointRadius>0.05000</RoundJointRadius>
+            <BGGradientEndY>100</BGGradientEndY>
+            <Height>0.23993</Height>
+            <Label>BandedHeader</Label>
+            <border-left-color>ffdddddd</border-left-color>
+            <border-left-width>0.00781</border-left-width>
+            <border-bottom-color>ffdddddd</border-bottom-color>
+            <border-bottom-width>0.00781</border-bottom-width>
+            <BorderColor>ffdddddd</BorderColor>
+            <DisplayName>Banded Header</DisplayName>
+            <BorderWidth>0.00781</BorderWidth>
+            <Width>7.50781</Width>
+            <Background>ffffffff</Background>
+            <Style>BandedHeader</Style>
+            <BGGradientStartY>0</BGGradientStartY>
+          </BandedHeader>
+          <BandedPagePanel Name="BandedPagePanel">
+            <Width>8.26771</Width>
+            <PageBackground>ffffffff</PageBackground>
+            <Height>11.69288</Height>
+            <DisplayName>Banded Page Panel</DisplayName>
+            <BandedPageHeader Name="BandedPageHeader">
+              <RoundJointRadius>0.05000</RoundJointRadius>
+              <BGGradientEndY>100</BGGradientEndY>
+              <border-bottom-width>0.00781</border-bottom-width>
+              <border-top-color>ffdddddd</border-top-color>
+              <border-right-color>ffdddddd</border-right-color>
+              <Label>BandedPageHeader</Label>
+              <BorderWidth>0.00781</BorderWidth>
+              <DisplayName>Banded Page Header</DisplayName>
+              <border-top-width>0.00781</border-top-width>
+              <Width>7.50781</Width>
+              <border-right-width>0.00781</border-right-width>
+              <border-left-color>ffdddddd</border-left-color>
+              <Height>0.23993</Height>
+              <border-bottom-color>ffdddddd</border-bottom-color>
+              <Background>ffffffff</Background>
+              <BGGradientStartY>0</BGGradientStartY>
+              <border-left-width>0.00781</border-left-width>
+              <Style>BandedPageHeader</Style>
+              <BorderColor>ffdddddd</BorderColor>
+              <TextField Name="Label">
+                <padding-bottom>0.01007</padding-bottom>
+                <SameEncode>true</SameEncode>
+                <BelongedTo>DateOfSale</BelongedTo>
+                <padding-right>0.03003</padding-right>
+                <DisplayName>Label</DisplayName>
+                <padding-left>0.03003</padding-left>
+                <BorderWidth>0.00521</BorderWidth>
+                <HorizontalAlignment>Left</HorizontalAlignment>
+                <Height>0.23993</Height>
+                <FontFace>Arial</FontFace>
+                <Foreground>ff3f3f3f</Foreground>
+                <padding-top>0.01007</padding-top>
+                <LinkURLTargetFrame>default</LinkURLTargetFrame>
+                <Text>DateOfSale</Text>
+                <GotoDetail>false</GotoDetail>
+                <Width>1.04167</Width>
+                <refMode>Mode</refMode>
+              </TextField>
+              <TextField Name="Label1">
+                <padding-bottom>0.01007</padding-bottom>
+                <SameEncode>true</SameEncode>
+                <BelongedTo>Product_Name</BelongedTo>
+                <padding-right>0.03003</padding-right>
+                <DisplayName>Label 1</DisplayName>
+                <padding-left>0.03003</padding-left>
+                <BorderWidth>0.00521</BorderWidth>
+                <HorizontalAlignment>Left</HorizontalAlignment>
+                <Height>0.23993</Height>
+                <FontFace>Arial</FontFace>
+                <Foreground>ff3f3f3f</Foreground>
+                <padding-top>0.01007</padding-top>
+                <X>1.04167</X>
+                <LinkURLTargetFrame>default</LinkURLTargetFrame>
+                <Text>Product_Name</Text>
+                <GotoDetail>false</GotoDetail>
+                <Width>1.04167</Width>
+                <refMode>Mode</refMode>
+              </TextField>
+              <TextField Name="Label2">
+                <padding-bottom>0.01007</padding-bottom>
+                <SameEncode>true</SameEncode>
+                <BelongedTo>UnitsSold</BelongedTo>
+                <padding-right>0.03003</padding-right>
+                <DisplayName>Label 2</DisplayName>
+                <padding-left>0.03003</padding-left>
+                <BorderWidth>0.00521</BorderWidth>
+                <HorizontalAlignment>Right</HorizontalAlignment>
+                <Height>0.23993</Height>
+                <FontFace>Arial</FontFace>
+                <Foreground>ff3f3f3f</Foreground>
+                <padding-top>0.01007</padding-top>
+                <X>2.08333</X>
+                <LinkURLTargetFrame>default</LinkURLTargetFrame>
+                <Text>UnitsSold</Text>
+                <GotoDetail>false</GotoDetail>
+                <Width>1.04167</Width>
+                <refMode>Mode</refMode>
+              </TextField>
+              <TextField Name="Label3">
+                <padding-bottom>0.01007</padding-bottom>
+                <SameEncode>true</SameEncode>
+                <BelongedTo>AmountOfSale</BelongedTo>
+                <padding-right>0.03003</padding-right>
+                <DisplayName>Label 3</DisplayName>
+                <padding-left>0.03003</padding-left>
+                <BorderWidth>0.00521</BorderWidth>
+                <HorizontalAlignment>Right</HorizontalAlignment>
+                <Height>0.23993</Height>
+                <FontFace>Arial</FontFace>
+                <Foreground>ff3f3f3f</Foreground>
+                <padding-top>0.01007</padding-top>
+                <X>3.12500</X>
+                <LinkURLTargetFrame>default</LinkURLTargetFrame>
+                <Text>AmountOfSale</Text>
+                <GotoDetail>false</GotoDetail>
+                <Width>1.04167</Width>
+                <refMode>Mode</refMode>
+              </TextField>
+            </BandedPageHeader>
+            <DetailPanel Name="DetailPanel">
+              <border-right-width>0.00781</border-right-width>
+              <BorderWidth>0.00781</BorderWidth>
+              <border-bottom-width>0.00781</border-bottom-width>
+              <Height>0.23993</Height>
+              <RoundJointRadius>0.05000</RoundJointRadius>
+              <TileHorizontal>false</TileHorizontal>
+              <Width>7.50781</Width>
+              <Background>ffffffff</Background>
+              <border-right-color>ffdddddd</border-right-color>
+              <BorderColor>ffdddddd</BorderColor>
+              <border-top-width>0.00781</border-top-width>
+              <border-bottom-color>ffdddddd</border-bottom-color>
+              <Style>None</Style>
+              <BGGradientStartY>0</BGGradientStartY>
+              <border-left-width>0.00781</border-left-width>
+              <Label>DetailPanel</Label>
+              <BGGradientEndY>100</BGGradientEndY>
+              <border-top-color>ffdddddd</border-top-color>
+              <DisplayName>Detail Panel</DisplayName>
+              <border-left-color>ffdddddd</border-left-color>
+              <DBField Name="DateOfSale">
+                <DisplayName>DateOfSale</DisplayName>
+                <FontFace>Arial</FontFace>
+                <ColumnName>DATEOFSALE</ColumnName>
+                <padding-bottom>0.00781</padding-bottom>
+                <GotoDetail>false</GotoDetail>
+                <BorderWidth>0.00521</BorderWidth>
+                <LinkURLTargetFrame>default</LinkURLTargetFrame>
+                <padding-left>0.03125</padding-left>
+                <HorizontalAlignment>Left</HorizontalAlignment>
+                <RuntimeColumnName>DATEOFSALE</RuntimeColumnName>
+                <Foreground>ff3f3f3f</Foreground>
+                <padding-right>0.03125</padding-right>
+                <refMode>Mode</refMode>
+                <padding-top>0.00781</padding-top>
+                <SameEncode>true</SameEncode>
+                <Format>M/d/yyyy</Format>
+                <Width>1.04167</Width>
+                <Height>0.23993</Height>
+              </DBField>
+              <DBField Name="Product_Name">
+                <DisplayName>Product_Name</DisplayName>
+                <FontFace>Arial</FontFace>
+                <ColumnName>PRODUCT_NAME</ColumnName>
+                <padding-bottom>0.00781</padding-bottom>
+                <GotoDetail>false</GotoDetail>
+                <BorderWidth>0.00521</BorderWidth>
+                <LinkURLTargetFrame>default</LinkURLTargetFrame>
+                <padding-left>0.03125</padding-left>
+                <HorizontalAlignment>Left</HorizontalAlignment>
+                <RuntimeColumnName>PRODUCT_NAME</RuntimeColumnName>
+                <Foreground>ff3f3f3f</Foreground>
+                <padding-right>0.03125</padding-right>
+                <refMode>Mode</refMode>
+                <padding-top>0.00781</padding-top>
+                <SameEncode>true</SameEncode>
+                <X>1.04167</X>
+                <Format>XXXXXXXXX...</Format>
+                <Width>1.04167</Width>
+                <Height>0.23993</Height>
+              </DBField>
+              <DBField Name="UnitsSold">
+                <DisplayName>UnitsSold</DisplayName>
+                <FontFace>Arial</FontFace>
+                <ColumnName>UNITSSOLD</ColumnName>
+                <padding-bottom>0.00781</padding-bottom>
+                <GotoDetail>false</GotoDetail>
+                <BorderWidth>0.00521</BorderWidth>
+                <LinkURLTargetFrame>default</LinkURLTargetFrame>
+                <padding-left>0.03125</padding-left>
+                <HorizontalAlignment>Right</HorizontalAlignment>
+                <RuntimeColumnName>UNITSSOLD</RuntimeColumnName>
+                <Foreground>ff3f3f3f</Foreground>
+                <padding-right>0.03125</padding-right>
+                <refMode>Mode</refMode>
+                <padding-top>0.00781</padding-top>
+                <SameEncode>true</SameEncode>
+                <X>2.08333</X>
+                <Format>#####</Format>
+                <Width>1.04167</Width>
+                <Height>0.23993</Height>
+              </DBField>
+              <DBField Name="AmountOfSale">
+                <DisplayName>AmountOfSale</DisplayName>
+                <FontFace>Arial</FontFace>
+                <ColumnName>AMOUNTOFSALE</ColumnName>
+                <padding-bottom>0.00781</padding-bottom>
+                <GotoDetail>false</GotoDetail>
+                <BorderWidth>0.00521</BorderWidth>
+                <LinkURLTargetFrame>default</LinkURLTargetFrame>
+                <padding-left>0.03125</padding-left>
+                <HorizontalAlignment>Right</HorizontalAlignment>
+                <RuntimeColumnName>AMOUNTOFSALE</RuntimeColumnName>
+                <Foreground>ff3f3f3f</Foreground>
+                <padding-right>0.03125</padding-right>
+                <refMode>Mode</refMode>
+                <padding-top>0.00781</padding-top>
+                <SameEncode>true</SameEncode>
+                <X>3.12500</X>
+                <Format>#,###.00</Format>
+                <Width>1.04167</Width>
+                <Height>0.23993</Height>
+              </DBField>
+            </DetailPanel>
+            <BandedPageFooter Name="BandedPageFooter">
+              <border-top-width>0.00781</border-top-width>
+              <padding-right>0</padding-right>
+              <BottomLine>None</BottomLine>
+              <TopLine>None</TopLine>
+              <padding-left>0</padding-left>
+              <border-left-width>0.00781</border-left-width>
+              <Height>0.23993</Height>
+              <BorderWidth>0.00781</BorderWidth>
+              <border-right-color>ffdddddd</border-right-color>
+              <Name_>BandedPageFooter</Name_>
+              <border-bottom-width>0.00781</border-bottom-width>
+              <padding-top>0</padding-top>
+              <margin-bottom>0</margin-bottom>
+              <border-top-color>ffdddddd</border-top-color>
+              <DisplayName>Banded Page Footer</DisplayName>
+              <margin-left>0</margin-left>
+              <Background>ffffffff</Background>
+              <Y>0</Y>
+              <X>0</X>
+              <dataSet></dataSet>
+              <BGGradientStartY>0</BGGradientStartY>
+              <ConditionalFormatList></ConditionalFormatList>
+              <refMode></refMode>
+              <LeftLine>None</LeftLine>
+              <border-left-color>ffdddddd</border-left-color>
+              <RightLine>None</RightLine>
+              <BGGradientEndY>100</BGGradientEndY>
+              <ColumnAttrs></ColumnAttrs>
+              <BorderColor>ffdddddd</BorderColor>
+              <RoundJointRadius>0.05000</RoundJointRadius>
+              <margin-right>0</margin-right>
+              <Width>7.50781</Width>
+              <border-bottom-color>ffdddddd</border-bottom-color>
+              <border-right-width>0.00781</border-right-width>
+              <margin-top>0</margin-top>
+              <padding-bottom>0</padding-bottom>
+            </BandedPageFooter>
+          </BandedPagePanel>
+          <BandedFooter Name="BandedFooter">
+            <border-top-width>0.00781</border-top-width>
+            <padding-right>0</padding-right>
+            <BottomLine>None</BottomLine>
+            <TopLine>None</TopLine>
+            <padding-left>0</padding-left>
+            <border-left-width>0.00781</border-left-width>
+            <Height>0.23993</Height>
+            <BorderWidth>0.00781</BorderWidth>
+            <Name_>BandedFooter</Name_>
+            <border-right-color>ffdddddd</border-right-color>
+            <border-bottom-width>0.00781</border-bottom-width>
+            <padding-top>0</padding-top>
+            <margin-bottom>0</margin-bottom>
+            <border-top-color>ffdddddd</border-top-color>
+            <DisplayName>Banded Footer</DisplayName>
+            <margin-left>0</margin-left>
+            <Background>ffffffff</Background>
+            <Y>0</Y>
+            <X>0</X>
+            <dataSet></dataSet>
+            <ConditionalFormatList></ConditionalFormatList>
+            <refMode></refMode>
+            <LeftLine>None</LeftLine>
+            <border-left-color>ffdddddd</border-left-color>
+            <RightLine>None</RightLine>
+            <ColumnAttrs></ColumnAttrs>
+            <BorderColor>ffdddddd</BorderColor>
+            <RoundJointRadius>0.05000</RoundJointRadius>
+            <margin-right>0</margin-right>
+            <Width>7.50781</Width>
+            <border-bottom-color>ffdddddd</border-bottom-color>
+            <border-right-width>0.00781</border-right-width>
+            <margin-top>0</margin-top>
+            <padding-bottom>0</padding-bottom>
+          </BandedFooter>
+        </BandedObject>
+        <PageEnd Name="PageEnd">
+          <DisplayName>Page End</DisplayName>
+          <pageReference>PagePanel</pageReference>
+        </PageEnd>
+      </ReportBody>
+      <Views Name="Views">
+        <View Name="View"></View>
+      </Views>
+      <ModeContainer Name="ModeContainer">
+        <Mode Name="Mode">
+          <currentRender>0</currentRender>
+          <RenderText Name="RenderText">
+            <rTitle>${&amp;#65;UTOF}</rTitle>
+          </RenderText>
+        </Mode>
+      </ModeContainer>
+      <ActionContainer Name="ActionContainer"></ActionContainer>
+      <BuildInFilterCtrlContainer Name="BuildInFilterCtrlContainer"></BuildInFilterCtrlContainer>
+      <TOC>
+        <DisplayName>TOC</DisplayName>
+        <FontFace>SansSerif</FontFace>
+        <FontSize>0.12000</FontSize>
+      </TOC>
+      <ConditionalFormatSet Name="ConditionalFormatSet"></ConditionalFormatSet>
+      <ReportFormulaClassSet Name="ReportFormulaClassSet"></ReportFormulaClassSet>
+      <PagePanel Name="PagePanel">
+        <Height>11.00000</Height>
+        <PageType>Letter</PageType>
+        <Width>8.50399</Width>
+        <DisplayName>Page Panel</DisplayName>
+        <PageHeaderPanel Name="PageHeaderPanel">
+          <border-top-width>0</border-top-width>
+          <border-right-width>0</border-right-width>
+          <RightLine>Solid</RightLine>
+          <TopLine>Solid</TopLine>
+          <RoundJointRadius>0.05000</RoundJointRadius>
+          <BGGradientEndY>100</BGGradientEndY>
+          <LeftLine>Solid</LeftLine>
+          <Label>PageHeaderPanel</Label>
+          <border-left-width>0</border-left-width>
+          <Invisible>true</Invisible>
+          <border-bottom-width>0</border-bottom-width>
+          <DisplayName>Page Header Panel</DisplayName>
+          <BottomLine>Solid</BottomLine>
+          <Width>7.50781</Width>
+          <Suppressed>true</Suppressed>
+          <BGGradientStartY>0</BGGradientStartY>
+        </PageHeaderPanel>
+        <PageFooterPanel Name="PageFooterPanel">
+          <border-top-width>0</border-top-width>
+          <BottomLine>Solid</BottomLine>
+          <TopLine>Solid</TopLine>
+          <border-left-width>0</border-left-width>
+          <Label>PageFooterPanel</Label>
+          <border-bottom-width>0</border-bottom-width>
+          <Invisible>true</Invisible>
+          <DisplayName>Page Footer Panel</DisplayName>
+          <BGGradientStartY>0</BGGradientStartY>
+          <LeftLine>Solid</LeftLine>
+          <RightLine>Solid</RightLine>
+          <BGGradientEndY>100</BGGradientEndY>
+          <RoundJointRadius>0.05000</RoundJointRadius>
+          <Suppressed>true</Suppressed>
+          <Width>7.50781</Width>
+          <border-right-width>0</border-right-width>
+        </PageFooterPanel>
+      </PagePanel>
+      <ReportUFormulaSet Name="ReportUFormulaSet">
+        <DataSourceName>IRIS</DataSourceName>
+      </ReportUFormulaSet>
+    </Report>
+    <Report Name="report 1">
+      <restrict>-1999556172</restrict>
+      <key>1018711517</key>
+      <status>0</status>
+      <DisplayName>HFTransactionSummary</DisplayName>
+      <ClickPriority>link~@CR7~drill_down~@CR7~go_to_detail</ClickPriority>
+      <type>0</type>
+      <nationalLanguageSupport>true</nationalLanguageSupport>
+      <ReportBody Name="ReportBody1">
+        <dataInherit>false</dataInherit>
+        <TopLine>Solid</TopLine>
+        <BottomLine>Solid</BottomLine>
+        <LeftLine>Solid</LeftLine>
+        <StyleName></StyleName>
+        <RightLine>Solid</RightLine>
+        <Width>-0.00781</Width>
+        <DisplayName>Report Body</DisplayName>
+        <Cache>true</Cache>
+        <Height>-0.00781</Height>
+        <TOCAnchor>true</TOCAnchor>
+        <PageStart Name="PageStart1">
+          <pageReference>PagePanel1</pageReference>
+          <DisplayName>Page Start</DisplayName>
+        </PageStart>
+        <BandedObject Name="BandedObject1">
+          <dataSet>QueryDataSet</dataSet>
+          <SelectN>-1</SelectN>
+          <border-bottom-width>0.00781</border-bottom-width>
+          <ShowSubHeaderFooter>false</ShowSubHeaderFooter>
+          <border-bottom-color>ffdddddd</border-bottom-color>
+          <border-left-width>0.00781</border-left-width>
+          <border-top-width>0.00781</border-top-width>
+          <BorderWidth>0.00781</BorderWidth>
+          <border-left-color>ffdddddd</border-left-color>
+          <border-top-color>ffdddddd</border-top-color>
+          <TOCAnchor>true</TOCAnchor>
+          <StyleFile>Classic.css</StyleFile>
+          <CDNWidth>${&amp;#65;UTOF}</CDNWidth>
+          <BorderColor>ffdddddd</BorderColor>
+          <CDNHeight>${&amp;#65;UTOF}</CDNHeight>
+          <position>static</position>
+          <dataInherit>false</dataInherit>
+          <DisplayName>Banded Object</DisplayName>
+          <border-right-width>0.00781</border-right-width>
+          <CompressIfNoRecord>false</CompressIfNoRecord>
+          <Cache>true</Cache>
+          <StyleList>'2'Basic.css'Classic.css</StyleList>
+          <StyleInherit>false</StyleInherit>
+          <border-right-color>ffdddddd</border-right-color>
+          <Width>15.55208</Width>
+          <BandedHeader Name="BandedHeader1">
+            <border-top-width>0.00781</border-top-width>
+            <border-left-width>0.00781</border-left-width>
+            <Height>0.01042</Height>
+            <BorderWidth>0.00781</BorderWidth>
+            <border-right-color>ffdddddd</border-right-color>
+            <Label>BandedHeader</Label>
+            <border-bottom-width>0.00781</border-bottom-width>
+            <border-top-color>ffdddddd</border-top-color>
+            <DisplayName>Banded Header</DisplayName>
+            <Background>ffffffff</Background>
+            <BGGradientStartY>0</BGGradientStartY>
+            <border-left-color>ffdddddd</border-left-color>
+            <BGGradientEndY>100</BGGradientEndY>
+            <Style>BandedHeader</Style>
+            <BorderColor>ffdddddd</BorderColor>
+            <RoundJointRadius>0.05000</RoundJointRadius>
+            <Width>15.55208</Width>
+            <border-bottom-color>ffdddddd</border-bottom-color>
+            <border-right-width>0.00781</border-right-width>
+          </BandedHeader>
+          <BandedPagePanel Name="BandedPagePanel1">
+            <Width>8.26771</Width>
+            <PageBackground>ffffffff</PageBackground>
+            <Height>11.69288</Height>
+            <DisplayName>Banded Page Panel</DisplayName>
+            <BandedPageHeader Name="BandedPageHeader1">
+              <border-top-color>ffdddddd</border-top-color>
+              <Height>0.80208</Height>
+              <Style>BandedPageHeader</Style>
+              <Background>ff4278b3</Background>
+              <BGGradientEndY>100</BGGradientEndY>
+              <border-bottom-width>0.00781</border-bottom-width>
+              <border-left-width>0.00781</border-left-width>
+              <BorderWidth>0.00781</BorderWidth>
+              <DisplayName>Banded Page Header</DisplayName>
+              <border-bottom-color>ffdddddd</border-bottom-color>
+              <border-left-color>ffdddddd</border-left-color>
+              <border-right-width>0.00781</border-right-width>
+              <BorderColor>ffdddddd</BorderColor>
+              <Width>15.55208</Width>
+              <Label>BandedPageHeader</Label>
+              <RoundJointRadius>0.05000</RoundJointRadius>
+              <border-right-color>ffdddddd</border-right-color>
+              <border-top-width>0.00781</border-top-width>
+              <BGGradientStartY>0</BGGradientStartY>
+              <TextField Name="Label5">
+                <padding-left>0.03003</padding-left>
+                <FontFace>Arial</FontFace>
+                <BorderWidth>0.00521</BorderWidth>
+                <Foreground>ffffffff</Foreground>
+                <padding-top>0.01007</padding-top>
+                <DisplayName>Label 1</DisplayName>
+                <refMode>Mode1</refMode>
+                <Width>1.04167</Width>
+                <SameEncode>true</SameEncode>
+                <HorizontalAlignment>Left</HorizontalAlignment>
+                <BelongedTo>Product_Name1</BelongedTo>
+                <padding-bottom>0.01007</padding-bottom>
+                <LinkURLTargetFrame>default</LinkURLTargetFrame>
+                <Y>0.03646</Y>
+                <X>0.06771</X>
+                <Text>Product_Name</Text>
+                <GotoDetail>false</GotoDetail>
+                <Bold>true</Bold>
+                <Height>0.23993</Height>
+                <padding-right>0.03003</padding-right>
+              </TextField>
+              <TextField Name="Label6">
+                <padding-left>0.03003</padding-left>
+                <FontFace>Arial</FontFace>
+                <BorderWidth>0.00521</BorderWidth>
+                <Foreground>ffffffff</Foreground>
+                <padding-top>0.01007</padding-top>
+                <DisplayName>Label 2</DisplayName>
+                <refMode>Mode1</refMode>
+                <Width>1.04167</Width>
+                <SameEncode>true</SameEncode>
+                <HorizontalAlignment>Right</HorizontalAlignment>
+                <BelongedTo>UnitsSold1</BelongedTo>
+                <padding-bottom>0.01007</padding-bottom>
+                <LinkURLTargetFrame>default</LinkURLTargetFrame>
+                <Y>0.04167</Y>
+                <X>1.20313</X>
+                <Text>UnitsSold</Text>
+                <GotoDetail>false</GotoDetail>
+                <Bold>true</Bold>
+                <Height>0.23993</Height>
+                <padding-right>0.03003</padding-right>
+              </TextField>
+              <TextField Name="Label7">
+                <padding-left>0.03003</padding-left>
+                <FontFace>Arial</FontFace>
+                <BorderWidth>0.00521</BorderWidth>
+                <Foreground>ffffffff</Foreground>
+                <padding-top>0.01007</padding-top>
+                <DisplayName>Label 3</DisplayName>
+                <refMode>Mode1</refMode>
+                <Width>1.04167</Width>
+                <SameEncode>true</SameEncode>
+                <HorizontalAlignment>Right</HorizontalAlignment>
+                <BelongedTo>AmountOfSale1</BelongedTo>
+                <padding-bottom>0.01007</padding-bottom>
+                <LinkURLTargetFrame>default</LinkURLTargetFrame>
+                <Y>0.01563</Y>
+                <X>2.50521</X>
+                <Text>AmountOfSale</Text>
+                <GotoDetail>false</GotoDetail>
+                <Bold>true</Bold>
+                <Height>0.23993</Height>
+                <padding-right>0.03003</padding-right>
+              </TextField>
+              <Image Name="Image1">
+                <ExportToCSV>false</ExportToCSV>
+                <ScalingMode>Customize</ScalingMode>
+                <DisplayName>Image 1</DisplayName>
+                <PictureName>HoleFoodsTxnDonutImage.jpg</PictureName>
+                <HorizontalAlignment>Left</HorizontalAlignment>
+                <GotoDetail>false</GotoDetail>
+                <Y>0.06250</Y>
+                <X>4.96372</X>
+                <Width>0.98941</Width>
+                <VerticalAlignment>Top</VerticalAlignment>
+                <SameEncode>true</SameEncode>
+                <Height>0.68229</Height>
+              </Image>
+            </BandedPageHeader>
+            <GroupPanel Name="GroupPanel">
+              <GroupBy>PRODUCT_NAME</GroupBy>
+              <DisplayName>Group Panel</DisplayName>
+              <OthersName></OthersName>
+              <SelectN>-1</SelectN>
+              <GroupHeaderPanel Name="GroupHeaderPanel">
+                <BorderColor>ffdddddd</BorderColor>
+                <BGGradientStartY>0</BGGradientStartY>
+                <border-left-width>0.00781</border-left-width>
+                <Width>15.55208</Width>
+                <BorderWidth>0.00781</BorderWidth>
+                <border-right-color>ffdddddd</border-right-color>
+                <border-top-color>ffdddddd</border-top-color>
+                <DisplayName>Group Header Panel</DisplayName>
+                <border-bottom-color>ffdddddd</border-bottom-color>
+                <Background>fff0f0f0</Background>
+                <border-right-width>0.00781</border-right-width>
+                <border-top-width>0.00781</border-top-width>
+                <BGGradientEndY>100</BGGradientEndY>
+                <border-bottom-width>0.00781</border-bottom-width>
+                <RoundJointRadius>0.05000</RoundJointRadius>
+                <Height>0.41406</Height>
+                <Label>GroupHeaderPanel</Label>
+                <border-left-color>ffdddddd</border-left-color>
+                <Group>PRODUCT_NAME</Group>
+                <SpecialField Name="GroupName">
+                  <DataEvaluationSetting>Current Column</DataEvaluationSetting>
+                  <DisplayName>Product_Name</DisplayName>
+                  <HorizontalAlignment>Left</HorizontalAlignment>
+                  <PatternColor>ff000000</PatternColor>
+                  <Height>0.23993</Height>
+                  <BorderWidth>0.00521</BorderWidth>
+                  <Foreground>ff3f3f3f</Foreground>
+                  <FontFace>Arial</FontFace>
+                  <LinkURLTargetFrame>default</LinkURLTargetFrame>
+                  <padding-right>0.03125</padding-right>
+                  <SameEncode>true</SameEncode>
+                  <padding-top>0.00781</padding-top>
+                  <FieldType>GroupName</FieldType>
+                  <BorderColor>ff000000</BorderColor>
+                  <refMode>Mode1</refMode>
+                  <padding-bottom>0.00781</padding-bottom>
+                  <ShadowColor>ff000000</ShadowColor>
+                  <Format>XXXXXXXXX...</Format>
+                  <X>0.03646</X>
+                  <padding-left>0.03125</padding-left>
+                  <Width>1.04167</Width>
+                </SpecialField>
+                <DBField Name="Total Sales">
+                  <LinkURLTargetFrame>default</LinkURLTargetFrame>
+                  <ColumnName>TOTAL SALES</ColumnName>
+                  <Width>1.04167</Width>
+                  <SameEncode>true</SameEncode>
+                  <Height>0.23993</Height>
+                  <Format>#,###.00</Format>
+                  <padding-left>0.03125</padding-left>
+                  <padding-top>0.00781</padding-top>
+                  <DisplayName>TOTAL SALES</DisplayName>
+                  <FontFace>Arial</FontFace>
+                  <refMode>Mode1</refMode>
+                  <Y>0.02865</Y>
+                  <X>2.54948</X>
+                  <padding-right>0.03125</padding-right>
+                  <RuntimeColumnName>TOTAL SALES</RuntimeColumnName>
+                  <HorizontalAlignment>Right</HorizontalAlignment>
+                  <BorderWidth>0.00521</BorderWidth>
+                  <Foreground>ff3f3f3f</Foreground>
+                  <padding-bottom>0.00781</padding-bottom>
+                </DBField>
+                <DBField Name="Total Units">
+                  <LinkURLTargetFrame>default</LinkURLTargetFrame>
+                  <ColumnName>TOTAL UNITS</ColumnName>
+                  <Width>1.04167</Width>
+                  <SameEncode>true</SameEncode>
+                  <Height>0.23993</Height>
+                  <Format>#####</Format>
+                  <padding-left>0.03125</padding-left>
+                  <padding-top>0.00781</padding-top>
+                  <DisplayName>TOTAL UNITS</DisplayName>
+                  <FontFace>Arial</FontFace>
+                  <refMode>Mode1</refMode>
+                  <Y>0.02344</Y>
+                  <X>1.22917</X>
+                  <padding-right>0.03125</padding-right>
+                  <RuntimeColumnName>TOTAL UNITS</RuntimeColumnName>
+                  <HorizontalAlignment>Right</HorizontalAlignment>
+                  <BorderWidth>0.00521</BorderWidth>
+                  <Foreground>ff3f3f3f</Foreground>
+                  <padding-bottom>0.00781</padding-bottom>
+                </DBField>
+              </GroupHeaderPanel>
+              <DetailPanel Name="DetailPanel1">
+                <border-right-width>0.00781</border-right-width>
+                <BorderWidth>0.00781</BorderWidth>
+                <border-bottom-width>0.00781</border-bottom-width>
+                <Height>0.23993</Height>
+                <RoundJointRadius>0.05000</RoundJointRadius>
+                <TileHorizontal>false</TileHorizontal>
+                <Width>15.55208</Width>
+                <Background>ffffffff</Background>
+                <Invisible>true</Invisible>
+                <border-right-color>ffdddddd</border-right-color>
+                <BorderColor>ffdddddd</BorderColor>
+                <border-top-width>0.00781</border-top-width>
+                <border-bottom-color>ffdddddd</border-bottom-color>
+                <Style>None</Style>
+                <BGGradientStartY>0</BGGradientStartY>
+                <border-left-width>0.00781</border-left-width>
+                <Label>DetailPanel</Label>
+                <BGGradientEndY>100</BGGradientEndY>
+                <border-top-color>ffdddddd</border-top-color>
+                <Suppressed>true</Suppressed>
+                <DisplayName>Detail Panel</DisplayName>
+                <border-left-color>ffdddddd</border-left-color>
+                <DBField Name="DateOfSale1">
+                  <DisplayName>DateOfSale</DisplayName>
+                  <FontFace>Arial</FontFace>
+                  <ColumnName>DATEOFSALE</ColumnName>
+                  <padding-bottom>0.00781</padding-bottom>
+                  <GotoDetail>false</GotoDetail>
+                  <BorderWidth>0.00521</BorderWidth>
+                  <LinkURLTargetFrame>default</LinkURLTargetFrame>
+                  <padding-left>0.03125</padding-left>
+                  <HorizontalAlignment>Left</HorizontalAlignment>
+                  <RuntimeColumnName>DATEOFSALE</RuntimeColumnName>
+                  <Foreground>ff3f3f3f</Foreground>
+                  <padding-right>0.03125</padding-right>
+                  <refMode>Mode1</refMode>
+                  <padding-top>0.00781</padding-top>
+                  <SameEncode>true</SameEncode>
+                  <Format>M/d/yyyy</Format>
+                  <Width>1.04167</Width>
+                  <Height>0.23993</Height>
+                </DBField>
+                <DBField Name="Product_Name1">
+                  <DisplayName>Product_Name</DisplayName>
+                  <FontFace>Arial</FontFace>
+                  <ColumnName>PRODUCT_NAME</ColumnName>
+                  <padding-bottom>0.00781</padding-bottom>
+                  <GotoDetail>false</GotoDetail>
+                  <BorderWidth>0.00521</BorderWidth>
+                  <LinkURLTargetFrame>default</LinkURLTargetFrame>
+                  <padding-left>0.03125</padding-left>
+                  <HorizontalAlignment>Left</HorizontalAlignment>
+                  <RuntimeColumnName>PRODUCT_NAME</RuntimeColumnName>
+                  <Foreground>ff3f3f3f</Foreground>
+                  <padding-right>0.03125</padding-right>
+                  <refMode>Mode1</refMode>
+                  <padding-top>0.00781</padding-top>
+                  <SameEncode>true</SameEncode>
+                  <X>1.04167</X>
+                  <Format>XXXXXXXXX...</Format>
+                  <Width>1.04167</Width>
+                  <Height>0.23993</Height>
+                </DBField>
+                <DBField Name="UnitsSold1">
+                  <DisplayName>UnitsSold</DisplayName>
+                  <FontFace>Arial</FontFace>
+                  <ColumnName>UNITSSOLD</ColumnName>
+                  <padding-bottom>0.00781</padding-bottom>
+                  <GotoDetail>false</GotoDetail>
+                  <BorderWidth>0.00521</BorderWidth>
+                  <LinkURLTargetFrame>default</LinkURLTargetFrame>
+                  <padding-left>0.03125</padding-left>
+                  <HorizontalAlignment>Right</HorizontalAlignment>
+                  <RuntimeColumnName>UNITSSOLD</RuntimeColumnName>
+                  <Foreground>ff3f3f3f</Foreground>
+                  <padding-right>0.03125</padding-right>
+                  <refMode>Mode1</refMode>
+                  <padding-top>0.00781</padding-top>
+                  <SameEncode>true</SameEncode>
+                  <X>2.08333</X>
+                  <Format>#####</Format>
+                  <Width>1.04167</Width>
+                  <Height>0.23993</Height>
+                </DBField>
+                <DBField Name="AmountOfSale1">
+                  <DisplayName>AmountOfSale</DisplayName>
+                  <FontFace>Arial</FontFace>
+                  <ColumnName>AMOUNTOFSALE</ColumnName>
+                  <padding-bottom>0.00781</padding-bottom>
+                  <GotoDetail>false</GotoDetail>
+                  <BorderWidth>0.00521</BorderWidth>
+                  <LinkURLTargetFrame>default</LinkURLTargetFrame>
+                  <padding-left>0.03125</padding-left>
+                  <HorizontalAlignment>Right</HorizontalAlignment>
+                  <RuntimeColumnName>AMOUNTOFSALE</RuntimeColumnName>
+                  <Foreground>ff3f3f3f</Foreground>
+                  <padding-right>0.03125</padding-right>
+                  <refMode>Mode1</refMode>
+                  <padding-top>0.00781</padding-top>
+                  <SameEncode>true</SameEncode>
+                  <X>3.12500</X>
+                  <Format>#,###.00</Format>
+                  <Width>1.04167</Width>
+                  <Height>0.23993</Height>
+                </DBField>
+              </DetailPanel>
+              <GroupFooterPanel Name="GroupFooterPanel">
+                <RoundJointRadius>0.05000</RoundJointRadius>
+                <BGGradientEndY>100</BGGradientEndY>
+                <border-bottom-width>0.00781</border-bottom-width>
+                <border-top-color>ffdddddd</border-top-color>
+                <border-right-color>ffdddddd</border-right-color>
+                <Label>GroupFooterPanel</Label>
+                <BorderWidth>0.00781</BorderWidth>
+                <DisplayName>Group Footer Panel</DisplayName>
+                <border-top-width>0.00781</border-top-width>
+                <Width>15.55208</Width>
+                <border-right-width>0.00781</border-right-width>
+                <border-left-color>ffdddddd</border-left-color>
+                <Suppressed>true</Suppressed>
+                <Height>0.23993</Height>
+                <Group>PRODUCT_NAME</Group>
+                <border-bottom-color>ffdddddd</border-bottom-color>
+                <Background>ffffffff</Background>
+                <BGGradientStartY>0</BGGradientStartY>
+                <Invisible>true</Invisible>
+                <border-left-width>0.00781</border-left-width>
+                <BorderColor>ffdddddd</BorderColor>
+              </GroupFooterPanel>
+            </GroupPanel>
+            <BandedPageFooter Name="BandedPageFooter1">
+              <border-top-width>0.00781</border-top-width>
+              <padding-right>0</padding-right>
+              <BottomLine>None</BottomLine>
+              <TopLine>None</TopLine>
+              <padding-left>0</padding-left>
+              <border-left-width>0.00781</border-left-width>
+              <Height>0.23993</Height>
+              <BorderWidth>0.00781</BorderWidth>
+              <border-right-color>ffdddddd</border-right-color>
+              <Name_>BandedPageFooter1</Name_>
+              <border-bottom-width>0.00781</border-bottom-width>
+              <Invisible>true</Invisible>
+              <padding-top>0</padding-top>
+              <margin-bottom>0</margin-bottom>
+              <border-top-color>ffdddddd</border-top-color>
+              <DisplayName>Banded Page Footer</DisplayName>
+              <margin-left>0</margin-left>
+              <Background>ffffffff</Background>
+              <Y>0</Y>
+              <X>0</X>
+              <dataSet></dataSet>
+              <BGGradientStartY>0</BGGradientStartY>
+              <ConditionalFormatList></ConditionalFormatList>
+              <refMode></refMode>
+              <LeftLine>None</LeftLine>
+              <border-left-color>ffdddddd</border-left-color>
+              <RightLine>None</RightLine>
+              <BGGradientEndY>100</BGGradientEndY>
+              <ColumnAttrs></ColumnAttrs>
+              <BorderColor>ffdddddd</BorderColor>
+              <RoundJointRadius>0.05000</RoundJointRadius>
+              <Suppressed>true</Suppressed>
+              <margin-right>0</margin-right>
+              <Width>15.55208</Width>
+              <border-bottom-color>ffdddddd</border-bottom-color>
+              <border-right-width>0.00781</border-right-width>
+              <margin-top>0</margin-top>
+              <padding-bottom>0</padding-bottom>
+            </BandedPageFooter>
+          </BandedPagePanel>
+          <BandedFooter Name="BandedFooter1">
+            <TopLine>None</TopLine>
+            <RoundJointRadius>0.05000</RoundJointRadius>
+            <ColumnAttrs></ColumnAttrs>
+            <border-bottom-width>0.00781</border-bottom-width>
+            <padding-right>0</padding-right>
+            <BottomLine>None</BottomLine>
+            <border-top-color>ffdddddd</border-top-color>
+            <margin-right>0</margin-right>
+            <ConditionalFormatList></ConditionalFormatList>
+            <border-right-color>ffdddddd</border-right-color>
+            <padding-bottom>0</padding-bottom>
+            <BorderWidth>0.00781</BorderWidth>
+            <padding-top>0</padding-top>
+            <margin-bottom>0</margin-bottom>
+            <DisplayName>Banded Footer</DisplayName>
+            <padding-left>0</padding-left>
+            <margin-left>0</margin-left>
+            <border-top-width>0.00781</border-top-width>
+            <RightLine>None</RightLine>
+            <Width>15.55208</Width>
+            <border-right-width>0.00781</border-right-width>
+            <refMode></refMode>
+            <Y>0</Y>
+            <X>0</X>
+            <border-left-color>ffdddddd</border-left-color>
+            <LeftLine>None</LeftLine>
+            <Height>0.23993</Height>
+            <margin-top>0</margin-top>
+            <border-bottom-color>ffdddddd</border-bottom-color>
+            <Background>ffffffff</Background>
+            <Name_>BandedFooter1</Name_>
+            <dataSet></dataSet>
+            <border-left-width>0.00781</border-left-width>
+            <BorderColor>ffdddddd</BorderColor>
+          </BandedFooter>
+        </BandedObject>
+        <PageEnd Name="PageEnd1">
+          <DisplayName>Page End</DisplayName>
+          <pageReference>PagePanel1</pageReference>
+        </PageEnd>
+      </ReportBody>
+      <Views Name="Views1">
+        <View Name="View1"></View>
+      </Views>
+      <ModeContainer Name="ModeContainer1">
+        <Mode Name="Mode1">
+          <currentRender>0</currentRender>
+          <RenderText Name="RenderText1">
+            <rTitle>${&amp;#65;UTOF}</rTitle>
+          </RenderText>
+        </Mode>
+      </ModeContainer>
+      <ActionContainer Name="ActionContainer1"></ActionContainer>
+      <BuildInFilterCtrlContainer Name="BuildInFilterCtrlContainer1"></BuildInFilterCtrlContainer>
+      <TOC Name="TOC1">
+        <DisplayName>TOC</DisplayName>
+        <FontFace>SansSerif</FontFace>
+        <FontSize>0.12000</FontSize>
+      </TOC>
+      <ConditionalFormatSet Name="ConditionalFormatSet1"></ConditionalFormatSet>
+      <ReportFormulaClassSet Name="ReportFormulaClassSet1"></ReportFormulaClassSet>
+      <PagePanel Name="PagePanel1">
+        <Height>11.00000</Height>
+        <PageType>Letter</PageType>
+        <Width>8.50399</Width>
+        <DisplayName>Page Panel</DisplayName>
+        <PageHeaderPanel Name="PageHeaderPanel1">
+          <border-top-width>0</border-top-width>
+          <border-right-width>0</border-right-width>
+          <RightLine>Solid</RightLine>
+          <TopLine>Solid</TopLine>
+          <RoundJointRadius>0.05000</RoundJointRadius>
+          <BGGradientEndY>100</BGGradientEndY>
+          <LeftLine>Solid</LeftLine>
+          <Label>PageHeaderPanel</Label>
+          <border-left-width>0</border-left-width>
+          <Invisible>true</Invisible>
+          <border-bottom-width>0</border-bottom-width>
+          <DisplayName>Page Header Panel</DisplayName>
+          <BottomLine>Solid</BottomLine>
+          <Width>7.50781</Width>
+          <Suppressed>true</Suppressed>
+          <BGGradientStartY>0</BGGradientStartY>
+        </PageHeaderPanel>
+        <PageFooterPanel Name="PageFooterPanel1">
+          <border-top-width>0</border-top-width>
+          <BottomLine>Solid</BottomLine>
+          <TopLine>Solid</TopLine>
+          <border-left-width>0</border-left-width>
+          <Label>PageFooterPanel</Label>
+          <border-bottom-width>0</border-bottom-width>
+          <Invisible>true</Invisible>
+          <DisplayName>Page Footer Panel</DisplayName>
+          <BGGradientStartY>0</BGGradientStartY>
+          <LeftLine>Solid</LeftLine>
+          <RightLine>Solid</RightLine>
+          <BGGradientEndY>100</BGGradientEndY>
+          <RoundJointRadius>0.05000</RoundJointRadius>
+          <Suppressed>true</Suppressed>
+          <Width>7.50781</Width>
+          <border-right-width>0</border-right-width>
+        </PageFooterPanel>
+      </PagePanel>
+      <ReportUFormulaSet Name="ReportUFormulaSet1">
+        <DataSourceName>IRIS</DataSourceName>
+      </ReportUFormulaSet>
+    </Report>
+    <Report Name="Report1">
+      <restrict>488976820</restrict>
+      <key>-2061622883</key>
+      <status>0</status>
+      <DisplayName>ProductByRegion</DisplayName>
+      <ClickPriority>link~@CR7~drill_down~@CR7~go_to_detail</ClickPriority>
+      <type>0</type>
+      <nationalLanguageSupport>true</nationalLanguageSupport>
+      <ReportBody Name="ReportBody2">
+        <dataInherit>false</dataInherit>
+        <TopLine>Solid</TopLine>
+        <BottomLine>Solid</BottomLine>
+        <LeftLine>Solid</LeftLine>
+        <StyleName></StyleName>
+        <RightLine>Solid</RightLine>
+        <Width>-0.00781</Width>
+        <DisplayName>Report Body</DisplayName>
+        <Cache>true</Cache>
+        <Height>-0.00781</Height>
+        <TOCAnchor>true</TOCAnchor>
+        <PageStart Name="PageStart2">
+          <pageReference>PagePanel2</pageReference>
+          <DisplayName>Page Start</DisplayName>
+        </PageStart>
+        <Paragraph Name="Paragraph">
+          <UnderlineColor>ff000000</UnderlineColor>
+          <FontFace>Arial</FontFace>
+          <StrikeoutStyle>StrikeThrough</StrikeoutStyle>
+          <RightLine>Solid</RightLine>
+          <Indentation_Left>0</Indentation_Left>
+          <Foreground>ff000000</Foreground>
+          <TAB_defaultStop>0.50000</TAB_defaultStop>
+          <Spacing_After>0</Spacing_After>
+          <Indentation_hang>0</Indentation_hang>
+          <Spacing_Before>0</Spacing_Before>
+          <Indentation_line>0</Indentation_line>
+          <LeftLine>Solid</LeftLine>
+          <BottomLine>Solid</BottomLine>
+          <Underline>false</Underline>
+          <position>static</position>
+          <Indentation_Right>0</Indentation_Right>
+          <FontSize>0.12500</FontSize>
+          <StrikeoutlineColor>ff000000</StrikeoutlineColor>
+          <TopLine>Solid</TopLine>
+          <Spacing_line>0.16667</Spacing_line>
+          <DisplayName>Paragraph</DisplayName>
+          <ReplaceElement Name="ReplaceElement">
+            <position>static</position>
+            <TopLine>Solid</TopLine>
+            <border-left-width>0</border-left-width>
+            <LeftLine>Solid</LeftLine>
+            <RightLine>Solid</RightLine>
+            <BottomLine>Solid</BottomLine>
+            <border-right-width>0</border-right-width>
+            <border-bottom-width>0</border-bottom-width>
+            <display>inline</display>
+            <border-top-width>0</border-top-width>
+            <FilterControl Name="FilterControl">
+              <border-bottom-width>0.00521</border-bottom-width>
+              <display>inline</display>
+              <DisplayName>Filter Control</DisplayName>
+              <TitleFontSize>0.12500</TitleFontSize>
+              <border-right-width>0.00521</border-right-width>
+              <TitleForeground>ff333333</TitleForeground>
+              <AutoScaleInNumber>false</AutoScaleInNumber>
+              <TitleBackground>fff5f5f5</TitleBackground>
+              <blName>'1'</blName>
+              <Format>XXXXXXXXX...</Format>
+              <Foreground>ff333333</Foreground>
+              <Height>2.50000</Height>
+              <TitleHorizontalAlignment>Left</TitleHorizontalAlignment>
+              <NumberSliderUnitIncrement>0.01</NumberSliderUnitIncrement>
+              <CellPaddingBottom>0.03125</CellPaddingBottom>
+              <refMode></refMode>
+              <TitleFontFace>Arial</TitleFontFace>
+              <ApplyToMapIdents>~@IDCURRENT@~</ApplyToMapIdents>
+              <Name_>FilterControl</Name_>
+              <FontSize>0.12500</FontSize>
+              <border-left-color>ffeeeeee</border-left-color>
+              <BorderColor>ffeeeeee</BorderColor>
+              <Y>0.36719</Y>
+              <X>5.71094</X>
+              <border-top-color>ffeeeeee</border-top-color>
+              <CatalogName>'1'</CatalogName>
+              <border-bottom-color>ffeeeeee</border-bottom-color>
+              <RuntimeColumnName>Product_Name</RuntimeColumnName>
+              <queryName>HoleFoodsTransactions</queryName>
+              <dsName>IRIS</dsName>
+              <BLColumnName>'1'</BLColumnName>
+              <FontFace>Arial</FontFace>
+              <border-right-color>ffeeeeee</border-right-color>
+              <Width>1.79844</Width>
+              <ApplyToMap>[~@IDCURRENT@~][~@ALL@~]</ApplyToMap>
+              <border-left-width>0.00521</border-left-width>
+              <CellPaddingTop>0.03125</CellPaddingTop>
+              <ColumnName>Product_Name</ColumnName>
+              <BorderWidth>0.00521</BorderWidth>
+              <border-top-width>0.00521</border-top-width>
+            </FilterControl>
+          </ReplaceElement>
+        </Paragraph>
+        <ChartObject Name="ChartObject">
+          <TOCAnchor>false</TOCAnchor>
+          <CategoryOthersName></CategoryOthersName>
+          <HMChartGradientStartColor>ffdeebf7</HMChartGradientStartColor>
+          <SeriesStartOffset>-1</SeriesStartOffset>
+          <RuntimeValue>UNITS SOLD BY REGION</RuntimeValue>
+          <PlatformBackgroundFillPatternImageLayout>Tile</PlatformBackgroundFillPatternImageLayout>
+          <dataSet>QueryDataSet1</dataSet>
+          <ObjectIndex>-1</ObjectIndex>
+          <PlatformBackgroundBorderPenThickness>0.00781</PlatformBackgroundBorderPenThickness>
+          <PlatformBackgroundBorderPenVariabledDash>false</PlatformBackgroundBorderPenVariabledDash>
+          <ReverseSeries>false</ReverseSeries>
+          <Width>5.20833</Width>
+          <border-top-color>ff000000</border-top-color>
+          <CategoryEndOffset>-1</CategoryEndOffset>
+          <PlatformBackgroundFillPatternImageHeight>100</PlatformBackgroundFillPatternImageHeight>
+          <border-right-color>ff000000</border-right-color>
+          <border-bottom-color>ff000000</border-bottom-color>
+          <SuppressedIfNoRecords>false</SuppressedIfNoRecords>
+          <Height>3.48958</Height>
+          <GotoDetail>false</GotoDetail>
+          <PlatformBackgroundBorderPenLineJoint>Miter</PlatformBackgroundBorderPenLineJoint>
+          <PlatformBackgroundFillPatternGradientStartY>0</PlatformBackgroundFillPatternGradientStartY>
+          <PlatformBackgroundFillPatternGradientStartX>0</PlatformBackgroundFillPatternGradientStartX>
+          <PlatformBackgroundTop>0</PlatformBackgroundTop>
+          <PlatformBackgroundBorderPenEndCaps>Square</PlatformBackgroundBorderPenEndCaps>
+          <StyleInherit>false</StyleInherit>
+          <ChartDefinition>ChartDefinition,257,1,Region_Name,1,Product_Name,1,Stacked Bar 2-D,1,1,0;Units Sold by Region;Units Sold by Region,1,0,false,0,^0,0,0</ChartDefinition>
+          <Suppressed>false</Suppressed>
+          <DisplayName>Chart Object</DisplayName>
+          <SortCategory>None</SortCategory>
+          <Invisible>false</Invisible>
+          <z-order>0</z-order>
+          <ColumnNumber>0</ColumnNumber>
+          <border-top-width>0</border-top-width>
+          <PlatformBackgroundBottom>0</PlatformBackgroundBottom>
+          <border-right-width>0</border-right-width>
+          <PlatformBackgroundFillPatternImageY>100</PlatformBackgroundFillPatternImageY>
+          <PlatformBackgroundFillPatternImageX>0</PlatformBackgroundFillPatternImageX>
+          <PlatformBackgroundFillPatternGradientEndColor>ffe5e5e5</PlatformBackgroundFillPatternGradientEndColor>
+          <border-bottom-width>0</border-bottom-width>
+          <Style>None</Style>
+          <MinSpaceInTickMarks>0.01198</MinSpaceInTickMarks>
+          <PlatformBackgroundFillPatternImageWidth>100</PlatformBackgroundFillPatternImageWidth>
+          <margin-bottom>0</margin-bottom>
+          <BottomMargin>0</BottomMargin>
+          <PlatformBackgroundFillPatternGradientEndY>100</PlatformBackgroundFillPatternGradientEndY>
+          <RightMargin>0</RightMargin>
+          <border-left-color>ff000000</border-left-color>
+          <PlatformBackgroundFillPatternGradientEndX>100</PlatformBackgroundFillPatternGradientEndX>
+          <Cache>true</Cache>
+          <LeftLine>Solid</LeftLine>
+          <RuntimeSeries>PRODUCT_NAME</RuntimeSeries>
+          <ColumnIndex>-1</ColumnIndex>
+          <TopMargin>0</TopMargin>
+          <PlatformBackgroundBorderPenTransparency>0</PlatformBackgroundBorderPenTransparency>
+          <PlatformBackgroundBorderPenLineJointRadius>0.03906</PlatformBackgroundBorderPenLineJointRadius>
+          <OverallSeries>false</OverallSeries>
+          <StyleName>Classic.css</StyleName>
+          <DetailFieldsCusTargetFrame>STACKED BAR 2-D@UNITS SOLD BY REGION=;</DetailFieldsCusTargetFrame>
+          <clear>none</clear>
+          <SameLevel>false</SameLevel>
+          <ChildStyle>None</ChildStyle>
+          <TopLine>Solid</TopLine>
+          <float>none</float>
+          <BottomLine>Solid</BottomLine>
+          <PlatformBackgroundFillPatternTextureStyle>Small Dot</PlatformBackgroundFillPatternTextureStyle>
+          <Background>Transparent</Background>
+          <Alignment>CenterCenter</Alignment>
+          <PlatformBackgroundFillPatternColor>ffffffff</PlatformBackgroundFillPatternColor>
+          <PlatformBackgroundBorderPenStyle>Solid Line</PlatformBackgroundBorderPenStyle>
+          <RTFID>0</RTFID>
+          <margin-top>0</margin-top>
+          <PlatformBackgroundFillPatternGradientStartColor>ffffffff</PlatformBackgroundFillPatternGradientStartColor>
+          <Name_>ChartObject</Name_>
+          <margin-right>0</margin-right>
+          <CategoryStartOffset>-1</CategoryStartOffset>
+          <Interactive>true</Interactive>
+          <SeriesEndOffset>-1</SeriesEndOffset>
+          <AntiAliasing>true</AntiAliasing>
+          <margin-left>0</margin-left>
+          <border-left-width>0</border-left-width>
+          <ShowLegend>true</ShowLegend>
+          <PlatformBackgroundFillPatternGradientStyle>Linear</PlatformBackgroundFillPatternGradientStyle>
+          <PlatformBackgroundRight>0</PlatformBackgroundRight>
+          <dataInherit>false</dataInherit>
+          <DetailFieldsTargetFrame></DetailFieldsTargetFrame>
+          <RightLine>Solid</RightLine>
+          <HintPercentFilter>10.00%</HintPercentFilter>
+          <HMChartGradientEndColor>ff2171b5</HMChartGradientEndColor>
+          <PlatformBackgroundFillPatternTransparency>0</PlatformBackgroundFillPatternTransparency>
+          <SortSeries>None</SortSeries>
+          <PatternList>'20'c0x4278b3000'c0x96cdf2000'c0xff8e1e000'c0xffbe7d000'c0x51ac44000'c0x84dc71000'c0xc8a31a000'c0xffd455000'c0x3ea39d000'c0x7ec3bb000'c0xf44447000'c0xff9d9a000'c0x7a6f6c000'c0xbcafaa000'c0xe06491000'c0xffbad0000'c0xb772a4000'c0xda9fca000'c0xa57357000'c0xddb29f000</PatternList>
+          <Y>0</Y>
+          <X>0</X>
+          <MotionOthersName></MotionOthersName>
+          <display>block</display>
+          <ExportToCSV>false</ExportToCSV>
+          <DetailFields>STACKED BAR 2-D@UNITS SOLD BY REGION=;</DetailFields>
+          <PlatformBackgroundFillPatternType>Color</PlatformBackgroundFillPatternType>
+          <PlatformBackgroundLeft>0</PlatformBackgroundLeft>
+          <PlatformBackgroundBorderPenOutlined>false</PlatformBackgroundBorderPenOutlined>
+          <PlatformBackgroundFillPatternTextureForeColor>ffe5e5e5</PlatformBackgroundFillPatternTextureForeColor>
+          <position>static</position>
+          <StyleList>Classic.css</StyleList>
+          <RowNumber>0</RowNumber>
+          <LeftMargin>0</LeftMargin>
+          <RuntimeCategory>REGION_NAME</RuntimeCategory>
+          <PlatformBackgroundFillPatternTextureBackColor>ffffffff</PlatformBackgroundFillPatternTextureBackColor>
+          <AutoLayout>true</AutoLayout>
+          <ReverseCategory>false</ReverseCategory>
+          <SeriesOthersName></SeriesOthersName>
+          <RowIndex>-1</RowIndex>
+          <PlatformBackgroundBorderPenColor>ffe5e5e5</PlatformBackgroundBorderPenColor>
+          <ChartPaperObject Name="ChartPaperObject">
+            <AxisZMinorLabelTextPatternColor>ff555555</AxisZMinorLabelTextPatternColor>
+            <AxisXMinorLabelTextPatternColor>ff555555</AxisXMinorLabelTextPatternColor>
+            <AxisY2TickMarkPenStyle>Solid Line</AxisY2TickMarkPenStyle>
+            <AxisXShowGrid>false</AxisXShowGrid>
+            <LineThickness>0.03125</LineThickness>
+            <Contour>false</Contour>
+            <AxisZPenEndCaps>Square</AxisZPenEndCaps>
+            <HintTextFontName>Arial</HintTextFontName>
+            <AxisYMinValue>0</AxisYMinValue>
+            <AxisY2MinorTickMarkPenColor>ffd7d7d7</AxisY2MinorTickMarkPenColor>
+            <AxisYLabelTextShearing>0</AxisYLabelTextShearing>
+            <AxisXLabelTextFontStyle>Plain</AxisXLabelTextFontStyle>
+            <AxisY2GridPenTransparency>0</AxisY2GridPenTransparency>
+            <AxisXTickMarkPenOutlined>false</AxisXTickMarkPenOutlined>
+            <AxisXLabelTextPatternType>Color</AxisXLabelTextPatternType>
+            <Interactive>true</Interactive>
+            <WallFillPatternTransparency>0</WallFillPatternTransparency>
+            <WallFillPatternGradientEndY>100</WallFillPatternGradientEndY>
+            <WallFillPatternGradientEndX>100</WallFillPatternGradientEndX>
+            <AxisXLabelTextUnderline>None</AxisXLabelTextUnderline>
+            <HintTextPenVariabledDash>false</HintTextPenVariabledDash>
+            <PaperBackgroundFillPatternTextureForeColor>ffe5e5e5</PaperBackgroundFillPatternTextureForeColor>
+            <AxisXMinorTickMarkPenColor>ffd7d7d7</AxisXMinorTickMarkPenColor>
+            <ColumnIndex>-1</ColumnIndex>
+            <GaugeDialStartAngle>0</GaugeDialStartAngle>
+            <AxisZLabelTextPenThickness>0.00781</AxisZLabelTextPenThickness>
+            <FloorFillPatternGradientEndY>100</FloorFillPatternGradientEndY>
+            <FloorFillPatternGradientEndX>100</FloorFillPatternGradientEndX>
+            <ReversePaintingOrder>false</ReversePaintingOrder>
+            <AxisZMinorLabelTextPatternType>Color</AxisZMinorLabelTextPatternType>
+            <AxisZLabelTextSpecialEffect2>None</AxisZLabelTextSpecialEffect2>
+            <AxisZLabelTextSpecialEffect1>None</AxisZLabelTextSpecialEffect1>
+            <LEDChartColorItems>'5'c0x00ff00000'c0xff0000000'c0x00ff00000'c0xffff00000'c0xff0000000</LEDChartColorItems>
+            <PaperBackgroundFillPatternGradientEndColor>ffe5e5e5</PaperBackgroundFillPatternGradientEndColor>
+            <AxisYGridPenVariabledDash>false</AxisYGridPenVariabledDash>
+            <AxisXGridPenOutlined>false</AxisXGridPenOutlined>
+            <HorizontalMargin>0.41667</HorizontalMargin>
+            <LEDChartImageItems>'6'false'	'	'	'	'	</LEDChartImageItems>
+            <AxisZCorrelateAxisInMajorTickMark>true</AxisZCorrelateAxisInMajorTickMark>
+            <AxisXLabelTextPatternTextureForeColor>ffe5e5e5</AxisXLabelTextPatternTextureForeColor>
+            <HintTextPatternColor>ffffffff</HintTextPatternColor>
+            <AxisXLabelTextShearing>0</AxisXLabelTextShearing>
+            <FloorBorderPenStyle>Solid Line</FloorBorderPenStyle>
+            <AxisY2PenTransparency>0</AxisY2PenTransparency>
+            <ContourPenTransparency>0</ContourPenTransparency>
+            <AxisXLabelTextPatternGradientEndColor>ffe5e5e5</AxisXLabelTextPatternGradientEndColor>
+            <PaperBackgroundBorderPenThickness>0.00781</PaperBackgroundBorderPenThickness>
+            <AxisY2TickMarkPenThickness>0.00781</AxisY2TickMarkPenThickness>
+            <FloorBorderPenTransparency>0</FloorBorderPenTransparency>
+            <AxisZLabelTextPenVariabledDash>false</AxisZLabelTextPenVariabledDash>
+            <AxisXNumOfTickMarks>-1</AxisXNumOfTickMarks>
+            <WallBoundFillPatternTextureBackColor>ffffffff</WallBoundFillPatternTextureBackColor>
+            <LineStyleList>1,0,180;1,0,180;1,0,180;1,0,180;1,0,180;1,0,180;1,0,180;1,0,180;1,0,180;1,0,180;1,0,180;1,0,180;1,0,180;1,0,180;1,0,180;1,0,180</LineStyleList>
+            <AxisYAutoScaleYAxis>true</AxisYAutoScaleYAxis>
+            <WallFillPatternGradientEndColor>ffe5e5e5</WallFillPatternGradientEndColor>
+            <AxisXMinValue>0</AxisXMinValue>
+            <AxisYLabelTextPenThickness>0.00781</AxisYLabelTextPenThickness>
+            <FloorFillPatternTextureForeColor>ffe5e5e5</FloorFillPatternTextureForeColor>
+            <FloorBorderPenThickness>0.00781</FloorBorderPenThickness>
+            <AxisZLabelEveryNTickMarks>1</AxisZLabelEveryNTickMarks>
+            <RadarIsFill>true</RadarIsFill>
+            <AxisZIsBestEffort>true</AxisZIsBestEffort>
+            <AxisY2PenOutlined>false</AxisY2PenOutlined>
+            <RadiusRange>80</RadiusRange>
+            <BorderColor>ff000000</BorderColor>
+            <AxisYGridPenStyle>Solid Line</AxisYGridPenStyle>
+            <LineNodeBorderPenColor>ffffffff</LineNodeBorderPenColor>
+            <AxisZMinorLabelTextFontSize>0.11111</AxisZMinorLabelTextFontSize>
+            <PaperBackgroundFillPatternGradientStartY>0</PaperBackgroundFillPatternGradientStartY>
+            <PaperBackgroundFillPatternGradientStartX>0</PaperBackgroundFillPatternGradientStartX>
+            <LineNodeStyle>None</LineNodeStyle>
+            <AxisYLabelTextPenOutlined>false</AxisYLabelTextPenOutlined>
+            <GaugeAlertColor>fff6e237</GaugeAlertColor>
+            <AxisYLabelEveryNTickMarks>1</AxisYLabelEveryNTickMarks>
+            <WallFillPatternImageY>100</WallFillPatternImageY>
+            <WallFillPatternImageX>0</WallFillPatternImageX>
+            <margin-left>0</margin-left>
+            <BarDepth>0.10417</BarDepth>
+            <margin-top>0</margin-top>
+            <AxisZMinorTickMarkPenThickness>0.01042</AxisZMinorTickMarkPenThickness>
+            <BottomMargin>0.10417</BottomMargin>
+            <HintTextStrikethrough>None</HintTextStrikethrough>
+            <AxisZLabelTextPatternGradientStartColor>ffffffff</AxisZLabelTextPatternGradientStartColor>
+            <AxisY2PenStyle>Invisible</AxisY2PenStyle>
+            <AxisXPenVariabledDash>false</AxisXPenVariabledDash>
+            <ShadowContents>false</ShadowContents>
+            <AxisY2LabelTextPatternColor>ff3f3f3f</AxisY2LabelTextPatternColor>
+            <ContourPenEndCaps>Square</ContourPenEndCaps>
+            <AxisZPenColor>ffd7d7d7</AxisZPenColor>
+            <AxisZTickMarkPenLineJoint>Miter</AxisZTickMarkPenLineJoint>
+            <AxisYTickMarkType>None</AxisYTickMarkType>
+            <HintTextPenEndCaps>Square</HintTextPenEndCaps>
+            <Width>0</Width>
+            <AxisXMinorLabelTextFontSize>0.11111</AxisXMinorLabelTextFontSize>
+            <AxisZPenThickness>0.00781</AxisZPenThickness>
+            <PaperBackgroundBorderPenLineJoint>Miter</PaperBackgroundBorderPenLineJoint>
+            <AxisY2TickMarkPenLineJoint>Miter</AxisY2TickMarkPenLineJoint>
+            <AxisXLabelTextPatternColor>ff3f3f3f</AxisXLabelTextPatternColor>
+            <FloorBoundFillPatternTextureStyle>Small Dot</FloorBoundFillPatternTextureStyle>
+            <AxisY2NumOfTickMarks>-1</AxisY2NumOfTickMarks>
+            <ContourPenVariabledDash>false</ContourPenVariabledDash>
+            <AxisZLabelTextPatternGradientStyle>Linear</AxisZLabelTextPatternGradientStyle>
+            <AxisXTickMarkPenStyle>Solid Line</AxisXTickMarkPenStyle>
+            <AxisYLabelTextPenLineJoint>Miter</AxisYLabelTextPenLineJoint>
+            <Shadow>false</Shadow>
+            <Suppressed>false</Suppressed>
+            <AxisXLabelTextWidth>1.04167</AxisXLabelTextWidth>
+            <FloorBorderPenLineJoint>Miter</FloorBorderPenLineJoint>
+            <RadarIsShowColumnName>true</RadarIsShowColumnName>
+            <AxisZShowGrid>false</AxisZShowGrid>
+            <AxisZLabelTextPatternGradientEndY>100</AxisZLabelTextPatternGradientEndY>
+            <AxisZLabelTextPatternGradientEndX>100</AxisZLabelTextPatternGradientEndX>
+            <HintTextPatternTextureForeColor>ffe5e5e5</HintTextPatternTextureForeColor>
+            <WallBorderPenThickness>0.00781</WallBorderPenThickness>
+            <AxisY2LabelTextPatternTransparency>0</AxisY2LabelTextPatternTransparency>
+            <AxisY2LabelTextPatternGradientEndY>100</AxisY2LabelTextPatternGradientEndY>
+            <AxisY2LabelTextPatternGradientEndX>100</AxisY2LabelTextPatternGradientEndX>
+            <AxisYTickMarkPenEndCaps>Square</AxisYTickMarkPenEndCaps>
+            <position>absolute</position>
+            <FloorFillPatternColor>ffffffff</FloorFillPatternColor>
+            <GaugeDialCurveIsFill>true</GaugeDialCurveIsFill>
+            <HintTextPatternGradientEndColor>ffe5e5e5</HintTextPatternGradientEndColor>
+            <PaperBackgroundBorderPenTransparency>0</PaperBackgroundBorderPenTransparency>
+            <GaugeNormalGradientEndColor>ffff0000</GaugeNormalGradientEndColor>
+            <AxisZTickMarkPenColor>ffd7d7d7</AxisZTickMarkPenColor>
+            <AxisXGridPenEndCaps>Square</AxisXGridPenEndCaps>
+            <AxisYIncrement>-1</AxisYIncrement>
+            <HintTextPatternGradientStartColor>ffffffff</HintTextPatternGradientStartColor>
+            <AxisZTickMarkPenVariabledDash>false</AxisZTickMarkPenVariabledDash>
+            <AxisXLabelTextPatternGradientStyle>Linear</AxisXLabelTextPatternGradientStyle>
+            <AxisY2LabelTextPatternTextureBackColor>ffffffff</AxisY2LabelTextPatternTextureBackColor>
+            <AxisYPenColor>ffd7d7d7</AxisYPenColor>
+            <WallFillPatternImageHeight>100</WallFillPatternImageHeight>
+            <AxisY2TickMarkPenOutlined>false</AxisY2TickMarkPenOutlined>
+            <PaperBackgroundFillPatternImageLayout>Tile</PaperBackgroundFillPatternImageLayout>
+            <AxisYTickMarkPenColor>ffd7d7d7</AxisYTickMarkPenColor>
+            <FloorFillPatternImageY>100</FloorFillPatternImageY>
+            <FloorFillPatternImageX>0</FloorFillPatternImageX>
+            <WallFillPatternGradientStyle>Linear</WallFillPatternGradientStyle>
+            <AxisXLabelTextPenTransparency>0</AxisXLabelTextPenTransparency>
+            <AxisY2LabelTextFontStyle>Plain</AxisY2LabelTextFontStyle>
+            <AxisYIsBestEffort>true</AxisYIsBestEffort>
+            <AxisZLabelAxisGap>0.03906</AxisZLabelAxisGap>
+            <AxisY2MinorLabelTextPatternColor>ff555555</AxisY2MinorLabelTextPatternColor>
+            <AxisY2LabelTextUnderline>None</AxisY2LabelTextUnderline>
+            <HintTextPatternTextureStyle>Small Dot</HintTextPatternTextureStyle>
+            <WallBorderPenColor>Transparent</WallBorderPenColor>
+            <AxisXTickMarkPenEndCaps>Square</AxisXTickMarkPenEndCaps>
+            <LEDChartMinValues>'5'True'False'''</LEDChartMinValues>
+            <AxisXGridPenStyle>Solid Line</AxisXGridPenStyle>
+            <AxisZPenLineJoint>Miter</AxisZPenLineJoint>
+            <HintTextPenOutlined>false</HintTextPenOutlined>
+            <AxisY2LabelTextPatternGradientStartColor>ffffffff</AxisY2LabelTextPatternGradientStartColor>
+            <AxisYLinePosition>1</AxisYLinePosition>
+            <display>block</display>
+            <AxisZLabelTextFontStyle>Plain</AxisZLabelTextFontStyle>
+            <AxisZLabelTextUnderline>None</AxisZLabelTextUnderline>
+            <AxisY2Increment>-1</AxisY2Increment>
+            <AxisY2LabelTextRotation>0</AxisY2LabelTextRotation>
+            <PaperBackgroundBorderPenVariabledDash>false</PaperBackgroundBorderPenVariabledDash>
+            <ShowWall>true</ShowWall>
+            <AxisZMinorTickMarkLength>0.02083</AxisZMinorTickMarkLength>
+            <PaperBackgroundFillPatternTextureStyle>Small Dot</PaperBackgroundFillPatternTextureStyle>
+            <AxisY2GridPenStyle>Solid Line</AxisY2GridPenStyle>
+            <FloorBoundFillPatternTextureBackColor>ffffffff</FloorBoundFillPatternTextureBackColor>
+            <SuppressedIfNoRecords>false</SuppressedIfNoRecords>
+            <FloorFillPatternImageHeight>100</FloorFillPatternImageHeight>
+            <AxisXLabelTextFontSize>0.12500</AxisXLabelTextFontSize>
+            <border-right-color>ff000000</border-right-color>
+            <WallBorderPenLineJoint>Miter</WallBorderPenLineJoint>
+            <AxisXTickMarkType>None</AxisXTickMarkType>
+            <AxisYPenThickness>0.00781</AxisYPenThickness>
+            <AxisYTickMarkLength>0.04167</AxisYTickMarkLength>
+            <ShowAxisZ>true</ShowAxisZ>
+            <ShowAxisY>true</ShowAxisY>
+            <ShowAxisX>true</ShowAxisX>
+            <AxisZLabelTextPatternType>Color</AxisZLabelTextPatternType>
+            <AxisZMinorTickMarkPenColor>ffd7d7d7</AxisZMinorTickMarkPenColor>
+            <AxisXLabelTextPenColor>ff3f3f3f</AxisXLabelTextPenColor>
+            <LEDChartFrameBackgroundBorderPenColor>ffe5e5e5</LEDChartFrameBackgroundBorderPenColor>
+            <AxisXPenColor>ffd7d7d7</AxisXPenColor>
+            <ShowAxisY2>true</ShowAxisY2>
+            <AxisYMinorLabelTextFontSize>0.11111</AxisYMinorLabelTextFontSize>
+            <AxisY2LabelTextPatternType>Color</AxisY2LabelTextPatternType>
+            <AxisY2GridPenEndCaps>Square</AxisY2GridPenEndCaps>
+            <AxisYLabelTextFontStyle>Plain</AxisYLabelTextFontStyle>
+            <ShowFloor>true</ShowFloor>
+            <AxisYLabelTextUnderline>None</AxisYLabelTextUnderline>
+            <GaugeErrorGradientEndColor>ffff0000</GaugeErrorGradientEndColor>
+            <AxisY2TickMarkType>None</AxisY2TickMarkType>
+            <AxisYPenOutlined>false</AxisYPenOutlined>
+            <clear>none</clear>
+            <AxisY2MinValue>0</AxisY2MinValue>
+            <GaugeDialLineArrowStyle>Arrow1</GaugeDialLineArrowStyle>
+            <border-right-width>0</border-right-width>
+            <HintTextFontSize>0.12500</HintTextFontSize>
+            <LineNodeBorderPenThickness>0.00781</LineNodeBorderPenThickness>
+            <PaperBackgroundRight>0</PaperBackgroundRight>
+            <GaugeBarPenThickness>0.01042</GaugeBarPenThickness>
+            <TOCAnchor>false</TOCAnchor>
+            <HintTextPenColor>ffe5e5e5</HintTextPenColor>
+            <FloorBoundFillPatternGradientStartY>0</FloorBoundFillPatternGradientStartY>
+            <AxisZLabelTextPatternTextureBackColor>ffffffff</AxisZLabelTextPatternTextureBackColor>
+            <FloorBoundFillPatternGradientStartX>0</FloorBoundFillPatternGradientStartX>
+            <ContourPenStyle>Solid Line</ContourPenStyle>
+            <AxisXLabelTextPatternTextureStyle>Small Dot</AxisXLabelTextPatternTextureStyle>
+            <FloorBorderPenVariabledDash>false</FloorBorderPenVariabledDash>
+            <ExportToXLS>true</ExportToXLS>
+            <AxisYLabelTextPatternGradientStartY>0</AxisYLabelTextPatternGradientStartY>
+            <AxisYLabelTextPatternGradientStartX>0</AxisYLabelTextPatternGradientStartX>
+            <PaperBackgroundFillPatternType>None</PaperBackgroundFillPatternType>
+            <AxisY2LabelTextWordWrap>false</AxisY2LabelTextWordWrap>
+            <AxisXIsBestEffort>true</AxisXIsBestEffort>
+            <AxisYLabelAxisGap>0.03906</AxisYLabelAxisGap>
+            <z-order>0</z-order>
+            <AxisZLabelTextRotation>0</AxisZLabelTextRotation>
+            <AxisZGridPenColor>ffe5e5e5</AxisZGridPenColor>
+            <AxisYPenLineJoint>Miter</AxisYPenLineJoint>
+            <AxisYPenEndCaps>Square</AxisYPenEndCaps>
+            <AxisYMinorTickMarkLength>0.02083</AxisYMinorTickMarkLength>
+            <AxisZTickMarkPenThickness>0.00781</AxisZTickMarkPenThickness>
+            <AxisY2CorrelateAxisInMajorTickMark>true</AxisY2CorrelateAxisInMajorTickMark>
+            <Perspective>-1</Perspective>
+            <TopLine>Solid</TopLine>
+            <WallBorderPenTransparency>0</WallBorderPenTransparency>
+            <LEDChartMaxValues>'5'True'False'''</LEDChartMaxValues>
+            <WallFillPatternTextureForeColor>ffe5e5e5</WallFillPatternTextureForeColor>
+            <AxisXTickMarkPenTransparency>0</AxisXTickMarkPenTransparency>
+            <AxisY2TickMarkPenColor>ffd7d7d7</AxisY2TickMarkPenColor>
+            <AxisY2IsBestEffort>true</AxisY2IsBestEffort>
+            <TopMargin>0.10417</TopMargin>
+            <AxisY2LabelTextPenStyle>Solid Line</AxisY2LabelTextPenStyle>
+            <AxisZLabelTextPenEndCaps>Square</AxisZLabelTextPenEndCaps>
+            <AxisY2LabelTextPenTransparency>0</AxisY2LabelTextPenTransparency>
+            <AxisYLabelTextRotation>0</AxisYLabelTextRotation>
+            <AxisY2TickMarkPenVariabledDash>false</AxisY2TickMarkPenVariabledDash>
+            <ThresholdLineColor2>ff002ffa</ThresholdLineColor2>
+            <AxisXGridPenVariabledDash>false</AxisXGridPenVariabledDash>
+            <AxisXUseLabelStartValue>false</AxisXUseLabelStartValue>
+            <AxisXPenThickness>0.00781</AxisXPenThickness>
+            <RadarArrowStyle>Arrow3</RadarArrowStyle>
+            <RTFID>0</RTFID>
+            <AxisYMinorLabelTextPatternType>Color</AxisYMinorLabelTextPatternType>
+            <AxisY2LabelTextPenVariabledDash>false</AxisY2LabelTextPenVariabledDash>
+            <AxisZLabelTextPatternColor>ff3f3f3f</AxisZLabelTextPatternColor>
+            <FloorFillPatternType>Color</FloorFillPatternType>
+            <AxisY2LabelTextStrikethrough>None</AxisY2LabelTextStrikethrough>
+            <AxisY2NumOfLabels>0</AxisY2NumOfLabels>
+            <AxisYLabelTextPatternTextureStyle>Small Dot</AxisYLabelTextPatternTextureStyle>
+            <AxisY2LabelStartValue>0</AxisY2LabelStartValue>
+            <ShowCategoryAndSeries>true</ShowCategoryAndSeries>
+            <AxisXAutoScaleYAxis>true</AxisXAutoScaleYAxis>
+            <HintTextShearing>0.0</HintTextShearing>
+            <AxisY2LabelTextPenThickness>0.00781</AxisY2LabelTextPenThickness>
+            <AngleY>0</AngleY>
+            <AngleX>0</AngleX>
+            <HintTextPatternGradientStartY>0</HintTextPatternGradientStartY>
+            <HintTextPatternGradientStartX>0</HintTextPatternGradientStartX>
+            <LEDChartFrameBackgroundBorderPenThickness>0.00781</LEDChartFrameBackgroundBorderPenThickness>
+            <ValueLabelPositionList>None</ValueLabelPositionList>
+            <GaugeNormalValueMin>0</GaugeNormalValueMin>
+            <FloorBorderPenColor>Transparent</FloorBorderPenColor>
+            <AxisY2TickMarkPenEndCaps>Square</AxisY2TickMarkPenEndCaps>
+            <AxisYLabelTextPatternTextureForeColor>ffe5e5e5</AxisYLabelTextPatternTextureForeColor>
+            <AxisYLabelTextPenVariabledDash>false</AxisYLabelTextPenVariabledDash>
+            <AxisXLabelTextPenThickness>0.00781</AxisXLabelTextPenThickness>
+            <AxisY2LabelTextFontName>Arial</AxisY2LabelTextFontName>
+            <PaperBackgroundFillPatternImageY>100</PaperBackgroundFillPatternImageY>
+            <AxisZPenOutlined>false</AxisZPenOutlined>
+            <PaperBackgroundFillPatternImageX>0</PaperBackgroundFillPatternImageX>
+            <AxisZLabelTextPatternGradientStartY>0</AxisZLabelTextPatternGradientStartY>
+            <AxisZLabelTextPatternGradientStartX>0</AxisZLabelTextPatternGradientStartX>
+            <RowIndex>-1</RowIndex>
+            <AxisY2NumOfMinorTickMarkLabels>0</AxisY2NumOfMinorTickMarkLabels>
+            <AxisZLabelTextWordWrap>false</AxisZLabelTextWordWrap>
+            <GaugeAlertValueMin>0</GaugeAlertValueMin>
+            <AxisYLabelTextPatternGradientEndColor>ffe5e5e5</AxisYLabelTextPatternGradientEndColor>
+            <AxisXLabelTextSpecialEffect2>None</AxisXLabelTextSpecialEffect2>
+            <AxisXLabelTextSpecialEffect1>None</AxisXLabelTextSpecialEffect1>
+            <AxisY2TickMarkPenTransparency>0</AxisY2TickMarkPenTransparency>
+            <AxisZAutoNumOfLabels>false</AxisZAutoNumOfLabels>
+            <MeanLineColor>fffabf00</MeanLineColor>
+            <AxisY2CircularGap>0</AxisY2CircularGap>
+            <PaperBackgroundTop>0</PaperBackgroundTop>
+            <AxisXPlacement>Bottom</AxisXPlacement>
+            <AxisZTickMarkPenEndCaps>Square</AxisZTickMarkPenEndCaps>
+            <PaperBackgroundBorderPenEndCaps>Square</PaperBackgroundBorderPenEndCaps>
+            <FloorFillPatternGradientStartColor>ffffffff</FloorFillPatternGradientStartColor>
+            <AxisXLabelTextPenOutlined>false</AxisXLabelTextPenOutlined>
+            <AxisXMinorTickMarkLength>0.02083</AxisXMinorTickMarkLength>
+            <AxisXLabelAxisGap>0.03906</AxisXLabelAxisGap>
+            <AxisXLabelEveryNTickMarks>1</AxisXLabelEveryNTickMarks>
+            <AxisZGridPenEndCaps>Square</AxisZGridPenEndCaps>
+            <AxisYLabelTextWordWrap>false</AxisYLabelTextWordWrap>
+            <PaperBackgroundBottom>0</PaperBackgroundBottom>
+            <AxisZLabelTextPenStyle>Solid Line</AxisZLabelTextPenStyle>
+            <AxisXPenTransparency>0</AxisXPenTransparency>
+            <AxisYGridPenColor>ffe5e5e5</AxisYGridPenColor>
+            <LEDChartFrameBackgroundFillPatternGradientStartColor>ffffffff</LEDChartFrameBackgroundFillPatternGradientStartColor>
+            <WallFillPatternGradientStartColor>ffffffff</WallFillPatternGradientStartColor>
+            <AxisXNumOfLabels>0</AxisXNumOfLabels>
+            <AxisXPenLineJoint>Miter</AxisXPenLineJoint>
+            <LeftLine>Solid</LeftLine>
+            <AxisYLabelTextPenEndCaps>Square</AxisYLabelTextPenEndCaps>
+            <ChildStyle>None</ChildStyle>
+            <AxisYMinorTickMarkPenThickness>0.00781</AxisYMinorTickMarkPenThickness>
+            <FixOutGap>0.05000</FixOutGap>
+            <Invisible>false</Invisible>
+            <AxisYTickMarkPenLineJoint>Miter</AxisYTickMarkPenLineJoint>
+            <PaperBackgroundFillPatternImageHeight>100</PaperBackgroundFillPatternImageHeight>
+            <WallBoundFillPatternTextureStyle>Small Dot</WallBoundFillPatternTextureStyle>
+            <AxisY2AutoScaleYAxis>true</AxisY2AutoScaleYAxis>
+            <AxisY2LabelTextPenLineJoint>Miter</AxisY2LabelTextPenLineJoint>
+            <FloorBoundFillPatternTransparency>0</FloorBoundFillPatternTransparency>
+            <FloorBoundFillPatternGradientEndY>100</FloorBoundFillPatternGradientEndY>
+            <FloorBoundFillPatternGradientEndX>100</FloorBoundFillPatternGradientEndX>
+            <AxisY2LabelTextSpecialEffect2>None</AxisY2LabelTextSpecialEffect2>
+            <AxisY2PenColor>ffd7d7d7</AxisY2PenColor>
+            <AxisY2LabelTextSpecialEffect1>None</AxisY2LabelTextSpecialEffect1>
+            <AxisY2PenEndCaps>Square</AxisY2PenEndCaps>
+            <AxisZLabelTextPenTransparency>0</AxisZLabelTextPenTransparency>
+            <AxisYLabelTextPenStyle>Solid Line</AxisYLabelTextPenStyle>
+            <StockUpBarColor>ff01b053</StockUpBarColor>
+            <PaperBackgroundFillPatternTextureBackColor>ffffffff</PaperBackgroundFillPatternTextureBackColor>
+            <AxisYPenTransparency>0</AxisYPenTransparency>
+            <ShadowColor>ff000000</ShadowColor>
+            <AxisY2PenLineJoint>Miter</AxisY2PenLineJoint>
+            <ContourPenOutlined>false</ContourPenOutlined>
+            <AxisXLabelTextPenLineJoint>Miter</AxisXLabelTextPenLineJoint>
+            <PaperBackgroundFillPatternGradientStartColor>ffffffff</PaperBackgroundFillPatternGradientStartColor>
+            <FloorBoundFillPatternType>None</FloorBoundFillPatternType>
+            <AxisZLabelTextFontName>Arial</AxisZLabelTextFontName>
+            <LineNodeWidth>0.10417</LineNodeWidth>
+            <AxisY2LabelTextShearing>0</AxisY2LabelTextShearing>
+            <GaugeNormalValueMax>0</GaugeNormalValueMax>
+            <AxisXCircularGap>0</AxisXCircularGap>
+            <ThresholdLineStyle>Style1</ThresholdLineStyle>
+            <AxisXLabelTextPatternTextureBackColor>ffffffff</AxisXLabelTextPatternTextureBackColor>
+            <GaugeNormalColor>ff39c375</GaugeNormalColor>
+            <AxisYTickMarkPenVariabledDash>false</AxisYTickMarkPenVariabledDash>
+            <ScaleZ>100</ScaleZ>
+            <ScaleY>100</ScaleY>
+            <AxisXTickMarkPenColor>ffd7d7d7</AxisXTickMarkPenColor>
+            <ScaleX>100</ScaleX>
+            <WallBoundFillPatternTextureForeColor>ffe5e5e5</WallBoundFillPatternTextureForeColor>
+            <AxisY2ShowGrid>false</AxisY2ShowGrid>
+            <GaugeAlertValueMax>0</GaugeAlertValueMax>
+            <WallFillPatternGradientStartY>0</WallFillPatternGradientStartY>
+            <WallFillPatternGradientStartX>0</WallFillPatternGradientStartX>
+            <WallFillPatternTextureBackColor>ffffffff</WallFillPatternTextureBackColor>
+            <PaperBackgroundBorderPenStyle>Solid Line</PaperBackgroundBorderPenStyle>
+            <AxisZPenTransparency>0</AxisZPenTransparency>
+            <AxisXLabelTextPatternGradientStartY>0</AxisXLabelTextPatternGradientStartY>
+            <AxisXLabelTextPatternGradientStartX>0</AxisXLabelTextPatternGradientStartX>
+            <WallBoundFillPatternGradientEndColor>ffe5e5e5</WallBoundFillPatternGradientEndColor>
+            <AxisY2Placement>Bottom</AxisY2Placement>
+            <WallFillPatternType>None</WallFillPatternType>
+            <AxisXCorrelateAxisInMajorTickMark>true</AxisXCorrelateAxisInMajorTickMark>
+            <FloorFillPatternTextureBackColor>ffffffff</FloorFillPatternTextureBackColor>
+            <GaugeDialCurveStyle>OutIn</GaugeDialCurveStyle>
+            <AxisYLabelTextFontName>Arial</AxisYLabelTextFontName>
+            <FixBarGap>0.05000</FixBarGap>
+            <AxisYMaxValue>0</AxisYMaxValue>
+            <ExportToCSV>true</ExportToCSV>
+            <border-left-color>ff000000</border-left-color>
+            <AxisZGridPenTransparency>0</AxisZGridPenTransparency>
+            <StockDownBarColor>fff54740</StockDownBarColor>
+            <MeanLineType>Line</MeanLineType>
+            <HintTextPatternTransparency>0</HintTextPatternTransparency>
+            <HintTextPatternGradientEndY>100</HintTextPatternGradientEndY>
+            <HintTextPatternGradientEndX>100</HintTextPatternGradientEndX>
+            <GaugeErrorValueMin>0</GaugeErrorValueMin>
+            <AxisZGridPenLineJoint>Miter</AxisZGridPenLineJoint>
+            <AxisY2GridPenOutlined>false</AxisY2GridPenOutlined>
+            <AxisYNumOfMinorTickMarkLabels>0</AxisYNumOfMinorTickMarkLabels>
+            <AxisZMinorLabelTextPenThickness>0.01042</AxisZMinorLabelTextPenThickness>
+            <AxisXMinorLabelTextPenThickness>0.01042</AxisXMinorLabelTextPenThickness>
+            <AxisXLabelTextPenEndCaps>Square</AxisXLabelTextPenEndCaps>
+            <AxisYShowTickMarkLabels>true</AxisYShowTickMarkLabels>
+            <ThresholdValue2>20</ThresholdValue2>
+            <AxisY2UseLabelStartValue>false</AxisY2UseLabelStartValue>
+            <RightLine>Solid</RightLine>
+            <AxisXGridPenColor>ffe5e5e5</AxisXGridPenColor>
+            <border-left-width>0</border-left-width>
+            <AreaPatternList>'20'c0x4278b3100'c0x96cdf2100'c0xff8e1e100'c0xffbe7d100'c0x51ac44100'c0x84dc71100'c0xc8a31a100'c0xffd455100'c0x3ea39d100'c0x7ec3bb100'c0xf44447100'c0xff9d9a100'c0x7a6f6c100'c0xbcafaa100'c0xe06491100'c0xffbad0100'c0xb772a4100'c0xda9fca100'c0xa57357100'c0xddb29f100</AreaPatternList>
+            <PaperBackgroundFillPatternTransparency>0</PaperBackgroundFillPatternTransparency>
+            <PaperBackgroundFillPatternGradientEndY>100</PaperBackgroundFillPatternGradientEndY>
+            <PaperBackgroundFillPatternGradientEndX>100</PaperBackgroundFillPatternGradientEndX>
+            <AxisXTickMarkLength>0.04167</AxisXTickMarkLength>
+            <dataInherit>true</dataInherit>
+            <AxisYNumOfLabels>0</AxisYNumOfLabels>
+            <FloorFillPatternGradientStartY>0</FloorFillPatternGradientStartY>
+            <FloorFillPatternGradientStartX>0</FloorFillPatternGradientStartX>
+            <WallFillPatternColor>Transparent</WallFillPatternColor>
+            <FillThreshold>false</FillThreshold>
+            <ContourPenLineJoint>Miter</ContourPenLineJoint>
+            <FloorBoundFillPatternColor>Transparent</FloorBoundFillPatternColor>
+            <AxisY2LabelTextPatternGradientStartY>0</AxisY2LabelTextPatternGradientStartY>
+            <AxisYLabelTextPatternType>Color</AxisYLabelTextPatternType>
+            <AxisY2LabelTextPatternGradientStartX>0</AxisY2LabelTextPatternGradientStartX>
+            <AxisZLabelTextShearing>0</AxisZLabelTextShearing>
+            <FloorBoundFillPatternGradientStyle>Linear</FloorBoundFillPatternGradientStyle>
+            <WallFillPatternTextureStyle>Small Dot</WallFillPatternTextureStyle>
+            <AxisYMinorLabelTextPatternColor>ff555555</AxisYMinorLabelTextPatternColor>
+            <LEDChartFrameBackgroundFillPatternTextureForeColor>ffe5e5e5</LEDChartFrameBackgroundFillPatternTextureForeColor>
+            <AxisYMinorTickMarkPenColor>ffd7d7d7</AxisYMinorTickMarkPenColor>
+            <WallBorderPenOutlined>false</WallBorderPenOutlined>
+            <AxisXShowTickMarkLabels>true</AxisXShowTickMarkLabels>
+            <AxisXMaxValue>0</AxisXMaxValue>
+            <AxisY2GridPenColor>ffe5e5e5</AxisY2GridPenColor>
+            <HintTextSpecialEffect2>None</HintTextSpecialEffect2>
+            <AxisY2MinorLabelTextFontSize>0.11111</AxisY2MinorLabelTextFontSize>
+            <HintTextSpecialEffect1>None</HintTextSpecialEffect1>
+            <FloorFillPatternTextureStyle>Small Dot</FloorFillPatternTextureStyle>
+            <HintTextPenThickness>0.00521</HintTextPenThickness>
+            <StockLineColor>ff262626</StockLineColor>
+            <LEDChartFrameBackgroundFillPatternGradientEndColor>ffe5e5e5</LEDChartFrameBackgroundFillPatternGradientEndColor>
+            <WallBoundFillPatternGradientStyle>Linear</WallBoundFillPatternGradientStyle>
+            <AxisZGridPenVariabledDash>false</AxisZGridPenVariabledDash>
+            <PaperBackgroundFillPatternGradientStyle>Linear</PaperBackgroundFillPatternGradientStyle>
+            <AxisYTickMarkPenTransparency>0</AxisYTickMarkPenTransparency>
+            <AxisY2GridPenVariabledDash>false</AxisY2GridPenVariabledDash>
+            <AxisYCircularGap>0</AxisYCircularGap>
+            <AxisY2MinorTickMarkLength>0.02083</AxisY2MinorTickMarkLength>
+            <AxisZTickMarkType>None</AxisZTickMarkType>
+            <AxisYLabelTextPatternGradientStyle>Linear</AxisYLabelTextPatternGradientStyle>
+            <VerticalMargin>0.20833</VerticalMargin>
+            <HintTextPatternTextureBackColor>ffffffff</HintTextPatternTextureBackColor>
+            <AxisYUseLabelStartValue>false</AxisYUseLabelStartValue>
+            <AxisY2GridPenThickness>0.00781</AxisY2GridPenThickness>
+            <AxisYGridPenTransparency>0</AxisYGridPenTransparency>
+            <FloorFillPatternTransparency>0</FloorFillPatternTransparency>
+            <AxisY2MinorLabelTextPatternType>Color</AxisY2MinorLabelTextPatternType>
+            <AxisY2LabelTextPatternTextureForeColor>ffe5e5e5</AxisY2LabelTextPatternTextureForeColor>
+            <FloorBorderPenEndCaps>Square</FloorBorderPenEndCaps>
+            <GaugeErrorValueMax>0</GaugeErrorValueMax>
+            <AxisXLinePosition>1</AxisXLinePosition>
+            <Style>None</Style>
+            <AxisXLabelTextPatternTransparency>0</AxisXLabelTextPatternTransparency>
+            <AxisXLabelTextPatternGradientEndY>100</AxisXLabelTextPatternGradientEndY>
+            <AxisXLabelTextPatternGradientEndX>100</AxisXLabelTextPatternGradientEndX>
+            <AxisYNumOfTickMarks>-1</AxisYNumOfTickMarks>
+            <AxisZAutoScaleYAxis>true</AxisZAutoScaleYAxis>
+            <AxisYLabelTextStrikethrough>None</AxisYLabelTextStrikethrough>
+            <AxisY2LabelTextPatternGradientEndColor>ffe5e5e5</AxisY2LabelTextPatternGradientEndColor>
+            <AxisY2TickMarkLength>0.04167</AxisY2TickMarkLength>
+            <ShowThresholdLine2>false</ShowThresholdLine2>
+            <WallFillPatternImageWidth>100</WallFillPatternImageWidth>
+            <ContourPenColor>ffe5e5e5</ContourPenColor>
+            <FloorFillPatternImageWidth>100</FloorFillPatternImageWidth>
+            <Background>Transparent</Background>
+            <BottomLine>Solid</BottomLine>
+            <AxisXPenEndCaps>Square</AxisXPenEndCaps>
+            <AxisY2LinePosition>1</AxisY2LinePosition>
+            <AxisYTickMarkPenThickness>0.00781</AxisYTickMarkPenThickness>
+            <AxisYLabelTextSpecialEffect2>None</AxisYLabelTextSpecialEffect2>
+            <AxisYLabelTextSpecialEffect1>None</AxisYLabelTextSpecialEffect1>
+            <AxisZPenStyle>Invisible</AxisZPenStyle>
+            <FloorBorderPenOutlined>false</FloorBorderPenOutlined>
+            <AxisZLabelTextPenOutlined>false</AxisZLabelTextPenOutlined>
+            <HintTextPenLineJoint>Miter</HintTextPenLineJoint>
+            <AxisYGridPenOutlined>false</AxisYGridPenOutlined>
+            <AxisXLabelTextRotation>0</AxisXLabelTextRotation>
+            <FloorFillPatternGradientEndColor>ffe5e5e5</FloorFillPatternGradientEndColor>
+            <Alignment>CenterCenter</Alignment>
+            <AxisY2LabelTextPenOutlined>false</AxisY2LabelTextPenOutlined>
+            <RadarFillTransparence>40</RadarFillTransparence>
+            <FloorBoundFillPatternTextureForeColor>ffe5e5e5</FloorBoundFillPatternTextureForeColor>
+            <WallBoundFillPatternGradientStartY>0</WallBoundFillPatternGradientStartY>
+            <WallBoundFillPatternGradientStartX>0</WallBoundFillPatternGradientStartX>
+            <ThresholdValue>60</ThresholdValue>
+            <AxisY2LabelEveryNTickMarks>1</AxisY2LabelEveryNTickMarks>
+            <AxisY2PenThickness>0.00781</AxisY2PenThickness>
+            <AxisZNumOfLabels>-1</AxisZNumOfLabels>
+            <HintTextPatternType>Color</HintTextPatternType>
+            <AxisY2LabelTextFontSize>0.12500</AxisY2LabelTextFontSize>
+            <margin-right>0</margin-right>
+            <FloorBoundFillPatternGradientEndColor>ffe5e5e5</FloorBoundFillPatternGradientEndColor>
+            <AxisZPenVariabledDash>false</AxisZPenVariabledDash>
+            <AxisYLabelTextPatternColor>ff3f3f3f</AxisYLabelTextPatternColor>
+            <AxisYLabelTextPatternTransparency>0</AxisYLabelTextPatternTransparency>
+            <AxisXTickMarkPenThickness>0.00781</AxisXTickMarkPenThickness>
+            <AxisYLabelTextPatternGradientEndY>100</AxisYLabelTextPatternGradientEndY>
+            <AxisYLabelTextPatternGradientEndX>100</AxisYLabelTextPatternGradientEndX>
+            <AxisY2LabelTextPenColor>ff3f3f3f</AxisY2LabelTextPenColor>
+            <AxisXMinorLabelTextPatternType>Color</AxisXMinorLabelTextPatternType>
+            <AxisY2GridPenLineJoint>Miter</AxisY2GridPenLineJoint>
+            <float>none</float>
+            <AxisZTickMarkPenOutlined>false</AxisZTickMarkPenOutlined>
+            <AxisZLabelTextPenLineJoint>Miter</AxisZLabelTextPenLineJoint>
+            <GaugeErrorColor>fff66b4e</GaugeErrorColor>
+            <AxisZGridPenOutlined>false</AxisZGridPenOutlined>
+            <AxisYPenVariabledDash>false</AxisYPenVariabledDash>
+            <PaperBackgroundLeft>0</PaperBackgroundLeft>
+            <FloorFillPatternGradientStyle>Linear</FloorFillPatternGradientStyle>
+            <AxisY2MinorTickMarkPenThickness>0.01042</AxisY2MinorTickMarkPenThickness>
+            <AxisZTickMarkPenStyle>Solid Line</AxisZTickMarkPenStyle>
+            <AxisXGridPenTransparency>0</AxisXGridPenTransparency>
+            <AxisZLabelTextPatternTextureStyle>Small Dot</AxisZLabelTextPatternTextureStyle>
+            <HintTextRotation>0.0</HintTextRotation>
+            <AxisY2LabelTextPenEndCaps>Square</AxisY2LabelTextPenEndCaps>
+            <AxisXLabelTextPenVariabledDash>false</AxisXLabelTextPenVariabledDash>
+            <border-top-color>ff000000</border-top-color>
+            <AxisY2LabelTextPatternTextureStyle>Small Dot</AxisY2LabelTextPatternTextureStyle>
+            <AxisYPenStyle>Invisible</AxisYPenStyle>
+            <WallBorderPenEndCaps>Square</WallBorderPenEndCaps>
+            <AxisYTickMarkPenStyle>Solid Line</AxisYTickMarkPenStyle>
+            <ShowThresholdLine>false</ShowThresholdLine>
+            <AxisXIncrement>-1</AxisXIncrement>
+            <LineNodeHeight>0.10417</LineNodeHeight>
+            <AxisZLabelTextPatternTextureForeColor>ffe5e5e5</AxisZLabelTextPatternTextureForeColor>
+            <AxisZGridPenThickness>0.00781</AxisZGridPenThickness>
+            <margin-bottom>0</margin-bottom>
+            <WallBorderPenStyle>Solid Line</WallBorderPenStyle>
+            <AxisY2MinorLabelTextPenThickness>0.01042</AxisY2MinorLabelTextPenThickness>
+            <BarGap>30</BarGap>
+            <PieSlimLegPatternColor>ffbcbcbc</PieSlimLegPatternColor>
+            <AxisYPlacement>Bottom</AxisYPlacement>
+            <AxisYGridPenEndCaps>Square</AxisYGridPenEndCaps>
+            <AxisY2LabelTextPatternGradientStyle>Linear</AxisY2LabelTextPatternGradientStyle>
+            <AxisY2LabelAxisGap>0.03906</AxisY2LabelAxisGap>
+            <AxisZLabelTextPatternGradientEndColor>ffe5e5e5</AxisZLabelTextPatternGradientEndColor>
+            <AxisXPenOutlined>false</AxisXPenOutlined>
+            <AxisYGridPenThickness>0.00781</AxisYGridPenThickness>
+            <AxisXLabelTextWordWrap>false</AxisXLabelTextWordWrap>
+            <AxisZLabelTextPatternTransparency>0</AxisZLabelTextPatternTransparency>
+            <Height>0</Height>
+            <AxisXLabelStartValue>0</AxisXLabelStartValue>
+            <border-top-width>0</border-top-width>
+            <AxisZLabelTextStrikethrough>None</AxisZLabelTextStrikethrough>
+            <AxisXGridPenThickness>0.00781</AxisXGridPenThickness>
+            <AxisY2ShowTickMarkLabels>true</AxisY2ShowTickMarkLabels>
+            <Name_>ChartPaperObject</Name_>
+            <PaperBackgroundFillPatternImageWidth>100</PaperBackgroundFillPatternImageWidth>
+            <WallBoundFillPatternType>None</WallBoundFillPatternType>
+            <AxisZLabelTextFontSize>0.12500</AxisZLabelTextFontSize>
+            <AxisYLabelTextPenTransparency>0</AxisYLabelTextPenTransparency>
+            <ContourPenThickness>0.00781</ContourPenThickness>
+            <AxisXTickMarkPenLineJoint>Miter</AxisXTickMarkPenLineJoint>
+            <HintTextFontStyle>Plain</HintTextFontStyle>
+            <AxisXPosition>1</AxisXPosition>
+            <AxisXMinorTickMarkPenThickness>0.01042</AxisXMinorTickMarkPenThickness>
+            <HintTextUnderline>None</HintTextUnderline>
+            <AxisZLabelTextPenColor>ff3f3f3f</AxisZLabelTextPenColor>
+            <WallBoundFillPatternTransparency>0</WallBoundFillPatternTransparency>
+            <WallBoundFillPatternGradientEndY>100</WallBoundFillPatternGradientEndY>
+            <WallBoundFillPatternGradientEndX>100</WallBoundFillPatternGradientEndX>
+            <AxisXLabelTextPenStyle>Solid Line</AxisXLabelTextPenStyle>
+            <AxisXPenStyle>Invisible</AxisXPenStyle>
+            <AxisZPlacement>Bottom</AxisZPlacement>
+            <FillThreshold2>false</FillThreshold2>
+            <AxisYLabelStartValue>0</AxisYLabelStartValue>
+            <AxisYLabelTextPatternGradientStartColor>ffffffff</AxisYLabelTextPatternGradientStartColor>
+            <AxisXLabelTextStrikethrough>None</AxisXLabelTextStrikethrough>
+            <AxisZShowTickMarkLabels>true</AxisZShowTickMarkLabels>
+            <AxisY2MaxValue>0</AxisY2MaxValue>
+            <MeanLineNodeStyle>Star2</MeanLineNodeStyle>
+            <AxisXTickMarkPenVariabledDash>false</AxisXTickMarkPenVariabledDash>
+            <GaugeAlertGradientEndColor>ffff0000</GaugeAlertGradientEndColor>
+            <AxisYTickMarkPenOutlined>false</AxisYTickMarkPenOutlined>
+            <GaugeDialStopAngle>180</GaugeDialStopAngle>
+            <ObjectIndex>-1</ObjectIndex>
+            <HintTextWordWrap>false</HintTextWordWrap>
+            <AxisYLabelTextFontSize>0.12500</AxisYLabelTextFontSize>
+            <GaugeDialLineStyle>Diamond</GaugeDialLineStyle>
+            <HintTextPatternGradientStyle>Linear</HintTextPatternGradientStyle>
+            <WallFillPatternImageLayout>Tile</WallFillPatternImageLayout>
+            <AxisZAutoNumOfMinorTickMarkLabels>false</AxisZAutoNumOfMinorTickMarkLabels>
+            <AxisYLabelTextPenColor>ff3f3f3f</AxisYLabelTextPenColor>
+            <AxisZTickMarkLength>0.04167</AxisZTickMarkLength>
+            <AxisYShowGrid>true</AxisYShowGrid>
+            <border-bottom-color>ff000000</border-bottom-color>
+            <HintTextPenTransparency>0</HintTextPenTransparency>
+            <WallBoundFillPatternGradientStartColor>ffffffff</WallBoundFillPatternGradientStartColor>
+            <ThresholdLineColor>fffa0000</ThresholdLineColor>
+            <AxisYGridPenLineJoint>Miter</AxisYGridPenLineJoint>
+            <LeftMargin>0.10417</LeftMargin>
+            <AxisYMinorLabelTextPenThickness>0.01042</AxisYMinorLabelTextPenThickness>
+            <AxisXLabelTextFontName>Arial</AxisXLabelTextFontName>
+            <HintTextPenStyle>Solid Line</HintTextPenStyle>
+            <AxisYLabelTextPatternTextureBackColor>ffffffff</AxisYLabelTextPatternTextureBackColor>
+            <Y>0</Y>
+            <X>0</X>
+            <AxisXNumOfMinorTickMarkLabels>0</AxisXNumOfMinorTickMarkLabels>
+            <GaugeBarPenColor>ffe5e5e5</GaugeBarPenColor>
+            <RotationMatrix>'12'1.0'0.0'0.0'0.0'0.0'1.0'0.0'0.0'0.0'0.0'1.0'0.0</RotationMatrix>
+            <GaugeDialOuterInnerGap>0.27083</GaugeDialOuterInnerGap>
+            <FloorBoundFillPatternGradientStartColor>ffffffff</FloorBoundFillPatternGradientStartColor>
+            <AxisXGridPenLineJoint>Miter</AxisXGridPenLineJoint>
+            <PaperBackgroundBorderPenColor>ffe5e5e5</PaperBackgroundBorderPenColor>
+            <RightMargin>0.10417</RightMargin>
+            <LEDChartNameItems>'5'True'False'Safety'Warning'Danger</LEDChartNameItems>
+            <ShowMeanLine>false</ShowMeanLine>
+            <WallBorderPenVariabledDash>false</WallBorderPenVariabledDash>
+            <WallBoundFillPatternColor>Transparent</WallBoundFillPatternColor>
+            <AxisZTickMarkPenTransparency>0</AxisZTickMarkPenTransparency>
+            <PaperBackgroundFillPatternColor>ffffffff</PaperBackgroundFillPatternColor>
+            <DisplayName>Chart Paper Object</DisplayName>
+            <border-bottom-width>0</border-bottom-width>
+            <AxisY2PenVariabledDash>false</AxisY2PenVariabledDash>
+            <ValueLabelType>Value</ValueLabelType>
+            <AxisZGridPenStyle>Solid Line</AxisZGridPenStyle>
+            <FloorFillPatternImageLayout>Tile</FloorFillPatternImageLayout>
+            <AxisYCorrelateAxisInMajorTickMark>true</AxisYCorrelateAxisInMajorTickMark>
+            <PaperBackgroundBorderPenOutlined>false</PaperBackgroundBorderPenOutlined>
+            <AxisXLabelTextPatternGradientStartColor>ffffffff</AxisXLabelTextPatternGradientStartColor>
+            <FixBarWidth>0.15000</FixBarWidth>
+            <ChartBarProps Name="ChartBarProps">
+              <ContourPenThickness>0.01042</ContourPenThickness>
+              <VaryColorByValues>false</VaryColorByValues>
+              <StaticLabelTextPenThickness>0.01042</StaticLabelTextPenThickness>
+              <PatternList>'20'c0x2196f3000'c0x4caf50000'c0x9575cd000'c0x00bcd4000'c0xff5722000'c0xffc107000'c0x5b6ac0000'c0x7cb342000'c0x00bfa5000'c0x795548000'c0xff7043000'c0x5677fc000'c0x009688000'c0xc0ca33000'c0x607d8b000'c0xf06292000'c0x0277bd000'c0xff9800000'c0x5c6bc0000'c0xba68c8000</PatternList>
+              <ForChartType>0</ForChartType>
+              <StaticLabelTextFontSize>0.12500</StaticLabelTextFontSize>
+            </ChartBarProps>
+            <ChartBarSizePattern Name="ChartBarSizePattern"></ChartBarSizePattern>
+            <ChartBarSizePattern Name="ChartBarSizePattern1"></ChartBarSizePattern>
+            <ChartBarSizePattern Name="ChartBarSizePattern2"></ChartBarSizePattern>
+            <ChartBarSizePattern Name="ChartBarSizePattern3"></ChartBarSizePattern>
+            <ChartBarSizePattern Name="ChartBarSizePattern4"></ChartBarSizePattern>
+            <ChartBarSizePattern Name="ChartBarSizePattern5"></ChartBarSizePattern>
+            <ChartBarSizePattern Name="ChartBarSizePattern6"></ChartBarSizePattern>
+            <ChartBarSizePattern Name="ChartBarSizePattern7"></ChartBarSizePattern>
+            <ChartBarSizePattern Name="ChartBarSizePattern8"></ChartBarSizePattern>
+            <ChartBarSizePattern Name="ChartBarSizePattern9"></ChartBarSizePattern>
+            <ChartBarSizePattern Name="ChartBarSizePattern10"></ChartBarSizePattern>
+            <ChartBarSizePattern Name="ChartBarSizePattern11"></ChartBarSizePattern>
+            <ChartBarSizePattern Name="ChartBarSizePattern12"></ChartBarSizePattern>
+            <ChartBarSizePattern Name="ChartBarSizePattern13"></ChartBarSizePattern>
+            <ChartBarSizePattern Name="ChartBarSizePattern14"></ChartBarSizePattern>
+            <ChartBarSizePattern Name="ChartBarSizePattern15"></ChartBarSizePattern>
+            <ChartBarSizePattern Name="ChartBarSizePattern16"></ChartBarSizePattern>
+            <ChartBarSizePattern Name="ChartBarSizePattern17"></ChartBarSizePattern>
+            <ChartBarSizePattern Name="ChartBarSizePattern18"></ChartBarSizePattern>
+            <ChartBarSizePattern Name="ChartBarSizePattern19">
+              <IsFixBarSize>true</IsFixBarSize>
+            </ChartBarSizePattern>
+            <ChartBarSizePattern Name="ChartBarSizePattern20">
+              <IsFixBarSize>true</IsFixBarSize>
+            </ChartBarSizePattern>
+            <ChartBarSizePattern Name="ChartBarSizePattern21">
+              <IsFixBarSize>true</IsFixBarSize>
+            </ChartBarSizePattern>
+            <ChartBarSizePattern Name="ChartBarSizePattern22">
+              <IsFixBarSize>true</IsFixBarSize>
+            </ChartBarSizePattern>
+            <ChartBarSizePattern Name="ChartBarSizePattern23">
+              <IsFixBarSize>true</IsFixBarSize>
+            </ChartBarSizePattern>
+            <ChartBarSizePattern Name="ChartBarSizePattern24">
+              <IsFixBarSize>true</IsFixBarSize>
+            </ChartBarSizePattern>
+            <ChartBarSizePattern Name="ChartBarSizePattern25">
+              <IsFixBarSize>true</IsFixBarSize>
+            </ChartBarSizePattern>
+            <ChartBarSizePattern Name="ChartBarSizePattern26">
+              <IsFixBarSize>true</IsFixBarSize>
+            </ChartBarSizePattern>
+            <ChartBarSizePattern Name="ChartBarSizePattern27">
+              <IsFixBarSize>true</IsFixBarSize>
+            </ChartBarSizePattern>
+            <ChartBarSizePattern Name="ChartBarSizePattern28">
+              <IsFixBarSize>true</IsFixBarSize>
+            </ChartBarSizePattern>
+            <ChartBarSizePattern Name="ChartBarSizePattern29">
+              <IsFixBarSize>true</IsFixBarSize>
+            </ChartBarSizePattern>
+            <ChartBarSizePattern Name="ChartBarSizePattern30">
+              <IsFixBarSize>true</IsFixBarSize>
+            </ChartBarSizePattern>
+            <ChartBarSizePattern Name="ChartBarSizePattern31">
+              <IsFixBarSize>true</IsFixBarSize>
+            </ChartBarSizePattern>
+            <ChartBarSizePattern Name="ChartBarSizePattern32">
+              <IsFixBarSize>true</IsFixBarSize>
+            </ChartBarSizePattern>
+            <ChartBarSizePattern Name="ChartBarSizePattern33">
+              <IsFixBarSize>true</IsFixBarSize>
+            </ChartBarSizePattern>
+            <ChartBarSizePattern Name="ChartBarSizePattern34">
+              <IsFixBarSize>true</IsFixBarSize>
+            </ChartBarSizePattern>
+            <ChartBarSizePattern Name="ChartBarSizePattern35">
+              <IsFixBarSize>true</IsFixBarSize>
+            </ChartBarSizePattern>
+            <ChartBarSizePattern Name="ChartBarSizePattern36">
+              <IsFixBarSize>true</IsFixBarSize>
+            </ChartBarSizePattern>
+            <ChartBarSizePattern Name="ChartBarSizePattern37">
+              <IsFixBarSize>true</IsFixBarSize>
+            </ChartBarSizePattern>
+            <ChartAxisFunctionContainer Name="ChartAxisFunctionContainer">
+              <ChartRangeFunction Name="ChartRangeFunction">
+                <ChartDataLabel Name="ChartDataLabel">
+                  <padding-top>0.01997</padding-top>
+                  <refMode></refMode>
+                  <ConditionalFormatList></ConditionalFormatList>
+                  <BorderPenColor>ffd7d7d7</BorderPenColor>
+                  <padding-right>0.01997</padding-right>
+                  <padding-bottom>0.01997</padding-bottom>
+                  <BorderPenThickness>0.01042</BorderPenThickness>
+                  <padding-left>0.01997</padding-left>
+                  <Name_>ChartDataLabel</Name_>
+                </ChartDataLabel>
+              </ChartRangeFunction>
+            </ChartAxisFunctionContainer>
+          </ChartPaperObject>
+          <ChartLegendObject Name="ChartLegendObject">
+            <LegendBackgroundFillPatternGradientStyle>Linear</LegendBackgroundFillPatternGradientStyle>
+            <border-left-color>ff000000</border-left-color>
+            <Style>None</Style>
+            <LabelTextPatternGradientStartY>0</LabelTextPatternGradientStartY>
+            <LabelTextPatternGradientStartX>0</LabelTextPatternGradientStartX>
+            <IconFillPatternType>None</IconFillPatternType>
+            <LabelTextPenLineJoint>Miter</LabelTextPenLineJoint>
+            <LeftLine>Solid</LeftLine>
+            <LegendBackgroundLeft>0</LegendBackgroundLeft>
+            <LegendBackgroundFillPatternTextureForeColor>ffe5e5e5</LegendBackgroundFillPatternTextureForeColor>
+            <ExportToXLS>true</ExportToXLS>
+            <BottomMargin>0.05208</BottomMargin>
+            <LabelTextPatternTextureStyle>Small Dot</LabelTextPatternTextureStyle>
+            <LabelTextWordWrap>false</LabelTextWordWrap>
+            <SuppressedIfNoRecords>false</SuppressedIfNoRecords>
+            <ExportToCSV>true</ExportToCSV>
+            <LegendBackgroundFillPatternGradientStartY>0</LegendBackgroundFillPatternGradientStartY>
+            <LegendBackgroundFillPatternGradientStartX>0</LegendBackgroundFillPatternGradientStartX>
+            <LegendBackgroundFillPatternGradientStartColor>ffffffff</LegendBackgroundFillPatternGradientStartColor>
+            <LabelTextPatternType>Color</LabelTextPatternType>
+            <LegendBackgroundBottom>0</LegendBackgroundBottom>
+            <LabelTextPenEndCaps>Square</LabelTextPenEndCaps>
+            <LabelTextFontStyle>Plain</LabelTextFontStyle>
+            <IconBorderPenEndCaps>Square</IconBorderPenEndCaps>
+            <ObjectIndex>-1</ObjectIndex>
+            <LabelTextPatternTextureForeColor>ffe5e5e5</LabelTextPatternTextureForeColor>
+            <PercentFormat>10.00%</PercentFormat>
+            <BottomLine>Solid</BottomLine>
+            <LabelTextFontName>Arial</LabelTextFontName>
+            <LegendBackgroundTop>0</LegendBackgroundTop>
+            <float>none</float>
+            <margin-left>0</margin-left>
+            <LabelHSpacing>0.03906</LabelHSpacing>
+            <RightLine>Solid</RightLine>
+            <border-right-color>ff000000</border-right-color>
+            <Background>Transparent</Background>
+            <ColumnIndex>-1</ColumnIndex>
+            <IconBorderPenVariabledDash>false</IconBorderPenVariabledDash>
+            <IconFillPatternTextureForeColor>ff000000</IconFillPatternTextureForeColor>
+            <IconFillPatternGradientEndY>100</IconFillPatternGradientEndY>
+            <IconFillPatternGradientEndX>100</IconFillPatternGradientEndX>
+            <dataInherit>true</dataInherit>
+            <Invisible>false</Invisible>
+            <IconBorderPenThickness>0.00781</IconBorderPenThickness>
+            <IconBorderPenTransparency>0</IconBorderPenTransparency>
+            <LabelTextRotation>0</LabelTextRotation>
+            <LegendBackgroundFillPatternGradientEndY>100</LegendBackgroundFillPatternGradientEndY>
+            <LegendBackgroundFillPatternGradientEndX>100</LegendBackgroundFillPatternGradientEndX>
+            <LabelTextPenOutlined>false</LabelTextPenOutlined>
+            <LegendBackgroundBorderPenColor>Transparent</LegendBackgroundBorderPenColor>
+            <TextAlignment>CenterCenter</TextAlignment>
+            <LabelTextSpecialEffect2>None</LabelTextSpecialEffect2>
+            <LabelTextSpecialEffect1>None</LabelTextSpecialEffect1>
+            <ReverseLabels>false</ReverseLabels>
+            <LegendBackgroundBorderPenEndCaps>Square</LegendBackgroundBorderPenEndCaps>
+            <IconBorderPenColor>ffe5e5e5</IconBorderPenColor>
+            <LeftMargin>0.05208</LeftMargin>
+            <LegendBackgroundBorderPenOutlined>false</LegendBackgroundBorderPenOutlined>
+            <LabelTextUnderline>None</LabelTextUnderline>
+            <LabelTextPenStyle>Solid Line</LabelTextPenStyle>
+            <border-bottom-width>0</border-bottom-width>
+            <Placement>Bottom</Placement>
+            <Suppressed>false</Suppressed>
+            <IconFillPatternImageWidth>100</IconFillPatternImageWidth>
+            <border-top-color>ff000000</border-top-color>
+            <LegendBackgroundRight>0</LegendBackgroundRight>
+            <LabelTextPenVariabledDash>false</LabelTextPenVariabledDash>
+            <LabelVSpacing>0</LabelVSpacing>
+            <LegendBackgroundFillPatternImageY>100</LegendBackgroundFillPatternImageY>
+            <LegendBackgroundFillPatternImageHeight>100</LegendBackgroundFillPatternImageHeight>
+            <LegendBackgroundFillPatternImageX>0</LegendBackgroundFillPatternImageX>
+            <IconFillPatternGradientStyle>Linear</IconFillPatternGradientStyle>
+            <IconBorderPenLineJoint>Miter</IconBorderPenLineJoint>
+            <margin-top>0</margin-top>
+            <LabelTextPatternGradientEndY>100</LabelTextPatternGradientEndY>
+            <LabelTextPatternGradientEndX>100</LabelTextPatternGradientEndX>
+            <TotalValueText>Total</TotalValueText>
+            <LegendBackgroundFillPatternImageLayout>Tile</LegendBackgroundFillPatternImageLayout>
+            <margin-right>0</margin-right>
+            <RowIndex>-1</RowIndex>
+            <Height>1.04167</Height>
+            <LegendBackgroundBorderPenThickness>0.00781</LegendBackgroundBorderPenThickness>
+            <IconHeight>0.07813</IconHeight>
+            <LabelTextPatternColor>ff3f3f3f</LabelTextPatternColor>
+            <IconWidth>0.07813</IconWidth>
+            <Alignment>CenterCenter</Alignment>
+            <Shadow>false</Shadow>
+            <LegendBackgroundFillPatternTextureBackColor>ffffffff</LegendBackgroundFillPatternTextureBackColor>
+            <border-left-width>0</border-left-width>
+            <LabelTextStrikethrough>None</LabelTextStrikethrough>
+            <DisplayName>Chart Legend Object</DisplayName>
+            <LabelTextPenTransparency>0</LabelTextPenTransparency>
+            <ShowScrollbar>true</ShowScrollbar>
+            <LegendBackgroundFillPatternGradientEndColor>ffe5e5e5</LegendBackgroundFillPatternGradientEndColor>
+            <TopLine>Solid</TopLine>
+            <AutoSize>false</AutoSize>
+            <IconFillPatternGradientStartColor>ff0000ff</IconFillPatternGradientStartColor>
+            <LabelTextShearing>0</LabelTextShearing>
+            <position>absolute</position>
+            <TopMargin>0.05208</TopMargin>
+            <LabelTextFontSize>0.12500</LabelTextFontSize>
+            <ShadowColor>ff000000</ShadowColor>
+            <LabelTextPatternTextureBackColor>ffffffff</LabelTextPatternTextureBackColor>
+            <BorderColor>ff000000</BorderColor>
+            <IconFillPatternTransparency>0</IconFillPatternTransparency>
+            <ChildStyle>None</ChildStyle>
+            <IconTextGap>0.03125</IconTextGap>
+            <LegendBackgroundBorderPenLineJoint>Miter</LegendBackgroundBorderPenLineJoint>
+            <LabelTextPenColor>ffe5e5e5</LabelTextPenColor>
+            <LabelTextPatternGradientEndColor>ffe5e5e5</LabelTextPatternGradientEndColor>
+            <LabelTextPatternGradientStartColor>ffffffff</LabelTextPatternGradientStartColor>
+            <LabelTextPatternGradientStyle>Linear</LabelTextPatternGradientStyle>
+            <LegendBackgroundFillPatternTransparency>0</LegendBackgroundFillPatternTransparency>
+            <LabelTextPenThickness>0.00781</LabelTextPenThickness>
+            <IconFillPatternTextureBackColor>ffffffff</IconFillPatternTextureBackColor>
+            <Name_>ChartLegendObject</Name_>
+            <LabelFilterSource>AxisDataFilter</LabelFilterSource>
+            <Y>1.30208</Y>
+            <X>4.21875</X>
+            <border-right-width>0</border-right-width>
+            <RightMargin>0.05208</RightMargin>
+            <LegendBackgroundBorderPenTransparency>0</LegendBackgroundBorderPenTransparency>
+            <IconFillPatternGradientEndColor>ffff0000</IconFillPatternGradientEndColor>
+            <IconFillPatternColor>Transparent</IconFillPatternColor>
+            <z-order>0</z-order>
+            <border-bottom-color>ff000000</border-bottom-color>
+            <RTFID>0</RTFID>
+            <margin-bottom>0</margin-bottom>
+            <LegendBackgroundBorderPenVariabledDash>false</LegendBackgroundBorderPenVariabledDash>
+            <IconFillPatternImageHeight>100</IconFillPatternImageHeight>
+            <IconFillPatternGradientStartY>0</IconFillPatternGradientStartY>
+            <IconFillPatternGradientStartX>0</IconFillPatternGradientStartX>
+            <TOCAnchor>false</TOCAnchor>
+            <IconFillPatternTextureStyle>Small Dot</IconFillPatternTextureStyle>
+            <LegendBackgroundFillPatternType>None</LegendBackgroundFillPatternType>
+            <IconBorderPenOutlined>false</IconBorderPenOutlined>
+            <LegendBackgroundFillPatternColor>Transparent</LegendBackgroundFillPatternColor>
+            <LegendBackgroundFillPatternTextureStyle>Small Dot</LegendBackgroundFillPatternTextureStyle>
+            <IconFillPatternImageLayout>Tile</IconFillPatternImageLayout>
+            <LegendBackgroundFillPatternImageWidth>100</LegendBackgroundFillPatternImageWidth>
+            <LabelTextPatternTransparency>0</LabelTextPatternTransparency>
+            <LegendBackgroundBorderPenStyle>Invisible</LegendBackgroundBorderPenStyle>
+            <Width>0.93750</Width>
+            <IconFillPatternImageY>100</IconFillPatternImageY>
+            <IconFillPatternImageX>0</IconFillPatternImageX>
+            <IconBorderPenStyle>Invisible</IconBorderPenStyle>
+            <clear>none</clear>
+            <border-top-width>0</border-top-width>
+            <display>block</display>
+          </ChartLegendObject>
+        </ChartObject>
+        <PageEnd Name="PageEnd2">
+          <DisplayName>Page End</DisplayName>
+          <pageReference>PagePanel2</pageReference>
+        </PageEnd>
+      </ReportBody>
+      <Views Name="Views2">
+        <View Name="View2"></View>
+      </Views>
+      <ModeContainer Name="ModeContainer2"></ModeContainer>
+      <ActionContainer Name="ActionContainer2"></ActionContainer>
+      <BuildInFilterCtrlContainer Name="BuildInFilterCtrlContainer2"></BuildInFilterCtrlContainer>
+      <TOC Name="TOC2">
+        <DisplayName>TOC</DisplayName>
+        <FontFace>SansSerif</FontFace>
+        <FontSize>0.12000</FontSize>
+      </TOC>
+      <ConditionalFormatSet Name="ConditionalFormatSet2"></ConditionalFormatSet>
+      <ReportFormulaClassSet Name="ReportFormulaClassSet2"></ReportFormulaClassSet>
+      <PagePanel Name="PagePanel2">
+        <Height>11.00000</Height>
+        <PageType>Letter</PageType>
+        <Width>8.50399</Width>
+        <DisplayName>Page Panel</DisplayName>
+        <PageHeaderPanel Name="PageHeaderPanel2">
+          <border-top-width>0</border-top-width>
+          <border-right-width>0</border-right-width>
+          <RightLine>Solid</RightLine>
+          <TopLine>Solid</TopLine>
+          <RoundJointRadius>0.05000</RoundJointRadius>
+          <BGGradientEndY>100</BGGradientEndY>
+          <LeftLine>Solid</LeftLine>
+          <Label>PageHeaderPanel</Label>
+          <border-left-width>0</border-left-width>
+          <Invisible>true</Invisible>
+          <border-bottom-width>0</border-bottom-width>
+          <DisplayName>Page Header Panel</DisplayName>
+          <BottomLine>Solid</BottomLine>
+          <Width>7.50781</Width>
+          <Suppressed>true</Suppressed>
+          <BGGradientStartY>0</BGGradientStartY>
+        </PageHeaderPanel>
+        <PageFooterPanel Name="PageFooterPanel2">
+          <border-top-width>0</border-top-width>
+          <BottomLine>Solid</BottomLine>
+          <TopLine>Solid</TopLine>
+          <border-left-width>0</border-left-width>
+          <Label>PageFooterPanel</Label>
+          <border-bottom-width>0</border-bottom-width>
+          <Invisible>true</Invisible>
+          <DisplayName>Page Footer Panel</DisplayName>
+          <BGGradientStartY>0</BGGradientStartY>
+          <LeftLine>Solid</LeftLine>
+          <RightLine>Solid</RightLine>
+          <BGGradientEndY>100</BGGradientEndY>
+          <RoundJointRadius>0.05000</RoundJointRadius>
+          <Suppressed>true</Suppressed>
+          <Width>7.50781</Width>
+          <border-right-width>0</border-right-width>
+        </PageFooterPanel>
+      </PagePanel>
+      <ReportUFormulaSet Name="ReportUFormulaSet2">
+        <DataSourceName>IRIS</DataSourceName>
+      </ReportUFormulaSet>
+    </Report>
+    <Report Name="Report2">
+      <restrict>143521186</restrict>
+      <key>-1073968562</key>
+      <status>0</status>
+      <DisplayName>Crosstab</DisplayName>
+      <ClickPriority>link~@CR7~drill_down~@CR7~go_to_detail</ClickPriority>
+      <type>0</type>
+      <nationalLanguageSupport>true</nationalLanguageSupport>
+      <ReportBody Name="ReportBody3">
+        <dataInherit>false</dataInherit>
+        <TopLine>Solid</TopLine>
+        <BottomLine>Solid</BottomLine>
+        <LeftLine>Solid</LeftLine>
+        <StyleName></StyleName>
+        <RightLine>Solid</RightLine>
+        <Width>-0.00781</Width>
+        <DisplayName>Report Body</DisplayName>
+        <Cache>true</Cache>
+        <Height>-0.00781</Height>
+        <TOCAnchor>true</TOCAnchor>
+        <PageStart Name="PageStart3">
+          <pageReference>PagePanel3</pageReference>
+          <DisplayName>Page Start</DisplayName>
+        </PageStart>
+        <CTCrossTab Name="CTCrossTab">
+          <Height>0.95972</Height>
+          <Cache>true</Cache>
+          <border-left-color>ffdddddd</border-left-color>
+          <StyleInherit>false</StyleInherit>
+          <border-bottom-color>ffdddddd</border-bottom-color>
+          <BottomLine>Solid</BottomLine>
+          <LeftLine>Solid</LeftLine>
+          <border-right-color>ffdddddd</border-right-color>
+          <border-left-width>0</border-left-width>
+          <itemsPerColBlock>-1</itemsPerColBlock>
+          <border-top-color>ffdddddd</border-top-color>
+          <HorizontalGap>0</HorizontalGap>
+          <border-bottom-width>0</border-bottom-width>
+          <StyleFile>Classic.css</StyleFile>
+          <border-right-width>0</border-right-width>
+          <DisplayName>CT Crosstab</DisplayName>
+          <border-top-width>0</border-top-width>
+          <TopLine>Solid</TopLine>
+          <CDNHeight>${&amp;#65;UTOF}</CDNHeight>
+          <Background>ffffffff</Background>
+          <dataSet>QueryDataSet2</dataSet>
+          <TOCAnchor>false</TOCAnchor>
+          <RightLine>Solid</RightLine>
+          <itemsPerRowBlock>-1</itemsPerRowBlock>
+          <Width>3.33333</Width>
+          <AlternativeLineColorPatternList>'2'c0xffffff000'c0xf5f5f5000</AlternativeLineColorPatternList>
+          <EnableAlternativeLineColor>true</EnableAlternativeLineColor>
+          <VerticalGap>0</VerticalGap>
+          <dataInherit>false</dataInherit>
+          <StyleList>Classic.css</StyleList>
+          <BorderColor>ffdddddd</BorderColor>
+          <CDNWidth>${&amp;#65;UTOF}</CDNWidth>
+          <position>static</position>
+          <Hasborder>false</Hasborder>
+          <CTParallelGroup Name="CTParallelGroup">
+            <DisplayName>Column Compound Group</DisplayName>
+            <CTTextField Name="CTTextField">
+              <padding-bottom>0.01007</padding-bottom>
+              <BorderWidth>0.00521</BorderWidth>
+              <BottomLine>Solid</BottomLine>
+              <SameEncode>true</SameEncode>
+              <Bold>true</Bold>
+              <DisplayName>Label</DisplayName>
+              <padding-top>0.01007</padding-top>
+              <refMode>Mode2</refMode>
+              <Height>0.23993</Height>
+              <padding-left>0.03003</padding-left>
+              <Width>0.83333</Width>
+              <GotoDetail>false</GotoDetail>
+              <HorizontalAlignment>Left</HorizontalAlignment>
+              <RightLine>Solid</RightLine>
+              <Foreground>ffffffff</Foreground>
+              <Scope>Column</Scope>
+              <position>static</position>
+              <padding-right>0.03003</padding-right>
+              <Background>ff4278b3</Background>
+              <IsXHeader>true</IsXHeader>
+              <FontFace>Arial</FontFace>
+              <BorderColor>ffdddddd</BorderColor>
+              <LinkURLTargetFrame>default</LinkURLTargetFrame>
+            </CTTextField>
+            <CTDBField Name="Product_Name2">
+              <RightLine>Solid</RightLine>
+              <ColumnName>PRODUCT_NAME</ColumnName>
+              <Bold>true</Bold>
+              <Foreground>ffffffff</Foreground>
+              <BorderWidth>0.00521</BorderWidth>
+              <SameEncode>true</SameEncode>
+              <RuntimeColumnName>PRODUCT_NAME</RuntimeColumnName>
+              <padding-left>0.03125</padding-left>
+              <padding-top>0.00781</padding-top>
+              <refMode>Mode2</refMode>
+              <Background>ff4278b3</Background>
+              <Width>0.83333</Width>
+              <FontFace>Arial</FontFace>
+              <BottomLine>Solid</BottomLine>
+              <IsXHeader>true</IsXHeader>
+              <position>static</position>
+              <Format>XXXXXXXXX...</Format>
+              <BorderColor>ffdddddd</BorderColor>
+              <HorizontalAlignment>Left</HorizontalAlignment>
+              <GotoDetail>false</GotoDetail>
+              <DisplayName>PRODUCT_NAME</DisplayName>
+              <padding-right>0.03125</padding-right>
+              <Height>0.23993</Height>
+              <LinkURLTargetFrame>default</LinkURLTargetFrame>
+              <padding-bottom>0.00781</padding-bottom>
+              <Scope>None</Scope>
+            </CTDBField>
+          </CTParallelGroup>
+          <CTParallelGroup Name="CTParallelGroup1">
+            <DisplayName>Row Compound Group</DisplayName>
+            <IsColumnGroup>false</IsColumnGroup>
+            <CTTextField Name="CTTextField1">
+              <padding-bottom>0.01007</padding-bottom>
+              <BorderWidth>0.00521</BorderWidth>
+              <BottomLine>Solid</BottomLine>
+              <SameEncode>true</SameEncode>
+              <Bold>true</Bold>
+              <DisplayName>Label 1</DisplayName>
+              <padding-top>0.01007</padding-top>
+              <refMode>Mode2</refMode>
+              <Height>0.23993</Height>
+              <padding-left>0.03003</padding-left>
+              <Width>1.66667</Width>
+              <GotoDetail>false</GotoDetail>
+              <HorizontalAlignment>Left</HorizontalAlignment>
+              <RightLine>Solid</RightLine>
+              <Foreground>ffffffff</Foreground>
+              <Scope>Row</Scope>
+              <position>static</position>
+              <padding-right>0.03003</padding-right>
+              <Background>ff4278b3</Background>
+              <FontFace>Arial</FontFace>
+              <BorderColor>ffdddddd</BorderColor>
+              <LinkURLTargetFrame>default</LinkURLTargetFrame>
+            </CTTextField>
+            <CTDBField Name="Region_Name">
+              <RightLine>Solid</RightLine>
+              <ColumnName>REGION_NAME</ColumnName>
+              <Bold>true</Bold>
+              <Foreground>ffffffff</Foreground>
+              <BorderWidth>0.00521</BorderWidth>
+              <SameEncode>true</SameEncode>
+              <RuntimeColumnName>REGION_NAME</RuntimeColumnName>
+              <padding-left>0.03125</padding-left>
+              <padding-top>0.00781</padding-top>
+              <refMode>Mode2</refMode>
+              <Background>ff4278b3</Background>
+              <Width>0.83333</Width>
+              <FontFace>Arial</FontFace>
+              <BottomLine>Solid</BottomLine>
+              <position>static</position>
+              <Format>XXXXXXXXX...</Format>
+              <BorderColor>ffdddddd</BorderColor>
+              <HorizontalAlignment>Left</HorizontalAlignment>
+              <GotoDetail>false</GotoDetail>
+              <DisplayName>REGION_NAME</DisplayName>
+              <padding-right>0.03125</padding-right>
+              <Height>0.47986</Height>
+              <LinkURLTargetFrame>default</LinkURLTargetFrame>
+              <padding-bottom>0.00781</padding-bottom>
+              <Scope>None</Scope>
+            </CTDBField>
+            <CTTextField Name="CTTextField2">
+              <padding-bottom>0.01007</padding-bottom>
+              <BorderWidth>0.00521</BorderWidth>
+              <BottomLine>Solid</BottomLine>
+              <Depth>1</Depth>
+              <SameEncode>true</SameEncode>
+              <Bold>true</Bold>
+              <DisplayName>Label 2</DisplayName>
+              <padding-top>0.01007</padding-top>
+              <refMode>Mode2</refMode>
+              <Height>0.23993</Height>
+              <padding-left>0.03003</padding-left>
+              <Width>0.83333</Width>
+              <GotoDetail>false</GotoDetail>
+              <HorizontalAlignment>Left</HorizontalAlignment>
+              <RightLine>Solid</RightLine>
+              <Foreground>ffffffff</Foreground>
+              <Scope>Row</Scope>
+              <position>static</position>
+              <padding-right>0.03003</padding-right>
+              <Background>ff4278b3</Background>
+              <FontFace>Arial</FontFace>
+              <BorderColor>ffdddddd</BorderColor>
+              <LinkURLTargetFrame>default</LinkURLTargetFrame>
+            </CTTextField>
+            <CTDBField Name="Name">
+              <RightLine>Solid</RightLine>
+              <ColumnName>NAME</ColumnName>
+              <Bold>true</Bold>
+              <Foreground>ffffffff</Foreground>
+              <BorderWidth>0.00521</BorderWidth>
+              <SameEncode>true</SameEncode>
+              <RuntimeColumnName>NAME</RuntimeColumnName>
+              <padding-left>0.03125</padding-left>
+              <padding-top>0.00781</padding-top>
+              <refMode>Mode2</refMode>
+              <Background>ff4278b3</Background>
+              <Width>0.83333</Width>
+              <FontFace>Arial</FontFace>
+              <BottomLine>Solid</BottomLine>
+              <position>static</position>
+              <Format>XXXXXXXXX...</Format>
+              <BorderColor>ffdddddd</BorderColor>
+              <HorizontalAlignment>Left</HorizontalAlignment>
+              <GotoDetail>false</GotoDetail>
+              <Depth>1</Depth>
+              <DisplayName>NAME</DisplayName>
+              <padding-right>0.03125</padding-right>
+              <Height>0.23993</Height>
+              <LinkURLTargetFrame>default</LinkURLTargetFrame>
+              <padding-bottom>0.00781</padding-bottom>
+              <Scope>None</Scope>
+            </CTDBField>
+          </CTParallelGroup>
+          <CTSummaryArea Name="CTSummaryArea">
+            <DisplayName>Summary Area</DisplayName>
+            <CTAggField Name="UnitsSold_Count">
+              <padding-top>0.00781</padding-top>
+              <Format>#####</Format>
+              <GotoDetail>false</GotoDetail>
+              <LinkURLTargetFrame>default</LinkURLTargetFrame>
+              <BorderColor>ffdddddd</BorderColor>
+              <padding-bottom>0.00781</padding-bottom>
+              <Background>ffffffff</Background>
+              <AggFunction>Count</AggFunction>
+              <Foreground>ff3f3f3f</Foreground>
+              <refMode>Mode2</refMode>
+              <RightLine>Solid</RightLine>
+              <FontFace>Arial</FontFace>
+              <Scope>None</Scope>
+              <position>static</position>
+              <Height>0.23993</Height>
+              <Index>0</Index>
+              <padding-left>0.03125</padding-left>
+              <RuntimeColumnName>UNITSSOLD</RuntimeColumnName>
+              <BorderWidth>0.00521</BorderWidth>
+              <Width>0.83333</Width>
+              <HorizontalAlignment>Right</HorizontalAlignment>
+              <BottomLine>Solid</BottomLine>
+              <SameEncode>true</SameEncode>
+              <ColumnName>UNITSSOLD</ColumnName>
+              <padding-right>0.03125</padding-right>
+              <DisplayName>UNITSSOLD</DisplayName>
+            </CTAggField>
+            <CTAggField Name="UnitsSold_Count1">
+              <padding-top>0.00781</padding-top>
+              <Format>#####</Format>
+              <GotoDetail>false</GotoDetail>
+              <LinkURLTargetFrame>default</LinkURLTargetFrame>
+              <BorderColor>ffdddddd</BorderColor>
+              <padding-bottom>0.00781</padding-bottom>
+              <Background>ffffffff</Background>
+              <AggFunction>Count</AggFunction>
+              <Foreground>ff3f3f3f</Foreground>
+              <refMode>Mode2</refMode>
+              <RightLine>Solid</RightLine>
+              <FontFace>Arial</FontFace>
+              <YDepth>1</YDepth>
+              <Scope>None</Scope>
+              <position>static</position>
+              <Height>0.23993</Height>
+              <Index>0</Index>
+              <padding-left>0.03125</padding-left>
+              <RuntimeColumnName>UNITSSOLD</RuntimeColumnName>
+              <BorderWidth>0.00521</BorderWidth>
+              <Width>0.83333</Width>
+              <HorizontalAlignment>Right</HorizontalAlignment>
+              <BottomLine>Solid</BottomLine>
+              <SameEncode>true</SameEncode>
+              <ColumnName>UNITSSOLD</ColumnName>
+              <padding-right>0.03125</padding-right>
+              <DisplayName>UNITSSOLD 1</DisplayName>
+            </CTAggField>
+            <CTAggField Name="UnitsSold_Count2">
+              <padding-top>0.00781</padding-top>
+              <Format>#####</Format>
+              <GotoDetail>false</GotoDetail>
+              <LinkURLTargetFrame>default</LinkURLTargetFrame>
+              <BorderColor>ffdddddd</BorderColor>
+              <padding-bottom>0.00781</padding-bottom>
+              <Background>ffffffff</Background>
+              <AggFunction>Count</AggFunction>
+              <Foreground>ff3f3f3f</Foreground>
+              <refMode>Mode2</refMode>
+              <RightLine>Solid</RightLine>
+              <FontFace>Arial</FontFace>
+              <YDepth>2</YDepth>
+              <Scope>None</Scope>
+              <position>static</position>
+              <Height>0.23993</Height>
+              <Index>0</Index>
+              <padding-left>0.03125</padding-left>
+              <RuntimeColumnName>UNITSSOLD</RuntimeColumnName>
+              <BorderWidth>0.00521</BorderWidth>
+              <Width>0.83333</Width>
+              <HorizontalAlignment>Right</HorizontalAlignment>
+              <BottomLine>Solid</BottomLine>
+              <SameEncode>true</SameEncode>
+              <ColumnName>UNITSSOLD</ColumnName>
+              <padding-right>0.03125</padding-right>
+              <DisplayName>UNITSSOLD 2</DisplayName>
+            </CTAggField>
+            <CTAggField Name="UnitsSold_Count3">
+              <padding-top>0.00781</padding-top>
+              <Format>#####</Format>
+              <GotoDetail>false</GotoDetail>
+              <LinkURLTargetFrame>default</LinkURLTargetFrame>
+              <BorderColor>ffdddddd</BorderColor>
+              <padding-bottom>0.00781</padding-bottom>
+              <Background>ffffffff</Background>
+              <AggFunction>Count</AggFunction>
+              <Foreground>ff3f3f3f</Foreground>
+              <refMode>Mode2</refMode>
+              <RightLine>Solid</RightLine>
+              <FontFace>Arial</FontFace>
+              <Scope>None</Scope>
+              <position>static</position>
+              <Height>0.23993</Height>
+              <Index>0</Index>
+              <XDepth>1</XDepth>
+              <padding-left>0.03125</padding-left>
+              <RuntimeColumnName>UNITSSOLD</RuntimeColumnName>
+              <BorderWidth>0.00521</BorderWidth>
+              <Width>0.83333</Width>
+              <HorizontalAlignment>Right</HorizontalAlignment>
+              <BottomLine>Solid</BottomLine>
+              <SameEncode>true</SameEncode>
+              <ColumnName>UNITSSOLD</ColumnName>
+              <padding-right>0.03125</padding-right>
+              <DisplayName>UNITSSOLD 3</DisplayName>
+            </CTAggField>
+            <CTAggField Name="UnitsSold_Count4">
+              <padding-top>0.00781</padding-top>
+              <Format>#####</Format>
+              <GotoDetail>false</GotoDetail>
+              <LinkURLTargetFrame>default</LinkURLTargetFrame>
+              <BorderColor>ffdddddd</BorderColor>
+              <padding-bottom>0.00781</padding-bottom>
+              <Background>ffffffff</Background>
+              <AggFunction>Count</AggFunction>
+              <Foreground>ff3f3f3f</Foreground>
+              <refMode>Mode2</refMode>
+              <RightLine>Solid</RightLine>
+              <FontFace>Arial</FontFace>
+              <YDepth>1</YDepth>
+              <Scope>None</Scope>
+              <position>static</position>
+              <Height>0.23993</Height>
+              <Index>0</Index>
+              <XDepth>1</XDepth>
+              <padding-left>0.03125</padding-left>
+              <RuntimeColumnName>UNITSSOLD</RuntimeColumnName>
+              <BorderWidth>0.00521</BorderWidth>
+              <Width>0.83333</Width>
+              <HorizontalAlignment>Right</HorizontalAlignment>
+              <BottomLine>Solid</BottomLine>
+              <SameEncode>true</SameEncode>
+              <ColumnName>UNITSSOLD</ColumnName>
+              <padding-right>0.03125</padding-right>
+              <DisplayName>UNITSSOLD 4</DisplayName>
+            </CTAggField>
+            <CTAggField Name="UnitsSold_Count5">
+              <padding-top>0.00781</padding-top>
+              <Format>#####</Format>
+              <GotoDetail>false</GotoDetail>
+              <LinkURLTargetFrame>default</LinkURLTargetFrame>
+              <BorderColor>ffdddddd</BorderColor>
+              <padding-bottom>0.00781</padding-bottom>
+              <Background>ffffffff</Background>
+              <AggFunction>Count</AggFunction>
+              <Foreground>ff3f3f3f</Foreground>
+              <refMode>Mode2</refMode>
+              <RightLine>Solid</RightLine>
+              <FontFace>Arial</FontFace>
+              <YDepth>2</YDepth>
+              <Scope>None</Scope>
+              <position>static</position>
+              <Height>0.23993</Height>
+              <Index>0</Index>
+              <XDepth>1</XDepth>
+              <padding-left>0.03125</padding-left>
+              <RuntimeColumnName>UNITSSOLD</RuntimeColumnName>
+              <BorderWidth>0.00521</BorderWidth>
+              <Width>0.83333</Width>
+              <HorizontalAlignment>Right</HorizontalAlignment>
+              <BottomLine>Solid</BottomLine>
+              <SameEncode>true</SameEncode>
+              <ColumnName>UNITSSOLD</ColumnName>
+              <padding-right>0.03125</padding-right>
+              <DisplayName>UNITSSOLD 5</DisplayName>
+            </CTAggField>
+          </CTSummaryArea>
+        </CTCrossTab>
+        <PageEnd Name="PageEnd3">
+          <DisplayName>Page End</DisplayName>
+          <pageReference>PagePanel3</pageReference>
+        </PageEnd>
+      </ReportBody>
+      <Views Name="Views3">
+        <View Name="View3"></View>
+      </Views>
+      <ModeContainer Name="ModeContainer3">
+        <Mode Name="Mode2">
+          <currentRender>0</currentRender>
+          <RenderText Name="RenderText2">
+            <rTitle>${&amp;#65;UTOF}</rTitle>
+          </RenderText>
+        </Mode>
+      </ModeContainer>
+      <ActionContainer Name="ActionContainer3"></ActionContainer>
+      <BuildInFilterCtrlContainer Name="BuildInFilterCtrlContainer3"></BuildInFilterCtrlContainer>
+      <TOC Name="TOC3">
+        <DisplayName>TOC</DisplayName>
+        <FontFace>SansSerif</FontFace>
+        <FontSize>0.12000</FontSize>
+      </TOC>
+      <ConditionalFormatSet Name="ConditionalFormatSet3"></ConditionalFormatSet>
+      <ReportFormulaClassSet Name="ReportFormulaClassSet3"></ReportFormulaClassSet>
+      <PagePanel Name="PagePanel3">
+        <Height>11.00000</Height>
+        <PageType>Letter</PageType>
+        <Width>8.50399</Width>
+        <DisplayName>Page Panel</DisplayName>
+        <PageHeaderPanel Name="PageHeaderPanel3">
+          <border-top-width>0</border-top-width>
+          <border-right-width>0</border-right-width>
+          <RightLine>Solid</RightLine>
+          <TopLine>Solid</TopLine>
+          <RoundJointRadius>0.05000</RoundJointRadius>
+          <BGGradientEndY>100</BGGradientEndY>
+          <LeftLine>Solid</LeftLine>
+          <Label>PageHeaderPanel</Label>
+          <border-left-width>0</border-left-width>
+          <Invisible>true</Invisible>
+          <border-bottom-width>0</border-bottom-width>
+          <DisplayName>Page Header Panel</DisplayName>
+          <BottomLine>Solid</BottomLine>
+          <Width>7.50781</Width>
+          <Suppressed>true</Suppressed>
+          <BGGradientStartY>0</BGGradientStartY>
+        </PageHeaderPanel>
+        <PageFooterPanel Name="PageFooterPanel3">
+          <border-top-width>0</border-top-width>
+          <BottomLine>Solid</BottomLine>
+          <TopLine>Solid</TopLine>
+          <border-left-width>0</border-left-width>
+          <Label>PageFooterPanel</Label>
+          <border-bottom-width>0</border-bottom-width>
+          <Invisible>true</Invisible>
+          <DisplayName>Page Footer Panel</DisplayName>
+          <BGGradientStartY>0</BGGradientStartY>
+          <LeftLine>Solid</LeftLine>
+          <RightLine>Solid</RightLine>
+          <BGGradientEndY>100</BGGradientEndY>
+          <RoundJointRadius>0.05000</RoundJointRadius>
+          <Suppressed>true</Suppressed>
+          <Width>7.50781</Width>
+          <border-right-width>0</border-right-width>
+        </PageFooterPanel>
+      </PagePanel>
+      <ReportUFormulaSet Name="ReportUFormulaSet3">
+        <DataSourceName>IRIS</DataSourceName>
+      </ReportUFormulaSet>
+    </Report>
+  </Reports>
+  <DataSets Name="DataSets">
+    <QueryDataSet Name="QueryDataSet">
+      <dsName>IRIS</dsName>
+      <MaxRecords>-1</MaxRecords>
+      <RecordsPerPage>-1</RecordsPerPage>
+      <SrcListType>1</SrcListType>
+      <queryName>HoleFoodsTransactions</queryName>
+      <MaxPageNumber>-1</MaxPageNumber>
+      <DisplayName>HoleFoodsTransactions</DisplayName>
+      <additionalMappingNames>'4'Product_Name'AmountOfSale'DateOfSale'UnitsSold</additionalMappingNames>
+    </QueryDataSet>
+    <QueryDataSet Name="QueryDataSet1">
+      <dsName>IRIS</dsName>
+      <MaxRecords>-1</MaxRecords>
+      <RecordsPerPage>-1</RecordsPerPage>
+      <SrcListType>1</SrcListType>
+      <queryName>HoleFoodsTransactions</queryName>
+      <MaxPageNumber>-1</MaxPageNumber>
+      <DisplayName>HoleFoodsTransactions 1</DisplayName>
+      <additionalMappingNames>'3'Product_Name'Region_Name'UnitsSold</additionalMappingNames>
+    </QueryDataSet>
+    <QueryDataSet Name="QueryDataSet2">
+      <dsName>IRIS</dsName>
+      <MaxRecords>-1</MaxRecords>
+      <RecordsPerPage>-1</RecordsPerPage>
+      <SrcListType>1</SrcListType>
+      <queryName>HoleFoodsTransactions</queryName>
+      <MaxPageNumber>-1</MaxPageNumber>
+      <DisplayName>HoleFoodsTransactions 2</DisplayName>
+      <additionalMappingNames>'4'Name'Product_Name'Region_Name'UnitsSold</additionalMappingNames>
+    </QueryDataSet>
+  </DataSets>
+</ReportSet>
