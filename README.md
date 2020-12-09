@@ -4,9 +4,10 @@
 This repository provides sample reports you can use to explore InterSystems Reports functionality. 
 
 ### Setup Instructions
-1) Before you begin, make
-    * You must have Logi Designer installed. To obtain a Logi license, contact your InterSystems account team. 
-    * You must have InterSystems IRIS installed, with the BI Sample data loaded. The BI Sample tables and data can be found in this GitHub repository: https://github.com/intersystems/Samples-BI
+1) Before you begin, make sure:
+    * You have Logi Designer installed. To obtain a Logi license, contact your InterSystems account team. 
+    * You have InterSystems IRIS installed, with the BI Sample data loaded. 
+      Get the BI Sample data here: https://github.com/intersystems/Samples-BI
     
 2) To download the files from this repository, click the green "Code" button, then "Download ZIP".
 3) Unzip the folder InterSystems-Reports-Samples-Main.
