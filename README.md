@@ -27,5 +27,6 @@ This repository provides sample reports you can use to explore InterSystems Repo
 
 ### More information
 
-Want to learn some InterSystems Reports basics first? Check our Learning Services website:  https://learning.intersystems.com/totara/dashboard/index.php
-Search for "InterSystems Reports".
+Want to learn some InterSystems Reports basics first? 
+<br />Check our Learning Services website:  https://learning.intersystems.com/totara/dashboard/index.php
+<br />Search for "InterSystems Reports".
