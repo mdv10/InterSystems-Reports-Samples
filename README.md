@@ -12,7 +12,7 @@ This repository provides sample reports you can use to explore InterSystems Repo
 2) To download the files from this repository, click the green "Code" button, then "Download ZIP".
 3) Unzip the folder InterSystems-Reports-Samples-Main.
 4) Copy the subfolder BISamplesReports, and place it in your Logi Designer file structure under \Demo\Reports. 
-      Example: C:\LogiReport\Designer\Demo\Reports\BISamplesReports
+<br /> Example: C:\LogiReport\Designer\Demo\Reports\BISamplesReports
 5) Edit the file BISamplescat.xml and adjust JDBCConnection values to match your IRIS instance. The default values are:  
 <br /> User - SuperUser 
 <br /> Password - SYS
