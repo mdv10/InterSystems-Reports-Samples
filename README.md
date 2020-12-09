@@ -25,7 +25,7 @@ This repository provides sample reports that you can use to explore InterSystems
 6) Try opening a report. Log on to Logi Designer, and choose "Open". In the Catalog box at the top of the pop-up, browse to the BISamplesReports folder. Then select the desired report. 
 
 
-### More information
+### More Information
 
 Want to learn some InterSystems Reports basics first? 
 <br />Visit the Learning Services website:  https://learning.intersystems.com/totara/dashboard/index.php
