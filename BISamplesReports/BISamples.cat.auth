@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<authorization-info>
+	<editor>jinfonet-designer-operator</editor>
+	<load-type>4</load-type>
+	<loader-properties>
+		<input_path>C:\LogiReport\Designer171\Demo\Reports\BISamplesReports\BISamples.cat.principals</input_path>
+	</loader-properties>
+</authorization-info>

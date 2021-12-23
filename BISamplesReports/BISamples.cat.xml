@@ -8,7 +8,7 @@
   </DocFolder>
   <Database>
     <Name>IRIS</Name>
-    <JavaFormulaName>jet.formula.javaformula.FormulaAC1CDC4B702C480AA96FE60A80351F43</JavaFormulaName>
+    <JavaFormulaName>jet.formula.javaformula.Formula0BE865E2F232432A9E8A08CAF60F446D</JavaFormulaName>
     <IsDefaultDB>true</IsDefaultDB>
     <JDBCConnection>
       <IsDefaultConnection>true</IsDefaultConnection>
@@ -743,34 +743,34 @@
         <mappingName>HoleFoodsTransactions</mappingName>
         <isProhibitCartesianProducts>true</isProhibitCartesianProducts>
         <isShowMappingName>true</isShowMappingName>
-        <connection>jdbc:IRIS://localhost:51773/SAMPLES</connection>
+        <connection>jdbc:IRIS://localhost:51777/SAMPLES</connection>
         <Share>false</Share>
         <PSQLTable>
-          <connection>jdbc:IRIS://localhost:51773/SAMPLES</connection>
+          <connection>jdbc:IRIS://localhost:51777/SAMPLES</connection>
           <mappingName>SalesTransaction</mappingName>
           <Owner>HoleFoods</Owner>
           <Name>SalesTransaction</Name>
         </PSQLTable>
         <PSQLTable>
-          <connection>jdbc:IRIS://localhost:51773/SAMPLES</connection>
+          <connection>jdbc:IRIS://localhost:51777/SAMPLES</connection>
           <mappingName>Product</mappingName>
           <Owner>HoleFoods</Owner>
           <Name>Product</Name>
         </PSQLTable>
         <PSQLTable>
-          <connection>jdbc:IRIS://localhost:51773/SAMPLES</connection>
+          <connection>jdbc:IRIS://localhost:51777/SAMPLES</connection>
           <mappingName>Country</mappingName>
           <Owner>HoleFoods</Owner>
           <Name>Country</Name>
         </PSQLTable>
         <PSQLTable>
-          <connection>jdbc:IRIS://localhost:51773/SAMPLES</connection>
+          <connection>jdbc:IRIS://localhost:51777/SAMPLES</connection>
           <mappingName>Region</mappingName>
           <Owner>HoleFoods</Owner>
           <Name>Region</Name>
         </PSQLTable>
         <PSQLTable>
-          <connection>jdbc:IRIS://localhost:51773/SAMPLES</connection>
+          <connection>jdbc:IRIS://localhost:51777/SAMPLES</connection>
           <mappingName>Outlet</mappingName>
           <Owner>HoleFoods</Owner>
           <Name>Outlet</Name>
@@ -1091,6 +1091,20 @@
             </UUnCheckedVariableExpression>
           </UUnCheckedBinaryExpression>
         </PsqlJoin>
+        <UUnCheckedBinaryExpression>
+          <type>4456448</type>
+          <op>=</op>
+          <UUnCheckedVariableExpression>
+            <op>0</op>
+            <value>@Actual</value>
+            <type>4227200</type>
+          </UUnCheckedVariableExpression>
+          <UUnCheckedVariableExpression>
+            <op>0</op>
+            <value>1</value>
+            <type>4227200</type>
+          </UUnCheckedVariableExpression>
+        </UUnCheckedBinaryExpression>
       </PSQLQuery>
     </Query>
     <Summary>
@@ -1109,7 +1123,7 @@
       <SQLType>8</SQLType>
       <padding-top>0.00781</padding-top>
       <padding-left>0.03125</padding-left>
-      <formulainfo>FFAACCEE0001001301000B544F54414C2053414C4553000000060000000201FFFFFFFFFFFFFFFF0000010000000000000001000C50524F445543545F4E414D450000000000000002000C414D4F554E544F4653414C45000C50524F445543545F4E414D45000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001000C414D4F554E544F4653414C45000C50524F445543545F4E414D450000000200000000000000000000000002000C414D4F554E544F4653414C45000C50524F445543545F4E414D45000000020000000000000000000054188CA0000000010000</formulainfo>
+      <formulainfo>FFAACCEE0001001401000B544F54414C2053414C4553000000060000000201FFFFFFFFFFFFFFFF0000010000000000000001000C50524F445543545F4E414D450000000000000002000C414D4F554E544F4653414C45000C50524F445543545F4E414D45000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001000C414D4F554E544F4653414C45000C50524F445543545F4E414D450000000200000000000000000000000002000C414D4F554E544F4653414C45000C50524F445543545F4E414D45000000020000000000000000000054188CA0000000010000</formulainfo>
       <padding-bottom>0.00781</padding-bottom>
     </Summary>
     <Summary>
@@ -1127,7 +1141,7 @@
       <SQLType>-5</SQLType>
       <padding-top>0.00781</padding-top>
       <padding-left>0.03125</padding-left>
-      <formulainfo>FFAACCEE0001001301000B544F54414C20554E495453000000060000000101FFFFFFFFFFFFFFFF0000010000000000000001000C50524F445543545F4E414D4500000000000000020009554E495453534F4C44000C50524F445543545F4E414D450000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000010009554E495453534F4C44000C50524F445543545F4E414D4500000002000000000000000000000000020009554E495453534F4C44000C50524F445543545F4E414D45000000020000000000000000000054188CA0000000010000</formulainfo>
+      <formulainfo>FFAACCEE0001001401000B544F54414C20554E495453000000060000000101FFFFFFFFFFFFFFFF0000010000000000000001000C50524F445543545F4E414D4500000000000000020009554E495453534F4C44000C50524F445543545F4E414D450000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000010009554E495453534F4C44000C50524F445543545F4E414D4500000002000000000000000000000000020009554E495453534F4C44000C50524F445543545F4E414D45000000020000000000000000000054188CA0000000010000</formulainfo>
       <padding-bottom>0.00781</padding-bottom>
     </Summary>
     <Summary>
@@ -1145,8 +1159,523 @@
       <SQLType>-5</SQLType>
       <padding-top>0.00781</padding-top>
       <padding-left>0.03125</padding-left>
-      <formulainfo>FFAACCEE00010013010014554E49545320534F4C4420425920524547494F4E000000060000000101FFFFFFFFFFFFFFFF0000010000000000000001000B524547494F4E5F4E414D4500000000000000020009554E495453534F4C44000B524547494F4E5F4E414D450000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000010009554E495453534F4C44000B524547494F4E5F4E414D4500000002000000000000000000000000020009554E495453534F4C44000B524547494F4E5F4E414D45000000020000000000000000000054188CA0000000010000</formulainfo>
+      <formulainfo>FFAACCEE00010014010014554E49545320534F4C4420425920524547494F4E000000060000000101FFFFFFFFFFFFFFFF0000010000000000000001000B524547494F4E5F4E414D4500000000000000020009554E495453534F4C44000B524547494F4E5F4E414D450000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000010009554E495453534F4C44000B524547494F4E5F4E414D4500000002000000000000000000000000020009554E495453534F4C44000B524547494F4E5F4E414D45000000020000000000000000000054188CA0000000010000</formulainfo>
       <padding-bottom>0.00781</padding-bottom>
+    </Summary>
+    <Formula>
+      <Precision>254</Precision>
+      <SQLType>12</SQLType>
+      <Name>~~FromulaHead</Name>
+      <HorizontalAlignment>Left</HorizontalAlignment>
+      <formulainfo>FFAACCEE0001001401000D7E7E46524F4D554C4148454144000000090000000501FFFFFFFFFFFFFFFF00000000000003000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000FFFFFFFF0054188CA0000000010000</formulainfo>
+      <AutoScaleInNumber>${&amp;#65;UTOF}</AutoScaleInNumber>
+      <FontFace>Arial</FontFace>
+    </Formula>
+    <Summary>
+      <Function>Count</Function>
+      <padding-right>0.02778</padding-right>
+      <AutoScaleInNumber>${&amp;#65;UTOF}</AutoScaleInNumber>
+      <FontFace>Arial</FontFace>
+      <Precision>19</Precision>
+      <FieldName>SalesTransaction_ID</FieldName>
+      <GroupByField>0</GroupByField>
+      <Name>TotalTxnCount</Name>
+      <BorderWidth>0.00694</BorderWidth>
+      <HorizontalAlignment>Right</HorizontalAlignment>
+      <Expression>Count(@&quot;SalesTransaction_ID&quot;,&quot;0&quot;)</Expression>
+      <SQLType>-5</SQLType>
+      <padding-top>0.00694</padding-top>
+      <padding-left>0.02778</padding-left>
+      <formulainfo>FFAACCEE0001001401000D544F54414C54584E434F554E54000000060000000101FFFFFFFFFFFFFFFF00000100000000000000010001300000000000000001001353414C45535452414E53414354494F4E5F4944000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001001353414C45535452414E53414354494F4E5F49440001300000000100000000000000000000000001001353414C45535452414E53414354494F4E5F4944000130000000010000000000000000000054188CA0000000010000</formulainfo>
+      <padding-bottom>0.00694</padding-bottom>
+    </Summary>
+    <Summary>
+      <Function>Sum</Function>
+      <padding-right>0.02778</padding-right>
+      <AutoScaleInNumber>${&amp;#65;UTOF}</AutoScaleInNumber>
+      <FontFace>Arial</FontFace>
+      <Precision>10</Precision>
+      <FieldName>UnitsSold</FieldName>
+      <GroupByField>0</GroupByField>
+      <Name>TotalUnitsSold</Name>
+      <BorderWidth>0.00694</BorderWidth>
+      <HorizontalAlignment>Right</HorizontalAlignment>
+      <Expression>Sum(@&quot;UnitsSold&quot;,&quot;0&quot;)</Expression>
+      <SQLType>-5</SQLType>
+      <padding-top>0.00694</padding-top>
+      <padding-left>0.02778</padding-left>
+      <formulainfo>FFAACCEE0001001401000E544F54414C554E495453534F4C44000000060000000101FFFFFFFFFFFFFFFF000001000000000000000100013000000000000000010009554E495453534F4C440000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000010009554E495453534F4C4400013000000002000000000000000000000000020009554E495453534F4C44000130000000020000000000000000000054188CA0000000010000</formulainfo>
+      <padding-bottom>0.00694</padding-bottom>
+    </Summary>
+    <UnifiedBusinessView>
+      <name>NewBLNode2240</name>
+      <DisplayName>BVHoleFoodsTransactions</DisplayName>
+      <BLElementType>18</BLElementType>
+      <Prefetch>false</Prefetch>
+      <DemandQuery>
+        <Name>UBV~BVHoleFoodsTransactions</Name>
+        <PSQLQuery>
+          <isShowTableName>true</isShowTableName>
+          <isQualifiedName>true</isQualifiedName>
+          <ver>1</ver>
+          <isJoinOnPKey>true</isJoinOnPKey>
+          <mappingName>UBV~BVHoleFoodsTransactions</mappingName>
+          <isProhibitCartesianProducts>true</isProhibitCartesianProducts>
+          <isShowMappingName>true</isShowMappingName>
+          <Share>false</Share>
+          <isJoinOnFKey>true</isJoinOnFKey>
+          <isJoinOnName>true</isJoinOnName>
+          <PSQLTable>
+            <mappingName>HoleFoodsTransactions</mappingName>
+          </PSQLTable>
+          <PSQLSelColumn>
+            <UName>Product_ID</UName>
+            <Name>Product_ID</Name>
+            <mappingName>Product_ID</mappingName>
+            <TableName>HoleFoodsTransactions</TableName>
+          </PSQLSelColumn>
+          <PSQLSelColumn>
+            <UName>Category</UName>
+            <Name>Category</Name>
+            <mappingName>Category</mappingName>
+            <TableName>HoleFoodsTransactions</TableName>
+          </PSQLSelColumn>
+          <PSQLSelColumn>
+            <UName>Product_Name</UName>
+            <Name>Product_Name</Name>
+            <mappingName>Product_Name</mappingName>
+            <TableName>HoleFoodsTransactions</TableName>
+          </PSQLSelColumn>
+          <PSQLSelColumn>
+            <UName>Price</UName>
+            <Name>Price</Name>
+            <mappingName>Price</mappingName>
+            <TableName>HoleFoodsTransactions</TableName>
+          </PSQLSelColumn>
+          <PSQLSelColumn>
+            <UName>SKU</UName>
+            <Name>SKU</Name>
+            <mappingName>SKU</mappingName>
+            <TableName>HoleFoodsTransactions</TableName>
+          </PSQLSelColumn>
+          <PSQLSelColumn>
+            <UName>SalesTransaction_ID</UName>
+            <Name>SalesTransaction_ID</Name>
+            <mappingName>SalesTransaction_ID</mappingName>
+            <TableName>HoleFoodsTransactions</TableName>
+          </PSQLSelColumn>
+          <PSQLSelColumn>
+            <UName>Actual</UName>
+            <Name>Actual</Name>
+            <mappingName>Actual</mappingName>
+            <TableName>HoleFoodsTransactions</TableName>
+          </PSQLSelColumn>
+          <PSQLSelColumn>
+            <UName>AmountOfSale</UName>
+            <Name>AmountOfSale</Name>
+            <mappingName>AmountOfSale</mappingName>
+            <TableName>HoleFoodsTransactions</TableName>
+          </PSQLSelColumn>
+          <PSQLSelColumn>
+            <UName>Channel</UName>
+            <Name>Channel</Name>
+            <mappingName>Channel</mappingName>
+            <TableName>HoleFoodsTransactions</TableName>
+          </PSQLSelColumn>
+          <PSQLSelColumn>
+            <UName>Comment</UName>
+            <Name>Comment</Name>
+            <mappingName>Comment</mappingName>
+            <TableName>HoleFoodsTransactions</TableName>
+          </PSQLSelColumn>
+          <PSQLSelColumn>
+            <UName>DateOfSale</UName>
+            <Name>DateOfSale</Name>
+            <mappingName>DateOfSale</mappingName>
+            <TableName>HoleFoodsTransactions</TableName>
+          </PSQLSelColumn>
+          <PSQLSelColumn>
+            <UName>Discount</UName>
+            <Name>Discount</Name>
+            <mappingName>Discount</mappingName>
+            <TableName>HoleFoodsTransactions</TableName>
+          </PSQLSelColumn>
+          <PSQLSelColumn>
+            <UName>SalesTransaction_Latitude</UName>
+            <Name>SalesTransaction_Latitude</Name>
+            <mappingName>SalesTransaction_Latitude</mappingName>
+            <TableName>HoleFoodsTransactions</TableName>
+          </PSQLSelColumn>
+          <PSQLSelColumn>
+            <UName>SalesTransaction_Longitude</UName>
+            <Name>SalesTransaction_Longitude</Name>
+            <mappingName>SalesTransaction_Longitude</mappingName>
+            <TableName>HoleFoodsTransactions</TableName>
+          </PSQLSelColumn>
+          <PSQLSelColumn>
+            <UName>Outlet</UName>
+            <Name>Outlet</Name>
+            <mappingName>Outlet</mappingName>
+            <TableName>HoleFoodsTransactions</TableName>
+          </PSQLSelColumn>
+          <PSQLSelColumn>
+            <UName>Product</UName>
+            <Name>Product</Name>
+            <mappingName>Product</mappingName>
+            <TableName>HoleFoodsTransactions</TableName>
+          </PSQLSelColumn>
+          <PSQLSelColumn>
+            <UName>TargetAmount</UName>
+            <Name>TargetAmount</Name>
+            <mappingName>TargetAmount</mappingName>
+            <TableName>HoleFoodsTransactions</TableName>
+          </PSQLSelColumn>
+          <PSQLSelColumn>
+            <UName>UnitsSold</UName>
+            <Name>UnitsSold</Name>
+            <mappingName>UnitsSold</mappingName>
+            <TableName>HoleFoodsTransactions</TableName>
+          </PSQLSelColumn>
+          <PSQLSelColumn>
+            <UName>ZipCode</UName>
+            <Name>ZipCode</Name>
+            <mappingName>ZipCode</mappingName>
+            <TableName>HoleFoodsTransactions</TableName>
+          </PSQLSelColumn>
+          <PSQLSelColumn>
+            <UName>Outlet_ID</UName>
+            <Name>Outlet_ID</Name>
+            <mappingName>Outlet_ID</mappingName>
+            <TableName>HoleFoodsTransactions</TableName>
+          </PSQLSelColumn>
+          <PSQLSelColumn>
+            <UName>City</UName>
+            <Name>City</Name>
+            <mappingName>City</mappingName>
+            <TableName>HoleFoodsTransactions</TableName>
+          </PSQLSelColumn>
+          <PSQLSelColumn>
+            <UName>Country</UName>
+            <Name>Country</Name>
+            <mappingName>Country</mappingName>
+            <TableName>HoleFoodsTransactions</TableName>
+          </PSQLSelColumn>
+          <PSQLSelColumn>
+            <UName>Latitude</UName>
+            <Name>Latitude</Name>
+            <mappingName>Latitude</mappingName>
+            <TableName>HoleFoodsTransactions</TableName>
+          </PSQLSelColumn>
+          <PSQLSelColumn>
+            <UName>Longitude</UName>
+            <Name>Longitude</Name>
+            <mappingName>Longitude</mappingName>
+            <TableName>HoleFoodsTransactions</TableName>
+          </PSQLSelColumn>
+          <PSQLSelColumn>
+            <UName>Population</UName>
+            <Name>Population</Name>
+            <mappingName>Population</mappingName>
+            <TableName>HoleFoodsTransactions</TableName>
+          </PSQLSelColumn>
+          <PSQLSelColumn>
+            <UName>Type</UName>
+            <Name>Type</Name>
+            <mappingName>Type</mappingName>
+            <TableName>HoleFoodsTransactions</TableName>
+          </PSQLSelColumn>
+          <PSQLSelColumn>
+            <UName>ID</UName>
+            <Name>ID</Name>
+            <mappingName>ID</mappingName>
+            <TableName>HoleFoodsTransactions</TableName>
+          </PSQLSelColumn>
+          <PSQLSelColumn>
+            <UName>Name</UName>
+            <Name>Name</Name>
+            <mappingName>Name</mappingName>
+            <TableName>HoleFoodsTransactions</TableName>
+          </PSQLSelColumn>
+          <PSQLSelColumn>
+            <UName>Region</UName>
+            <Name>Region</Name>
+            <mappingName>Region</mappingName>
+            <TableName>HoleFoodsTransactions</TableName>
+          </PSQLSelColumn>
+          <PSQLSelColumn>
+            <UName>Region_ID</UName>
+            <Name>Region_ID</Name>
+            <mappingName>Region_ID</mappingName>
+            <TableName>HoleFoodsTransactions</TableName>
+          </PSQLSelColumn>
+          <PSQLSelColumn>
+            <UName>Region_Name</UName>
+            <Name>Region_Name</Name>
+            <mappingName>Region_Name</mappingName>
+            <TableName>HoleFoodsTransactions</TableName>
+          </PSQLSelColumn>
+        </PSQLQuery>
+      </DemandQuery>
+      <BVGroup>
+        <name>NewUBVnode74</name>
+        <DisplayName>Year of Sale</DisplayName>
+        <ByFormula>true</ByFormula>
+        <RefMappingName>GF_YEAR_OF_SALE</RefMappingName>
+        <DataMappingFile>${&amp;#65;UTOF}</DataMappingFile>
+        <Formula>
+          <Description>GroupByFormula</Description>
+          <Precision>19</Precision>
+          <padding-right>0.04167</padding-right>
+          <SQLType>-5</SQLType>
+          <Expression>DatePart(&quot;YYYY&quot;,@DateOfSale)</Expression>
+          <padding-top>0.01042</padding-top>
+          <Name>GF_YEAR_OF_SALE</Name>
+          <HorizontalAlignment>Right</HorizontalAlignment>
+          <formulainfo>FFAACCEE000100140100107F47465F594541525F4F465F53414C45000000060000000100FFFFFFFFFFFFFFFF00000000000006000000000000000000000001000A444154454F4653414C4500000000000000000000000000000000000000000000000000000000000000010008444154455041525400000000000000000000000000000000000000000000000000000000FFFFFFFF0054188CA0000000010000</formulainfo>
+          <padding-bottom>0.01042</padding-bottom>
+          <AutoScaleInNumber>${&amp;#65;UTOF}</AutoScaleInNumber>
+          <padding-left>0.04167</padding-left>
+          <FontFace>Arial</FontFace>
+        </Formula>
+      </BVGroup>
+      <Category>
+        <name>NewUBVnode1</name>
+        <DisplayName>HoleFoodsTransactions</DisplayName>
+        <BVGroup>
+          <name>NewUBVnode6</name>
+          <DisplayName>Actual</DisplayName>
+          <RefMappingName>Actual</RefMappingName>
+          <DataMappingFile>${&amp;#65;UTOF}</DataMappingFile>
+        </BVGroup>
+        <BVGroup>
+          <name>NewUBVnode8</name>
+          <DisplayName>Amount of Sale</DisplayName>
+          <RefMappingName>AmountOfSale</RefMappingName>
+          <DataMappingFile>${&amp;#65;UTOF}</DataMappingFile>
+        </BVGroup>
+        <BVGroup>
+          <name>NewUBVnode10</name>
+          <DisplayName>Product Category</DisplayName>
+          <RefMappingName>Category</RefMappingName>
+          <DataMappingFile>${&amp;#65;UTOF}</DataMappingFile>
+        </BVGroup>
+        <BVGroup>
+          <name>NewUBVnode12</name>
+          <DisplayName>Channel ID</DisplayName>
+          <RefMappingName>Channel</RefMappingName>
+          <DataMappingFile>${&amp;#65;UTOF}</DataMappingFile>
+        </BVGroup>
+        <BVGroup>
+          <name>NewUBVnode14</name>
+          <DisplayName>City</DisplayName>
+          <RefMappingName>City</RefMappingName>
+          <DataMappingFile>${&amp;#65;UTOF}</DataMappingFile>
+        </BVGroup>
+        <BVGroup>
+          <name>NewUBVnode20</name>
+          <DisplayName>Date of Sale</DisplayName>
+          <RefMappingName>DateOfSale</RefMappingName>
+          <DataMappingFile>${&amp;#65;UTOF}</DataMappingFile>
+        </BVGroup>
+        <BVGroup>
+          <name>NewUBVnode22</name>
+          <DisplayName>Discount</DisplayName>
+          <RefMappingName>Discount</RefMappingName>
+          <DataMappingFile>${&amp;#65;UTOF}</DataMappingFile>
+        </BVGroup>
+        <BVGroup>
+          <name>NewUBVnode24</name>
+          <DisplayName>Txn ID</DisplayName>
+          <RefMappingName>ID</RefMappingName>
+          <DataMappingFile>${&amp;#65;UTOF}</DataMappingFile>
+        </BVGroup>
+        <BVGroup>
+          <name>NewUBVnode30</name>
+          <DisplayName>Country Name</DisplayName>
+          <RefMappingName>Name</RefMappingName>
+          <DataMappingFile>${&amp;#65;UTOF}</DataMappingFile>
+        </BVGroup>
+        <BVGroup>
+          <name>NewUBVnode32</name>
+          <DisplayName>Outlet</DisplayName>
+          <RefMappingName>Outlet</RefMappingName>
+          <DataMappingFile>${&amp;#65;UTOF}</DataMappingFile>
+        </BVGroup>
+        <BVGroup>
+          <name>NewUBVnode34</name>
+          <DisplayName>Outlet ID</DisplayName>
+          <RefMappingName>Outlet_ID</RefMappingName>
+          <DataMappingFile>${&amp;#65;UTOF}</DataMappingFile>
+        </BVGroup>
+        <BVGroup>
+          <name>NewUBVnode36</name>
+          <DisplayName>Outlet City Population</DisplayName>
+          <RefMappingName>Population</RefMappingName>
+          <DataMappingFile>${&amp;#65;UTOF}</DataMappingFile>
+        </BVGroup>
+        <BVGroup>
+          <name>NewUBVnode38</name>
+          <DisplayName>Product Price</DisplayName>
+          <RefMappingName>Price</RefMappingName>
+          <DataMappingFile>${&amp;#65;UTOF}</DataMappingFile>
+        </BVGroup>
+        <BVGroup>
+          <name>NewUBVnode42</name>
+          <DisplayName>Product ID</DisplayName>
+          <RefMappingName>Product_ID</RefMappingName>
+          <DataMappingFile>${&amp;#65;UTOF}</DataMappingFile>
+        </BVGroup>
+        <BVGroup>
+          <name>NewUBVnode44</name>
+          <DisplayName>Product Name</DisplayName>
+          <RefMappingName>Product_Name</RefMappingName>
+          <DataMappingFile>${&amp;#65;UTOF}</DataMappingFile>
+        </BVGroup>
+        <BVGroup>
+          <name>NewUBVnode48</name>
+          <DisplayName>Region ID</DisplayName>
+          <RefMappingName>Region_ID</RefMappingName>
+          <DataMappingFile>${&amp;#65;UTOF}</DataMappingFile>
+        </BVGroup>
+        <BVGroup>
+          <name>NewUBVnode50</name>
+          <DisplayName>Region Name</DisplayName>
+          <RefMappingName>Region_Name</RefMappingName>
+          <DataMappingFile>${&amp;#65;UTOF}</DataMappingFile>
+        </BVGroup>
+        <BVGroup>
+          <name>NewUBVnode54</name>
+          <DisplayName>Txn Latitude</DisplayName>
+          <RefMappingName>SalesTransaction_Latitude</RefMappingName>
+          <DataMappingFile>${&amp;#65;UTOF}</DataMappingFile>
+        </BVGroup>
+        <BVGroup>
+          <name>NewUBVnode56</name>
+          <DisplayName>Txn Longitude</DisplayName>
+          <RefMappingName>SalesTransaction_Longitude</RefMappingName>
+          <DataMappingFile>${&amp;#65;UTOF}</DataMappingFile>
+        </BVGroup>
+        <BVGroup>
+          <name>NewUBVnode58</name>
+          <DisplayName>SKU</DisplayName>
+          <RefMappingName>SKU</RefMappingName>
+          <DataMappingFile>${&amp;#65;UTOF}</DataMappingFile>
+        </BVGroup>
+        <BVGroup>
+          <name>NewUBVnode60</name>
+          <DisplayName>Target Amount</DisplayName>
+          <RefMappingName>TargetAmount</RefMappingName>
+          <DataMappingFile>${&amp;#65;UTOF}</DataMappingFile>
+        </BVGroup>
+        <BVGroup>
+          <name>NewUBVnode62</name>
+          <DisplayName>Outlet Type</DisplayName>
+          <RefMappingName>Type</RefMappingName>
+          <DataMappingFile>${&amp;#65;UTOF}</DataMappingFile>
+        </BVGroup>
+        <BVGroup>
+          <name>NewUBVnode64</name>
+          <DisplayName>Units Sold</DisplayName>
+          <RefMappingName>UnitsSold</RefMappingName>
+          <DataMappingFile>${&amp;#65;UTOF}</DataMappingFile>
+        </BVGroup>
+        <BVGroup>
+          <name>NewUBVnode66</name>
+          <DisplayName>Zip Code</DisplayName>
+          <RefMappingName>ZipCode</RefMappingName>
+          <DataMappingFile>${&amp;#65;UTOF}</DataMappingFile>
+        </BVGroup>
+      </Category>
+      <MemberSecurityEntry>
+        <DisplayName>NewBLNode2241</DisplayName>
+        <name>NewBLNode2241</name>
+        <BLElementType>0</BLElementType>
+        <MemberSecurityItem>
+          <DenyIExpressionType>1</DenyIExpressionType>
+          <Permission_access_deny>false</Permission_access_deny>
+          <DimensionName>CumulativeTxnCount</DimensionName>
+          <Permission_visible_deny>false</Permission_visible_deny>
+          <Permission_visible>true</Permission_visible>
+          <PrincipalType>2</PrincipalType>
+          <AllowUnspecified>true</AllowUnspecified>
+          <AllowIExpressionType>1</AllowIExpressionType>
+          <Permission_access_allow>true</Permission_access_allow>
+          <PrincipalName>everyone</PrincipalName>
+          <USingleLogicExpression>
+            <operator>290455553</operator>
+            <type>1183745</type>
+            <UConstantExpression>
+              <name>false</name>
+              <type>32770</type>
+              <datatype>-7</datatype>
+              <value>false</value>
+              <isSpecialField>false</isSpecialField>
+            </UConstantExpression>
+          </USingleLogicExpression>
+          <USingleLogicExpression>
+            <operator>290455553</operator>
+            <type>1183745</type>
+            <UConstantExpression>
+              <name>true</name>
+              <type>32770</type>
+              <datatype>-7</datatype>
+              <value>true</value>
+              <isSpecialField>false</isSpecialField>
+            </UConstantExpression>
+          </USingleLogicExpression>
+        </MemberSecurityItem>
+      </MemberSecurityEntry>
+    </UnifiedBusinessView>
+    <Formula>
+      <Precision>19</Precision>
+      <padding-right>0.02778</padding-right>
+      <SQLType>-5</SQLType>
+      <Expression>DatePart(&quot;YYYY&quot;,@DateOfSale)</Expression>
+      <BorderWidth>0.00694</BorderWidth>
+      <padding-top>0.00694</padding-top>
+      <Name>YearOfSale</Name>
+      <HorizontalAlignment>Right</HorizontalAlignment>
+      <formulainfo>FFAACCEE0001001401000A594541524F4653414C45000000060000000100FFFFFFFFFFFFFFFF00000000000007000000000000000000000001000A444154454F4653414C4500000000000000000000000000000000000000000000000000000000000000010008444154455041525400000000000000000000000000000000000000000000000000000000FFFFFFFF0054188CA0000000010000</formulainfo>
+      <padding-bottom>0.00694</padding-bottom>
+      <AutoScaleInNumber>${&amp;#65;UTOF}</AutoScaleInNumber>
+      <padding-left>0.02778</padding-left>
+      <FontFace>Arial</FontFace>
+    </Formula>
+    <Summary>
+      <Function>Average</Function>
+      <padding-right>0.02778</padding-right>
+      <AutoScaleInNumber>${&amp;#65;UTOF}</AutoScaleInNumber>
+      <FontFace>Arial</FontFace>
+      <Precision>15</Precision>
+      <FieldName>Discount</FieldName>
+      <Scale>2</Scale>
+      <GroupByField>0</GroupByField>
+      <Name>AverageDiscount</Name>
+      <BorderWidth>0.00694</BorderWidth>
+      <HorizontalAlignment>Right</HorizontalAlignment>
+      <Expression>Average(@&quot;Discount&quot;,&quot;0&quot;)</Expression>
+      <SQLType>8</SQLType>
+      <padding-top>0.00694</padding-top>
+      <padding-left>0.02778</padding-left>
+      <formulainfo>FFAACCEE0001001401000F41564552414745444953434F554E54000000060000000201FFFFFFFFFFFFFFFF000001000000000000000100013000000000000000010008444953434F554E540000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000030008444953434F554E54000130000000020000000000000000000008444953434F554E54000130000000010000000000000000000008444953434F554E5400013000000006000000000000000000000000030000000100000000000000060008444953434F554E54000130000000060000000000000000000054188CA0000000010000</formulainfo>
+      <padding-bottom>0.00694</padding-bottom>
+    </Summary>
+    <Summary>
+      <Function>RunningDistinctCount</Function>
+      <padding-right>0.02778</padding-right>
+      <AutoScaleInNumber>${&amp;#65;UTOF}</AutoScaleInNumber>
+      <FontFace>Arial</FontFace>
+      <Precision>19</Precision>
+      <FieldName>SalesTransaction_ID</FieldName>
+      <Name>RunningCountTxnSummary</Name>
+      <BorderWidth>0.00694</BorderWidth>
+      <HorizontalAlignment>Right</HorizontalAlignment>
+      <Expression>RunningDistinctCount(@&quot;SalesTransaction_ID&quot;)</Expression>
+      <SQLType>-5</SQLType>
+      <padding-top>0.00694</padding-top>
+      <padding-left>0.02778</padding-left>
+      <formulainfo>FFAACCEE0001001401001652554E4E494E47434F554E5454584E53554D4D415259000000060000000101FFFFFFFFFFFFFFFF100001000000000000000100104752414E445FC08078375F544F54414C0000000000000001001353414C45535452414E53414354494F4E5F4944000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001001353414C45535452414E53414354494F4E5F494400104752414E445FC08078375F544F54414C0000001400000000000000000000000014001353414C45535452414E53414354494F4E5F494400104752414E445FC08078375F544F54414C000000140000000000000000000054188CA0000000010000</formulainfo>
+      <padding-bottom>0.00694</padding-bottom>
     </Summary>
   </Database>
   <UInformationBusEntry>
