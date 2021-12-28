@@ -16,10 +16,10 @@
       <Password>SYS</Password>
       <OuterJoinMarker>SQL92</OuterJoinMarker>
       <Driver>com.intersystems.jdbc.IRISDriver</Driver>
-      <Name>jdbc:IRIS://localhost:51773/SAMPLES</Name>
+      <Name>jdbc:IRIS://localhost:51777/SAMPLES</Name>
       <QualifiedNamePattern>2Part</QualifiedNamePattern>
       <PushDownGroupQuery>false</PushDownGroupQuery>
-      <URL>jdbc:IRIS://localhost:51773/SAMPLES</URL>
+      <URL>jdbc:IRIS://localhost:51777/SAMPLES</URL>
       <JDBCSupportInfo>
         <suppCatInProc>true</suppCatInProc>
         <suppQlf>true</suppQlf>
@@ -1207,6 +1207,76 @@
       <formulainfo>FFAACCEE0001001401000E544F54414C554E495453534F4C44000000060000000101FFFFFFFFFFFFFFFF000001000000000000000100013000000000000000010009554E495453534F4C440000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000010009554E495453534F4C4400013000000002000000000000000000000000020009554E495453534F4C44000130000000020000000000000000000054188CA0000000010000</formulainfo>
       <padding-bottom>0.00694</padding-bottom>
     </Summary>
+    <Formula>
+      <Precision>19</Precision>
+      <padding-right>0.02778</padding-right>
+      <SQLType>-5</SQLType>
+      <Expression>DatePart(&quot;YYYY&quot;,@DateOfSale)</Expression>
+      <BorderWidth>0.00694</BorderWidth>
+      <padding-top>0.00694</padding-top>
+      <Name>YearOfSale</Name>
+      <HorizontalAlignment>Right</HorizontalAlignment>
+      <formulainfo>FFAACCEE0001001401000A594541524F4653414C45000000060000000100FFFFFFFFFFFFFFFF00000000000007000000000000000000000001000A444154454F4653414C4500000000000000000000000000000000000000000000000000000000000000010008444154455041525400000000000000000000000000000000000000000000000000000000FFFFFFFF0054188CA0000000010000</formulainfo>
+      <padding-bottom>0.00694</padding-bottom>
+      <AutoScaleInNumber>${&amp;#65;UTOF}</AutoScaleInNumber>
+      <padding-left>0.02778</padding-left>
+      <FontFace>Arial</FontFace>
+    </Formula>
+    <Summary>
+      <Function>Average</Function>
+      <padding-right>0.02778</padding-right>
+      <AutoScaleInNumber>${&amp;#65;UTOF}</AutoScaleInNumber>
+      <FontFace>Arial</FontFace>
+      <Precision>15</Precision>
+      <FieldName>Discount</FieldName>
+      <Scale>2</Scale>
+      <GroupByField>0</GroupByField>
+      <Name>AverageDiscount</Name>
+      <BorderWidth>0.00694</BorderWidth>
+      <HorizontalAlignment>Right</HorizontalAlignment>
+      <Expression>Average(@&quot;Discount&quot;,&quot;0&quot;)</Expression>
+      <SQLType>8</SQLType>
+      <padding-top>0.00694</padding-top>
+      <padding-left>0.02778</padding-left>
+      <formulainfo>FFAACCEE0001001401000F41564552414745444953434F554E54000000060000000201FFFFFFFFFFFFFFFF000001000000000000000100013000000000000000010008444953434F554E540000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000030008444953434F554E54000130000000020000000000000000000008444953434F554E54000130000000010000000000000000000008444953434F554E5400013000000006000000000000000000000000030000000100000000000000060008444953434F554E54000130000000060000000000000000000054188CA0000000010000</formulainfo>
+      <padding-bottom>0.00694</padding-bottom>
+    </Summary>
+    <Summary>
+      <Function>RunningDistinctCount</Function>
+      <padding-right>0.02778</padding-right>
+      <AutoScaleInNumber>${&amp;#65;UTOF}</AutoScaleInNumber>
+      <FontFace>Arial</FontFace>
+      <Precision>19</Precision>
+      <FieldName>SalesTransaction_ID</FieldName>
+      <Name>RunningCountTxnSummary</Name>
+      <BorderWidth>0.00694</BorderWidth>
+      <HorizontalAlignment>Right</HorizontalAlignment>
+      <Expression>RunningDistinctCount(@&quot;SalesTransaction_ID&quot;)</Expression>
+      <SQLType>-5</SQLType>
+      <padding-top>0.00694</padding-top>
+      <padding-left>0.02778</padding-left>
+      <formulainfo>FFAACCEE0001001401001652554E4E494E47434F554E5454584E53554D4D415259000000060000000101FFFFFFFFFFFFFFFF100001000000000000000100104752414E445FC08078375F544F54414C0000000000000001001353414C45535452414E53414354494F4E5F4944000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001001353414C45535452414E53414354494F4E5F494400104752414E445FC08078375F544F54414C0000001400000000000000000000000014001353414C45535452414E53414354494F4E5F494400104752414E445FC08078375F544F54414C000000140000000000000000000054188CA0000000010000</formulainfo>
+      <padding-bottom>0.00694</padding-bottom>
+    </Summary>
+    <Summary>
+      <Function>Sum</Function>
+      <padding-right>0.02778</padding-right>
+      <AutoScaleInNumber>${&amp;#65;UTOF}</AutoScaleInNumber>
+      <FontFace>Arial</FontFace>
+      <Precision>15</Precision>
+      <FieldName>AmountOfSale</FieldName>
+      <Scale>2</Scale>
+      <GroupByField>0</GroupByField>
+      <Name>TotalRevenueSummFromRpt</Name>
+      <BorderWidth>0.00694</BorderWidth>
+      <HorizontalAlignment>Right</HorizontalAlignment>
+      <Expression>Sum(@&quot;AmountOfSale&quot;,&quot;0&quot;)</Expression>
+      <SQLType>8</SQLType>
+      <padding-top>0.00694</padding-top>
+      <padding-left>0.02778</padding-left>
+      <formulainfo>FFAACCEE00010014010017544F54414C524556454E554553554D4D46524F4D525054000000060000000201FFFFFFFFFFFFFFFF00000100000000000000010001300000000000000001000C414D4F554E544F4653414C45000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001000C414D4F554E544F4653414C450001300000000200000000000000000000000002000C414D4F554E544F4653414C45000130000000020000000000000000000054188CA0000000010000</formulainfo>
+      <padding-bottom>0.00694</padding-bottom>
+    </Summary>
     <UnifiedBusinessView>
       <name>NewBLNode2240</name>
       <DisplayName>BVHoleFoodsTransactions</DisplayName>
@@ -1625,58 +1695,13 @@
           </USingleLogicExpression>
         </MemberSecurityItem>
       </MemberSecurityEntry>
+      <Aggregation>
+        <RefMappingName>AmountOfSale</RefMappingName>
+        <AggregationFunction>Sum</AggregationFunction>
+        <DisplayName>TotalRevenueFromBV</DisplayName>
+        <name>NewUBVnode5</name>
+      </Aggregation>
     </UnifiedBusinessView>
-    <Formula>
-      <Precision>19</Precision>
-      <padding-right>0.02778</padding-right>
-      <SQLType>-5</SQLType>
-      <Expression>DatePart(&quot;YYYY&quot;,@DateOfSale)</Expression>
-      <BorderWidth>0.00694</BorderWidth>
-      <padding-top>0.00694</padding-top>
-      <Name>YearOfSale</Name>
-      <HorizontalAlignment>Right</HorizontalAlignment>
-      <formulainfo>FFAACCEE0001001401000A594541524F4653414C45000000060000000100FFFFFFFFFFFFFFFF00000000000007000000000000000000000001000A444154454F4653414C4500000000000000000000000000000000000000000000000000000000000000010008444154455041525400000000000000000000000000000000000000000000000000000000FFFFFFFF0054188CA0000000010000</formulainfo>
-      <padding-bottom>0.00694</padding-bottom>
-      <AutoScaleInNumber>${&amp;#65;UTOF}</AutoScaleInNumber>
-      <padding-left>0.02778</padding-left>
-      <FontFace>Arial</FontFace>
-    </Formula>
-    <Summary>
-      <Function>Average</Function>
-      <padding-right>0.02778</padding-right>
-      <AutoScaleInNumber>${&amp;#65;UTOF}</AutoScaleInNumber>
-      <FontFace>Arial</FontFace>
-      <Precision>15</Precision>
-      <FieldName>Discount</FieldName>
-      <Scale>2</Scale>
-      <GroupByField>0</GroupByField>
-      <Name>AverageDiscount</Name>
-      <BorderWidth>0.00694</BorderWidth>
-      <HorizontalAlignment>Right</HorizontalAlignment>
-      <Expression>Average(@&quot;Discount&quot;,&quot;0&quot;)</Expression>
-      <SQLType>8</SQLType>
-      <padding-top>0.00694</padding-top>
-      <padding-left>0.02778</padding-left>
-      <formulainfo>FFAACCEE0001001401000F41564552414745444953434F554E54000000060000000201FFFFFFFFFFFFFFFF000001000000000000000100013000000000000000010008444953434F554E540000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000030008444953434F554E54000130000000020000000000000000000008444953434F554E54000130000000010000000000000000000008444953434F554E5400013000000006000000000000000000000000030000000100000000000000060008444953434F554E54000130000000060000000000000000000054188CA0000000010000</formulainfo>
-      <padding-bottom>0.00694</padding-bottom>
-    </Summary>
-    <Summary>
-      <Function>RunningDistinctCount</Function>
-      <padding-right>0.02778</padding-right>
-      <AutoScaleInNumber>${&amp;#65;UTOF}</AutoScaleInNumber>
-      <FontFace>Arial</FontFace>
-      <Precision>19</Precision>
-      <FieldName>SalesTransaction_ID</FieldName>
-      <Name>RunningCountTxnSummary</Name>
-      <BorderWidth>0.00694</BorderWidth>
-      <HorizontalAlignment>Right</HorizontalAlignment>
-      <Expression>RunningDistinctCount(@&quot;SalesTransaction_ID&quot;)</Expression>
-      <SQLType>-5</SQLType>
-      <padding-top>0.00694</padding-top>
-      <padding-left>0.02778</padding-left>
-      <formulainfo>FFAACCEE0001001401001652554E4E494E47434F554E5454584E53554D4D415259000000060000000101FFFFFFFFFFFFFFFF100001000000000000000100104752414E445FC08078375F544F54414C0000000000000001001353414C45535452414E53414354494F4E5F4944000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001001353414C45535452414E53414354494F4E5F494400104752414E445FC08078375F544F54414C0000001400000000000000000000000014001353414C45535452414E53414354494F4E5F494400104752414E445FC08078375F544F54414C000000140000000000000000000054188CA0000000010000</formulainfo>
-      <padding-bottom>0.00694</padding-bottom>
-    </Summary>
   </Database>
   <UInformationBusEntry>
     <Name></Name>

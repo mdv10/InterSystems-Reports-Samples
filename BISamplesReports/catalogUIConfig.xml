@@ -1,12 +1,12 @@
-<CatalogUI>              
-  <Database name="IRIS">                              
-    <Query Version="10.0002" height="975" name="HoleFoodsTransactions" spaneHeight="569" type="IRIS" width="781" x="300" y="95">                                    
-      <QueryTable databaseType="IRIS" height="140" name="SalesTransaction" queryType="HoleFoodsTransactions" width="313" x="15" y="15"></QueryTable>                                    
-      <QueryTable databaseType="IRIS" height="140" name="Outlet" queryType="HoleFoodsTransactions" width="140" x="15" y="170"></QueryTable>                                    
-      <QueryTable databaseType="IRIS" height="140" name="Region" queryType="HoleFoodsTransactions" width="140" x="508" y="4"></QueryTable>                                    
-      <QueryTable databaseType="IRIS" height="140" name="Country" queryType="HoleFoodsTransactions" width="140" x="360" y="6"></QueryTable>                                    
-      <QueryTable databaseType="IRIS" height="140" name="Product" queryType="HoleFoodsTransactions" width="140" x="243" y="158"></QueryTable>                        
-    </Query>                        
-    <Formula Version="10.0002" fieldPaneWidth="210" functionPaneWidth="220" height="550" name="YearOfSale" textPaneHeight="150" type="IRIS" width="710" x="250" y="124"></Formula>            
+<CatalogUI>                  
+  <Database name="IRIS">                                      
+    <Query Version="10.0002" height="975" name="HoleFoodsTransactions" spaneHeight="569" type="IRIS" width="781" x="300" y="95">                                                
+      <QueryTable databaseType="IRIS" height="140" name="SalesTransaction" queryType="HoleFoodsTransactions" width="313" x="15" y="15"></QueryTable>                                                
+      <QueryTable databaseType="IRIS" height="140" name="Outlet" queryType="HoleFoodsTransactions" width="140" x="15" y="170"></QueryTable>                                                
+      <QueryTable databaseType="IRIS" height="140" name="Region" queryType="HoleFoodsTransactions" width="140" x="508" y="4"></QueryTable>                                                
+      <QueryTable databaseType="IRIS" height="140" name="Country" queryType="HoleFoodsTransactions" width="140" x="360" y="6"></QueryTable>                                                
+      <QueryTable databaseType="IRIS" height="140" name="Product" queryType="HoleFoodsTransactions" width="140" x="243" y="158"></QueryTable>                                
+    </Query>                                
+    <Formula Version="10.0002" fieldPaneWidth="210" functionPaneWidth="220" height="550" name="YearOfSale" textPaneHeight="150" type="IRIS" width="710" x="250" y="124"></Formula>                
   </Database>
 </CatalogUI>
