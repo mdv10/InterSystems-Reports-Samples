@@ -28,6 +28,7 @@ This repository provides sample reports that you can use to explore InterSystems
 
 ### More Information
 
-Want to learn some InterSystems Reports basics first? 
-<br />Visit the Learning Services website:  https://learning.intersystems.com/totara/dashboard/index.php
+How to learn more about InterSystems Reports:
+<br />1) Visit the Learning Services website:  https://learning.intersystems.com/totara/dashboard/index.php
 <br />Search for "InterSystems Reports".
+<br />2) Go through Logi's tutorial: https://devnet.logianalytics.com/hc/en-us/articles/1500010092981-Logi-Report-Tutorial-v17-1-Overview
