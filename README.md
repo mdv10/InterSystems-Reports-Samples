@@ -2,6 +2,7 @@
 
 ### Overview
 This repository provides sample reports that you can use to explore InterSystems Reports functionality. 
+![Chart Report](/assets/ChartExamplesScreenshot.jpg)
 
 ### Setup Instructions
 1) Before you begin, make sure:
@@ -13,7 +14,7 @@ This repository provides sample reports that you can use to explore InterSystems
 3) Unzip the folder InterSystems-Reports-Samples-Main.
 4) Copy the subfolder BISamplesReports, and place it in your Logi Designer file structure under \Demo\Reports. 
 <br /> Example: C:\LogiReport\Designer\Demo\Reports\BISamplesReports
-5) Edit the file BISamples.cat.xml and adjust the JDBCConnection values to match your IRIS instance. The default values are:  
+5) Edit the file BISamples.cat.xml and adjust the JDBCConnection values to match your IRIS instance. Example:  
 <br /> User:     SuperUser 
 <br /> Password: SYS
 <br /> URL:      jdbc:IRIS://localhost:51773/SAMPLES
